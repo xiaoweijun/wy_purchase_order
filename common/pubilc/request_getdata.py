@@ -8,7 +8,7 @@ class GetData:
 
     reportID = "@reportID@"  #报备单id
     tradeId = "@tradeId@"   #认购单id
-    #tradeId = "2876"
+    #radeId = "2956"
     login_url = "https://pre.yunjinji.cn/user-center/auth/staff/login"  #登录的url
 
     #从excel中获取账号
@@ -20,6 +20,7 @@ class GetData:
     jszz_tel = load_workbook(request_getpath.testdata_path)["user"].cell(7, 1).value #结算组长
     qyz_tel = load_workbook(request_getpath.testdata_path)["user"].cell(8, 1).value #区域总
     zjb_tel = load_workbook(request_getpath.testdata_path)["user"].cell(9, 1).value #总经办
+    xftz_tel = load_workbook(request_getpath.testdata_path)["user"].cell(10, 1).value #销方拓展
 
     # 从excel获取userid
     zc_userid = load_workbook(request_getpath.testdata_path)["user"].cell(2,3).value
@@ -30,6 +31,7 @@ class GetData:
     jszz_userid = load_workbook(request_getpath.testdata_path)["user"].cell(7, 3).value
     qyz_userid = load_workbook(request_getpath.testdata_path)["user"].cell(8, 3).value
     zjb_userid = load_workbook(request_getpath.testdata_path)["user"].cell(9, 3).value
+    xftz_userid = load_workbook(request_getpath.testdata_path)["user"].cell(10, 3).value
 
     # 用户cookie
     zc_cookie = None
@@ -40,6 +42,7 @@ class GetData:
     jszz_cookie = None
     qyz_cookie = None
     zjb_cookie = None
+    xftz_cookie = None
 
     salePlatformId = load_workbook(request_getpath.testdata_path)["report_data"].cell(3, 3).value #平台id
     projectId= load_workbook(request_getpath.testdata_path)["report_data"].cell(4, 3).value #楼盘id
@@ -49,6 +52,8 @@ class GetData:
     roomNo_num = load_workbook(request_getpath.testdata_path)["report_data"].cell(1, 4).value
     roomNo = load_workbook(request_getpath.testdata_path)["report_data"].cell(1, 3).value + str(roomNo_num)   #房号
     customName = load_workbook(request_getpath.testdata_path)["report_data"].cell(2, 3).value + str(roomNo_num)  # 客户姓名
+    agent_salePlatformId = load_workbook(request_getpath.testdata_path)["report_data"].cell(8, 3).value #代理成交平台id
+
 
 
 

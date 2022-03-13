@@ -799,3 +799,428 @@
 2022-03-13 09:16:51,430-INFO-request_logging.py-wy_logging-日志信息:获取到的结果是：{'code': 2000, 'data': True, 'msg': 'SUCCESS'}
 2022-03-13 09:16:51,752-INFO-request_logging.py-wy_logging-日志信息:获取到的结果是：{'code': 2000, 'data': True, 'msg': 'SUCCESS'}
 2022-03-13 09:16:52,216-INFO-request_logging.py-wy_logging-日志信息:获取到的结果是：{'code': 2000, 'data': True, 'msg': 'SUCCESS'}
+2022-03-13 10:01:52,775-INFO-request_logging.py-wy_logging-日志信息:获取到的结果是：{'code': 2000, 'data': {'isLogin': True, 'loginDevice': 'commission', 'loginId': '055c509d3c1b4c2ebf2bc70fe8447e67', 'loginType': 'login', 'sessionTimeout': 2592000, 'tag': None, 'tokenActivityTimeout': -1, 'tokenName': 'satoken', 'tokenSessionTimeout': -2, 'tokenTimeout': 2592000, 'tokenValue': 'f950b26b-f4eb-49a1-8e4d-b957da71e197'}, 'msg': 'SUCCESS'}
+2022-03-13 10:01:53,057-INFO-request_logging.py-wy_logging-日志信息:获取到的结果是：{'code': 2000, 'data': {'isLogin': True, 'loginDevice': 'commission', 'loginId': '3f232aa91d334502aea0d9424d01481b', 'loginType': 'login', 'sessionTimeout': 2592000, 'tag': None, 'tokenActivityTimeout': -1, 'tokenName': 'satoken', 'tokenSessionTimeout': -2, 'tokenTimeout': 2592000, 'tokenValue': '010eefd4-ca9c-4ea8-88f0-8050c239bfdb'}, 'msg': 'SUCCESS'}
+2022-03-13 10:01:53,321-INFO-request_logging.py-wy_logging-日志信息:获取到的结果是：{'code': 2000, 'data': {'isLogin': True, 'loginDevice': 'commission', 'loginId': 'e3d2cbe0f2644d2bb54ac1c873d1a5b4', 'loginType': 'login', 'sessionTimeout': 2592000, 'tag': None, 'tokenActivityTimeout': -1, 'tokenName': 'satoken', 'tokenSessionTimeout': -2, 'tokenTimeout': 2592000, 'tokenValue': '4d7f5b5a-55ab-4bab-987b-27faf69fa8fc'}, 'msg': 'SUCCESS'}
+2022-03-13 10:01:53,575-INFO-request_logging.py-wy_logging-日志信息:获取到的结果是：{'code': 2000, 'data': {'isLogin': True, 'loginDevice': 'commission', 'loginId': 'c5c185f1efad466dad4bbfab4e02e745', 'loginType': 'login', 'sessionTimeout': 2592000, 'tag': None, 'tokenActivityTimeout': -1, 'tokenName': 'satoken', 'tokenSessionTimeout': -2, 'tokenTimeout': 2592000, 'tokenValue': '417711e2-2303-47a3-9bd2-67386f28bfc8'}, 'msg': 'SUCCESS'}
+2022-03-13 10:01:53,918-INFO-request_logging.py-wy_logging-日志信息:获取到的结果是：{'code': 2000, 'data': {'isLogin': True, 'loginDevice': 'commission', 'loginId': '07b2f4006d64437ebaf6cbf5849320e2', 'loginType': 'login', 'sessionTimeout': 2592000, 'tag': None, 'tokenActivityTimeout': -1, 'tokenName': 'satoken', 'tokenSessionTimeout': -2, 'tokenTimeout': 2592000, 'tokenValue': 'ca18a7d0-40c7-4b61-92e5-8d2ec55d3132'}, 'msg': 'SUCCESS'}
+2022-03-13 10:01:54,183-INFO-request_logging.py-wy_logging-日志信息:获取到的结果是：{'code': 2000, 'data': {'isLogin': True, 'loginDevice': 'commission', 'loginId': '0a14020acc0346c7a2c034a08c83414f', 'loginType': 'login', 'sessionTimeout': 2592000, 'tag': None, 'tokenActivityTimeout': -1, 'tokenName': 'satoken', 'tokenSessionTimeout': -2, 'tokenTimeout': 2592000, 'tokenValue': '73339d4e-887d-4d78-8895-729d7524f2ce'}, 'msg': 'SUCCESS'}
+2022-03-13 10:01:54,492-INFO-request_logging.py-wy_logging-日志信息:获取到的结果是：{'code': 2000, 'data': {'isLogin': True, 'loginDevice': 'commission', 'loginId': '64ad4fcbfdcb4bf48e33f38f4e31c4ce', 'loginType': 'login', 'sessionTimeout': 2592000, 'tag': None, 'tokenActivityTimeout': -1, 'tokenName': 'satoken', 'tokenSessionTimeout': -2, 'tokenTimeout': 2592000, 'tokenValue': 'ea2ea561-0771-4706-bc73-3461640410aa'}, 'msg': 'SUCCESS'}
+2022-03-13 10:01:54,812-INFO-request_logging.py-wy_logging-日志信息:获取到的结果是：{'code': 2000, 'data': {'isLogin': True, 'loginDevice': 'commission', 'loginId': '20b7707f4f3e4260a594db93855f1c42', 'loginType': 'login', 'sessionTimeout': 2592000, 'tag': None, 'tokenActivityTimeout': -1, 'tokenName': 'satoken', 'tokenSessionTimeout': -2, 'tokenTimeout': 2592000, 'tokenValue': 'd9c72d06-b38d-4c6c-af2a-4ee11b21c3a9'}, 'msg': 'SUCCESS'}
+2022-03-13 10:01:55,078-INFO-request_logging.py-wy_logging-日志信息:用例执行失败:'SUCCESS' != '未提供token'
+- SUCCESS
++ 未提供token
+ : 出问题了
+2022-03-13 10:01:55,309-INFO-request_logging.py-wy_logging-日志信息:用例执行失败:'SUCCESS' != '未提供token'
+- SUCCESS
++ 未提供token
+ : 出问题了
+2022-03-13 10:01:55,540-INFO-request_logging.py-wy_logging-日志信息:用例执行失败:'SUCCESS' != '未提供token'
+- SUCCESS
++ 未提供token
+ : 出问题了
+2022-03-13 10:01:55,765-INFO-request_logging.py-wy_logging-日志信息:用例执行失败:'SUCCESS' != '未提供token'
+- SUCCESS
++ 未提供token
+ : 出问题了
+2022-03-13 10:01:55,976-INFO-request_logging.py-wy_logging-日志信息:用例执行失败:'SUCCESS' != '未提供token'
+- SUCCESS
++ 未提供token
+ : 出问题了
+2022-03-13 10:01:56,191-INFO-request_logging.py-wy_logging-日志信息:用例执行失败:'SUCCESS' != '未提供token'
+- SUCCESS
++ 未提供token
+ : 出问题了
+2022-03-13 10:01:56,410-INFO-request_logging.py-wy_logging-日志信息:用例执行失败:'SUCCESS' != '未提供token'
+- SUCCESS
++ 未提供token
+ : 出问题了
+2022-03-13 10:01:56,697-INFO-request_logging.py-wy_logging-日志信息:用例执行失败:'SUCCESS' != '未提供token'
+- SUCCESS
++ 未提供token
+ : 出问题了
+2022-03-13 10:01:56,893-INFO-request_logging.py-wy_logging-日志信息:用例执行失败:'SUCCESS' != '未提供token'
+- SUCCESS
++ 未提供token
+ : 出问题了
+2022-03-13 10:01:57,112-INFO-request_logging.py-wy_logging-日志信息:用例执行失败:'SUCCESS' != '未提供token'
+- SUCCESS
++ 未提供token
+ : 出问题了
+2022-03-13 10:01:57,319-INFO-request_logging.py-wy_logging-日志信息:用例执行失败:'SUCCESS' != '未提供token'
+- SUCCESS
++ 未提供token
+ : 出问题了
+2022-03-13 10:01:57,547-INFO-request_logging.py-wy_logging-日志信息:用例执行失败:'SUCCESS' != '未提供token'
+- SUCCESS
++ 未提供token
+ : 出问题了
+2022-03-13 10:02:58,148-INFO-request_logging.py-wy_logging-日志信息:获取到的结果是：{'code': 2000, 'data': {'isLogin': True, 'loginDevice': 'commission', 'loginId': '055c509d3c1b4c2ebf2bc70fe8447e67', 'loginType': 'login', 'sessionTimeout': 2592000, 'tag': None, 'tokenActivityTimeout': -1, 'tokenName': 'satoken', 'tokenSessionTimeout': -2, 'tokenTimeout': 2592000, 'tokenValue': 'd96c9478-de71-48cf-bf65-febda8eb5089'}, 'msg': 'SUCCESS'}
+2022-03-13 10:02:58,519-INFO-request_logging.py-wy_logging-日志信息:获取到的结果是：{'code': 2000, 'data': {'isLogin': True, 'loginDevice': 'commission', 'loginId': '3f232aa91d334502aea0d9424d01481b', 'loginType': 'login', 'sessionTimeout': 2592000, 'tag': None, 'tokenActivityTimeout': -1, 'tokenName': 'satoken', 'tokenSessionTimeout': -2, 'tokenTimeout': 2592000, 'tokenValue': '97e87cd2-5c57-4b67-a474-710678a4ee29'}, 'msg': 'SUCCESS'}
+2022-03-13 10:02:58,850-INFO-request_logging.py-wy_logging-日志信息:获取到的结果是：{'code': 2000, 'data': {'isLogin': True, 'loginDevice': 'commission', 'loginId': 'e3d2cbe0f2644d2bb54ac1c873d1a5b4', 'loginType': 'login', 'sessionTimeout': 2592000, 'tag': None, 'tokenActivityTimeout': -1, 'tokenName': 'satoken', 'tokenSessionTimeout': -2, 'tokenTimeout': 2592000, 'tokenValue': '52a221d3-432e-4460-bad5-d92e2cdbd018'}, 'msg': 'SUCCESS'}
+2022-03-13 10:02:59,162-INFO-request_logging.py-wy_logging-日志信息:获取到的结果是：{'code': 2000, 'data': {'isLogin': True, 'loginDevice': 'commission', 'loginId': 'c5c185f1efad466dad4bbfab4e02e745', 'loginType': 'login', 'sessionTimeout': 2592000, 'tag': None, 'tokenActivityTimeout': -1, 'tokenName': 'satoken', 'tokenSessionTimeout': -2, 'tokenTimeout': 2592000, 'tokenValue': '307acb8b-665a-43cc-ab53-871cfb3c6687'}, 'msg': 'SUCCESS'}
+2022-03-13 10:02:59,555-INFO-request_logging.py-wy_logging-日志信息:获取到的结果是：{'code': 2000, 'data': {'isLogin': True, 'loginDevice': 'commission', 'loginId': '07b2f4006d64437ebaf6cbf5849320e2', 'loginType': 'login', 'sessionTimeout': 2592000, 'tag': None, 'tokenActivityTimeout': -1, 'tokenName': 'satoken', 'tokenSessionTimeout': -2, 'tokenTimeout': 2592000, 'tokenValue': '213a61cf-ca8e-4621-918d-2fff114bfc6b'}, 'msg': 'SUCCESS'}
+2022-03-13 10:02:59,882-INFO-request_logging.py-wy_logging-日志信息:获取到的结果是：{'code': 2000, 'data': {'isLogin': True, 'loginDevice': 'commission', 'loginId': '0a14020acc0346c7a2c034a08c83414f', 'loginType': 'login', 'sessionTimeout': 2592000, 'tag': None, 'tokenActivityTimeout': -1, 'tokenName': 'satoken', 'tokenSessionTimeout': -2, 'tokenTimeout': 2592000, 'tokenValue': '1ada67da-b170-423d-9463-29e9dd06517e'}, 'msg': 'SUCCESS'}
+2022-03-13 10:03:00,264-INFO-request_logging.py-wy_logging-日志信息:获取到的结果是：{'code': 2000, 'data': {'isLogin': True, 'loginDevice': 'commission', 'loginId': '64ad4fcbfdcb4bf48e33f38f4e31c4ce', 'loginType': 'login', 'sessionTimeout': 2592000, 'tag': None, 'tokenActivityTimeout': -1, 'tokenName': 'satoken', 'tokenSessionTimeout': -2, 'tokenTimeout': 2592000, 'tokenValue': '2afa8c51-6277-4bde-a1b2-4fc2c0da6c99'}, 'msg': 'SUCCESS'}
+2022-03-13 10:03:00,629-INFO-request_logging.py-wy_logging-日志信息:获取到的结果是：{'code': 2000, 'data': {'isLogin': True, 'loginDevice': 'commission', 'loginId': '20b7707f4f3e4260a594db93855f1c42', 'loginType': 'login', 'sessionTimeout': 2592000, 'tag': None, 'tokenActivityTimeout': -1, 'tokenName': 'satoken', 'tokenSessionTimeout': -2, 'tokenTimeout': 2592000, 'tokenValue': '02f8ddeb-2b71-46cf-beff-ea996535a585'}, 'msg': 'SUCCESS'}
+2022-03-13 10:03:01,389-INFO-request_logging.py-wy_logging-日志信息:获取到的结果是：{'code': 2000, 'data': True, 'msg': 'SUCCESS'}
+2022-03-13 10:03:01,799-INFO-request_logging.py-wy_logging-日志信息:获取到的结果是：{'code': 2000, 'data': True, 'msg': 'SUCCESS'}
+2022-03-13 10:03:02,410-INFO-request_logging.py-wy_logging-日志信息:获取到的结果是：{'code': 2000, 'data': True, 'msg': 'SUCCESS'}
+2022-03-13 10:03:03,232-INFO-request_logging.py-wy_logging-日志信息:获取到的结果是：{'code': 2000, 'data': True, 'msg': 'SUCCESS'}
+2022-03-13 10:03:03,686-INFO-request_logging.py-wy_logging-日志信息:获取到的结果是：{'code': 2000, 'data': True, 'msg': 'SUCCESS'}
+2022-03-13 10:03:04,099-INFO-request_logging.py-wy_logging-日志信息:获取到的结果是：{'code': 2000, 'data': True, 'msg': 'SUCCESS'}
+2022-03-13 10:03:04,721-INFO-request_logging.py-wy_logging-日志信息:获取到的结果是：{'code': 2000, 'data': True, 'msg': 'SUCCESS'}
+2022-03-13 10:03:05,614-INFO-request_logging.py-wy_logging-日志信息:获取到的结果是：{'code': 2000, 'data': True, 'msg': 'SUCCESS'}
+2022-03-13 10:03:05,965-INFO-request_logging.py-wy_logging-日志信息:获取到的结果是：{'code': 2000, 'data': True, 'msg': 'SUCCESS'}
+2022-03-13 10:03:06,566-INFO-request_logging.py-wy_logging-日志信息:获取到的结果是：{'code': 2000, 'data': True, 'msg': 'SUCCESS'}
+2022-03-13 10:03:06,947-INFO-request_logging.py-wy_logging-日志信息:获取到的结果是：{'code': 2000, 'data': True, 'msg': 'SUCCESS'}
+2022-03-13 10:03:07,441-INFO-request_logging.py-wy_logging-日志信息:获取到的结果是：{'code': 2000, 'data': True, 'msg': 'SUCCESS'}
+2022-03-13 10:20:51,055-INFO-request_logging.py-wy_logging-日志信息:获取到的结果是：{'code': 2000, 'data': {'isLogin': True, 'loginDevice': 'commission', 'loginId': '055c509d3c1b4c2ebf2bc70fe8447e67', 'loginType': 'login', 'sessionTimeout': 2592000, 'tag': None, 'tokenActivityTimeout': -1, 'tokenName': 'satoken', 'tokenSessionTimeout': -2, 'tokenTimeout': 2592000, 'tokenValue': '0c64215e-6c62-437c-b99d-45db41425c27'}, 'msg': 'SUCCESS'}
+2022-03-13 10:20:51,409-INFO-request_logging.py-wy_logging-日志信息:获取到的结果是：{'code': 2000, 'data': {'isLogin': True, 'loginDevice': 'commission', 'loginId': '3f232aa91d334502aea0d9424d01481b', 'loginType': 'login', 'sessionTimeout': 2592000, 'tag': None, 'tokenActivityTimeout': -1, 'tokenName': 'satoken', 'tokenSessionTimeout': -2, 'tokenTimeout': 2592000, 'tokenValue': 'feb6f5e9-90fc-4c6e-9711-8f6728d4df5b'}, 'msg': 'SUCCESS'}
+2022-03-13 10:20:51,734-INFO-request_logging.py-wy_logging-日志信息:获取到的结果是：{'code': 2000, 'data': {'isLogin': True, 'loginDevice': 'commission', 'loginId': 'e3d2cbe0f2644d2bb54ac1c873d1a5b4', 'loginType': 'login', 'sessionTimeout': 2592000, 'tag': None, 'tokenActivityTimeout': -1, 'tokenName': 'satoken', 'tokenSessionTimeout': -2, 'tokenTimeout': 2592000, 'tokenValue': 'fbb302e6-d746-45d4-a727-35761e8ba4ba'}, 'msg': 'SUCCESS'}
+2022-03-13 10:20:52,061-INFO-request_logging.py-wy_logging-日志信息:获取到的结果是：{'code': 2000, 'data': {'isLogin': True, 'loginDevice': 'commission', 'loginId': 'c5c185f1efad466dad4bbfab4e02e745', 'loginType': 'login', 'sessionTimeout': 2592000, 'tag': None, 'tokenActivityTimeout': -1, 'tokenName': 'satoken', 'tokenSessionTimeout': -2, 'tokenTimeout': 2592000, 'tokenValue': 'de5beff5-ba0b-456e-85ff-e3a269c1dd90'}, 'msg': 'SUCCESS'}
+2022-03-13 10:20:52,419-INFO-request_logging.py-wy_logging-日志信息:获取到的结果是：{'code': 2000, 'data': {'isLogin': True, 'loginDevice': 'commission', 'loginId': '07b2f4006d64437ebaf6cbf5849320e2', 'loginType': 'login', 'sessionTimeout': 2592000, 'tag': None, 'tokenActivityTimeout': -1, 'tokenName': 'satoken', 'tokenSessionTimeout': -2, 'tokenTimeout': 2592000, 'tokenValue': '3d72c103-0804-4caf-96f5-f1fa8fec7bf5'}, 'msg': 'SUCCESS'}
+2022-03-13 10:20:52,735-INFO-request_logging.py-wy_logging-日志信息:获取到的结果是：{'code': 2000, 'data': {'isLogin': True, 'loginDevice': 'commission', 'loginId': '0a14020acc0346c7a2c034a08c83414f', 'loginType': 'login', 'sessionTimeout': 2592000, 'tag': None, 'tokenActivityTimeout': -1, 'tokenName': 'satoken', 'tokenSessionTimeout': -2, 'tokenTimeout': 2592000, 'tokenValue': '60d67dd9-a13e-4261-acaf-80a363ed91f3'}, 'msg': 'SUCCESS'}
+2022-03-13 10:20:53,097-INFO-request_logging.py-wy_logging-日志信息:获取到的结果是：{'code': 2000, 'data': {'isLogin': True, 'loginDevice': 'commission', 'loginId': '64ad4fcbfdcb4bf48e33f38f4e31c4ce', 'loginType': 'login', 'sessionTimeout': 2592000, 'tag': None, 'tokenActivityTimeout': -1, 'tokenName': 'satoken', 'tokenSessionTimeout': -2, 'tokenTimeout': 2592000, 'tokenValue': 'a43f7962-38a9-4687-81ca-7c33e50899bc'}, 'msg': 'SUCCESS'}
+2022-03-13 10:20:53,450-INFO-request_logging.py-wy_logging-日志信息:获取到的结果是：{'code': 2000, 'data': {'isLogin': True, 'loginDevice': 'commission', 'loginId': '20b7707f4f3e4260a594db93855f1c42', 'loginType': 'login', 'sessionTimeout': 2592000, 'tag': None, 'tokenActivityTimeout': -1, 'tokenName': 'satoken', 'tokenSessionTimeout': -2, 'tokenTimeout': 2592000, 'tokenValue': 'd391fde0-183d-4abf-84da-f9fa404443a5'}, 'msg': 'SUCCESS'}
+2022-03-13 10:20:53,794-INFO-request_logging.py-wy_logging-日志信息:获取到的结果是：{'code': 2000, 'data': {'isLogin': True, 'loginDevice': 'commission', 'loginId': '021930aed2b34180a50921370bb3c1a5', 'loginType': 'login', 'sessionTimeout': 2592000, 'tag': None, 'tokenActivityTimeout': -1, 'tokenName': 'satoken', 'tokenSessionTimeout': -2, 'tokenTimeout': 2592000, 'tokenValue': '2ca0db5d-e70f-404f-b51e-567c9b80c684'}, 'msg': 'SUCCESS'}
+2022-03-13 10:20:53,795-INFO-request_logging.py-wy_logging-日志信息:<RequestsCookieJar[<Cookie satoken=0c64215e-6c62-437c-b99d-45db41425c27 for pre.yunjinji.cn/>]>
+2022-03-13 10:20:54,362-INFO-request_logging.py-wy_logging-日志信息:获取到的结果是：{'code': 2000, 'data': True, 'msg': 'SUCCESS'}
+2022-03-13 10:20:54,362-INFO-request_logging.py-wy_logging-日志信息:<RequestsCookieJar[<Cookie satoken=feb6f5e9-90fc-4c6e-9711-8f6728d4df5b for pre.yunjinji.cn/>]>
+2022-03-13 10:20:55,205-INFO-request_logging.py-wy_logging-日志信息:获取到的结果是：{'code': 2000, 'data': {'actualPayCommission': None, 'additionEnroll': 0, 'agencyTrade': 'PROJECT_AGENCY_TRADE', 'agentId': '86d50b0e8aa045068e8755b7eb62a6cb', 'agentStatus': None, 'changeHouseDate': None, 'changeHouseProof': [], 'collectingCompanyId': None, 'commProjectId': 68, 'costs': None, 'createBy': 'None', 'createTime': '2022-03-13 10:20:54', 'currentPayableActualCommission': None, 'customerId': 38552, 'customerName': '华发四季313栋业主107', 'customerPhone': '13729112152', 'departmentId': 4807, 'departmentName': '北京日益通速递有限责任公司2222', 'dissent': None, 'divisionId': 40, 'divisionName': '测试部', 'exchangeOrder': False, 'finalAuditApproved': False, 'grossProfit': None, 'groupbuy': 1, 'groupbuyPayer': None, 'groupbuyPlanId': 10, 'groupbuyProof': [{'name': '599dae3c07fb416cbb55c63cb4f368de.jpeg', 'url': 'https://picos.wyzfang.com/pre/java/2022-2/599dae3c07fb416cbb55c63cb4f368de.jpeg'}], 'groupbuyRecieveDate': None, 'groupbuyRecieveId': None, 'groupbuyRecieveProof': [], 'groupbuyStatus': None, 'initialSignDate': None, 'initialSignProof': [], 'loanDate': None, 'loanProof': [], 'netProfits': None, 'netSignDate': None, 'netSignProof': [], 'normalStat': True, 'notAgencyTrade': False, 'originId': 0, 'originalPrice': 1040000, 'pay': None, 'payAdjustCommission': None, 'payAdjustMoney': None, 'payCaseDesc': None, 'payCaseDescribe': '平台/门店结佣方案', 'payCommPlanId': 206, 'payPlanId': None, 'payStatus': None, 'payableCommission': 83000.0, 'payableCommissionProof': [], 'payableMoney': None, 'payedCommission': None, 'paymentMethod': 2, 'paymentMethodDesc': '按揭付款', 'platformDeptName': '惠州云经纪', 'platformId': 999, 'platformPayAdjustCommission': None, 'platformPayCaseDescribe': None, 'platformPayCommPlanId': None, 'platformPayableCommission': None, 'platformPayableCommissionProof': [], 'prepay': 0, 'prepayCommission': None, 'projectAgencyOrder': True, 'projectAgencyTrade': True, 'projectId': 31, 'projectName': '华发四季1', 'projectPlatformId': 999, 'projectPlatformName': '中山云经纪', 'purchaseCode': 'RG2022031333219097', 'purchaseDate': '2022-03-12', 'purchaseOrderType': 'NORMAL', 'purchasePrice': 1050000, 'purchaseProof': [{'name': 'cb86f751782446cd8aeb18fa8cc5c15c.jpeg', 'url': 'https://picos.wyzfang.com/pre/java/2022-2/cb86f751782446cd8aeb18fa8cc5c15c.jpeg'}], 'reAdjustCommision': None, 'realReceiveGroupbuy': 0, 'recCaseDescribe': None, 'recCommPlanId': None, 'recStatus': None, 'recStatusDesc': None, 'receivableCommision': 0, 'receivableCommissionProof': [], 'receivableGroupbuy': 40000, 'receiveGroupbuy': 40000, 'receivedCommission': None, 'recheckApproved': None, 'remark': '调接口生成认购单', 'reportId': 44334, 'reportTime': '2022-03-12 12:41:00', 'returnHouseDate': None, 'returnHouseProof': [], 'returnOrChangeStage': False, 'revenue': None, 'roomArea': '104.00', 'roomNo': '华发四季313栋107', 'saleAgencyTrade': False, 'salePlatformId': 5109, 'salePlatformName': '惠州云经纪', 'salePlatformOrDepartment': '北京日益通速递有限责任公司2222', 'salePlatformOrDepartmentId': -4807, 'salePurchaseOrderId': 0, 'saleRecCommPlanId': None, 'settlePrice': 1060000, 'settlePriceProof': [], 'signPrice': 1060000, 'stage': 3, 'stageDesc': '认购', 'stageFromStatus': 3, 'stageState': None, 'status': 2, 'statusDesc': '认购初审中', 'totalReceivableCommission': 0, 'tradeConfirmDate': None, 'tradeId': 2959, 'unPayedCommission': None, 'unReceivedCommission': None, 'updateBy': 'None', 'updateTime': '2022-03-13 10:20:54', 'validRecCommPlanId': None, 'visitTime': '2022-03-12 12:42:00', 'voucherDepartmentPay': None, 'voucherId': None, 'voucherPay': None}, 'msg': 'SUCCESS'}
+2022-03-13 10:20:55,206-INFO-request_logging.py-wy_logging-日志信息:<RequestsCookieJar[<Cookie satoken=feb6f5e9-90fc-4c6e-9711-8f6728d4df5b for pre.yunjinji.cn/>]>
+2022-03-13 10:20:55,619-INFO-request_logging.py-wy_logging-日志信息:获取到的结果是：{'code': 2000, 'data': True, 'msg': 'SUCCESS'}
+2022-03-13 10:20:55,620-INFO-request_logging.py-wy_logging-日志信息:<RequestsCookieJar[<Cookie satoken=fbb302e6-d746-45d4-a727-35761e8ba4ba for pre.yunjinji.cn/>]>
+2022-03-13 10:20:55,928-INFO-request_logging.py-wy_logging-日志信息:获取到的结果是：{'code': 2000, 'data': True, 'msg': 'SUCCESS'}
+2022-03-13 10:20:55,929-INFO-request_logging.py-wy_logging-日志信息:<RequestsCookieJar[<Cookie satoken=de5beff5-ba0b-456e-85ff-e3a269c1dd90 for pre.yunjinji.cn/>]>
+2022-03-13 10:20:56,248-INFO-request_logging.py-wy_logging-日志信息:获取到的结果是：{'code': 2000, 'data': True, 'msg': 'SUCCESS'}
+2022-03-13 10:20:56,249-INFO-request_logging.py-wy_logging-日志信息:<RequestsCookieJar[<Cookie satoken=2ca0db5d-e70f-404f-b51e-567c9b80c684 for pre.yunjinji.cn/>]>
+2022-03-13 10:20:56,515-INFO-request_logging.py-wy_logging-日志信息:获取到的结果是：{'code': 2000, 'data': True, 'msg': 'SUCCESS'}
+2022-03-13 10:20:56,516-INFO-request_logging.py-wy_logging-日志信息:<RequestsCookieJar[<Cookie satoken=60d67dd9-a13e-4261-acaf-80a363ed91f3 for pre.yunjinji.cn/>]>
+2022-03-13 10:20:57,634-INFO-request_logging.py-wy_logging-日志信息:获取到的结果是：{'code': 2000, 'data': True, 'msg': 'SUCCESS'}
+2022-03-13 10:20:57,635-INFO-request_logging.py-wy_logging-日志信息:<RequestsCookieJar[<Cookie satoken=0c64215e-6c62-437c-b99d-45db41425c27 for pre.yunjinji.cn/>]>
+2022-03-13 10:20:57,953-INFO-request_logging.py-wy_logging-日志信息:获取到的结果是：{'code': 2000, 'data': True, 'msg': 'SUCCESS'}
+2022-03-13 10:20:57,954-INFO-request_logging.py-wy_logging-日志信息:<RequestsCookieJar[<Cookie satoken=de5beff5-ba0b-456e-85ff-e3a269c1dd90 for pre.yunjinji.cn/>]>
+2022-03-13 10:20:58,703-INFO-request_logging.py-wy_logging-日志信息:获取到的结果是：{'code': 2000, 'data': True, 'msg': 'SUCCESS'}
+2022-03-13 10:20:58,704-INFO-request_logging.py-wy_logging-日志信息:<RequestsCookieJar[<Cookie satoken=0c64215e-6c62-437c-b99d-45db41425c27 for pre.yunjinji.cn/>]>
+2022-03-13 10:20:59,013-INFO-request_logging.py-wy_logging-日志信息:获取到的结果是：{'code': 2000, 'data': True, 'msg': 'SUCCESS'}
+2022-03-13 10:20:59,014-INFO-request_logging.py-wy_logging-日志信息:<RequestsCookieJar[<Cookie satoken=de5beff5-ba0b-456e-85ff-e3a269c1dd90 for pre.yunjinji.cn/>]>
+2022-03-13 10:20:59,362-INFO-request_logging.py-wy_logging-日志信息:获取到的结果是：{'code': 2000, 'data': True, 'msg': 'SUCCESS'}
+2022-03-13 10:20:59,363-INFO-request_logging.py-wy_logging-日志信息:<RequestsCookieJar[<Cookie satoken=0c64215e-6c62-437c-b99d-45db41425c27 for pre.yunjinji.cn/>]>
+2022-03-13 10:20:59,710-INFO-request_logging.py-wy_logging-日志信息:获取到的结果是：{'code': 2000, 'data': True, 'msg': 'SUCCESS'}
+2022-03-13 10:21:00,052-INFO-request_logging.py-wy_logging-日志信息:用例执行失败:'SUCCESS' != '对佣结算必须是本人'
+- SUCCESS
++ 对佣结算必须是本人
+ : 出问题了
+2022-03-13 10:21:00,150-INFO-request_logging.py-wy_logging-日志信息:获取到的结果是：{'code': 5000, 'data': None, 'msg': '对佣结算必须是本人'}
+2022-03-13 10:21:00,321-INFO-request_logging.py-wy_logging-日志信息:用例执行失败:'SUCCESS' != '参数异常'
+- SUCCESS
++ 参数异常
+ : 出问题了
+2022-03-13 10:21:00,432-INFO-request_logging.py-wy_logging-日志信息:获取到的结果是：{'code': 5000, 'data': None, 'msg': '参数异常'}
+2022-03-13 10:21:00,972-INFO-request_logging.py-wy_logging-日志信息:用例执行失败:'SUCCESS' != '参数异常'
+- SUCCESS
++ 参数异常
+ : 出问题了
+2022-03-13 10:21:01,081-INFO-request_logging.py-wy_logging-日志信息:获取到的结果是：{'code': 5000, 'data': None, 'msg': '参数异常'}
+2022-03-13 10:21:01,257-INFO-request_logging.py-wy_logging-日志信息:用例执行失败:'SUCCESS' != '参数异常'
+- SUCCESS
++ 参数异常
+ : 出问题了
+2022-03-13 10:21:01,366-INFO-request_logging.py-wy_logging-日志信息:获取到的结果是：{'code': 5000, 'data': None, 'msg': '参数异常'}
+2022-03-13 10:21:01,558-INFO-request_logging.py-wy_logging-日志信息:用例执行失败:'SUCCESS' != '参数异常'
+- SUCCESS
++ 参数异常
+ : 出问题了
+2022-03-13 10:21:01,667-INFO-request_logging.py-wy_logging-日志信息:获取到的结果是：{'code': 5000, 'data': None, 'msg': '参数异常'}
+2022-03-13 10:21:01,849-INFO-request_logging.py-wy_logging-日志信息:用例执行失败:'SUCCESS' != '参数异常'
+- SUCCESS
++ 参数异常
+ : 出问题了
+2022-03-13 10:21:01,984-INFO-request_logging.py-wy_logging-日志信息:获取到的结果是：{'code': 5000, 'data': None, 'msg': '参数异常'}
+2022-03-13 10:21:02,191-INFO-request_logging.py-wy_logging-日志信息:用例执行失败:'SUCCESS' != '参数异常'
+- SUCCESS
++ 参数异常
+ : 出问题了
+2022-03-13 10:21:02,307-INFO-request_logging.py-wy_logging-日志信息:获取到的结果是：{'code': 5000, 'data': None, 'msg': '参数异常'}
+2022-03-13 10:21:02,617-INFO-request_logging.py-wy_logging-日志信息:用例执行失败:'SUCCESS' != '对佣结算必须是本人'
+- SUCCESS
++ 对佣结算必须是本人
+ : 出问题了
+2022-03-13 10:21:02,719-INFO-request_logging.py-wy_logging-日志信息:获取到的结果是：{'code': 5000, 'data': None, 'msg': '对佣结算必须是本人'}
+2022-03-13 10:21:02,908-INFO-request_logging.py-wy_logging-日志信息:用例执行失败:'SUCCESS' != '参数异常'
+- SUCCESS
++ 参数异常
+ : 出问题了
+2022-03-13 10:21:03,020-INFO-request_logging.py-wy_logging-日志信息:获取到的结果是：{'code': 5000, 'data': None, 'msg': '参数异常'}
+2022-03-13 10:21:03,197-INFO-request_logging.py-wy_logging-日志信息:用例执行失败:'SUCCESS' != '参数异常'
+- SUCCESS
++ 参数异常
+ : 出问题了
+2022-03-13 10:21:03,304-INFO-request_logging.py-wy_logging-日志信息:获取到的结果是：{'code': 5000, 'data': None, 'msg': '参数异常'}
+2022-03-13 10:21:03,478-INFO-request_logging.py-wy_logging-日志信息:用例执行失败:'SUCCESS' != '参数异常'
+- SUCCESS
++ 参数异常
+ : 出问题了
+2022-03-13 10:21:03,618-INFO-request_logging.py-wy_logging-日志信息:获取到的结果是：{'code': 5000, 'data': None, 'msg': '参数异常'}
+2022-03-13 10:21:03,800-INFO-request_logging.py-wy_logging-日志信息:用例执行失败:'SUCCESS' != '参数异常'
+- SUCCESS
++ 参数异常
+ : 出问题了
+2022-03-13 10:21:03,912-INFO-request_logging.py-wy_logging-日志信息:获取到的结果是：{'code': 5000, 'data': None, 'msg': '参数异常'}
+2022-03-13 10:34:55,331-INFO-request_logging.py-wy_logging-日志信息:获取到的结果是：{'code': 2000, 'data': {'isLogin': True, 'loginDevice': 'commission', 'loginId': '055c509d3c1b4c2ebf2bc70fe8447e67', 'loginType': 'login', 'sessionTimeout': 2592000, 'tag': None, 'tokenActivityTimeout': -1, 'tokenName': 'satoken', 'tokenSessionTimeout': -2, 'tokenTimeout': 2592000, 'tokenValue': '1e88219e-5321-43c6-9a6e-ac22123fec89'}, 'msg': 'SUCCESS'}
+2022-03-13 10:34:55,684-INFO-request_logging.py-wy_logging-日志信息:获取到的结果是：{'code': 2000, 'data': {'isLogin': True, 'loginDevice': 'commission', 'loginId': '3f232aa91d334502aea0d9424d01481b', 'loginType': 'login', 'sessionTimeout': 2592000, 'tag': None, 'tokenActivityTimeout': -1, 'tokenName': 'satoken', 'tokenSessionTimeout': -2, 'tokenTimeout': 2592000, 'tokenValue': '775ae0fb-cc04-4166-91ab-77ce4b26d29f'}, 'msg': 'SUCCESS'}
+2022-03-13 10:34:55,999-INFO-request_logging.py-wy_logging-日志信息:获取到的结果是：{'code': 2000, 'data': {'isLogin': True, 'loginDevice': 'commission', 'loginId': 'de75836a213e4eff927234a1c3a5a174', 'loginType': 'login', 'sessionTimeout': 2592000, 'tag': None, 'tokenActivityTimeout': -1, 'tokenName': 'satoken', 'tokenSessionTimeout': -2, 'tokenTimeout': 2592000, 'tokenValue': '7b7bbe00-af17-406c-a869-2c9d48ad3acf'}, 'msg': 'SUCCESS'}
+2022-03-13 10:34:56,321-INFO-request_logging.py-wy_logging-日志信息:获取到的结果是：{'code': 2000, 'data': {'isLogin': True, 'loginDevice': 'commission', 'loginId': 'c5c185f1efad466dad4bbfab4e02e745', 'loginType': 'login', 'sessionTimeout': 2592000, 'tag': None, 'tokenActivityTimeout': -1, 'tokenName': 'satoken', 'tokenSessionTimeout': -2, 'tokenTimeout': 2592000, 'tokenValue': 'fc31a608-0931-4934-9628-11932dfeb87d'}, 'msg': 'SUCCESS'}
+2022-03-13 10:34:56,718-INFO-request_logging.py-wy_logging-日志信息:获取到的结果是：{'code': 2000, 'data': {'isLogin': True, 'loginDevice': 'commission', 'loginId': '07b2f4006d64437ebaf6cbf5849320e2', 'loginType': 'login', 'sessionTimeout': 2592000, 'tag': None, 'tokenActivityTimeout': -1, 'tokenName': 'satoken', 'tokenSessionTimeout': -2, 'tokenTimeout': 2592000, 'tokenValue': '485e3827-f66e-4ca2-a375-f6ae56cc875e'}, 'msg': 'SUCCESS'}
+2022-03-13 10:34:57,044-INFO-request_logging.py-wy_logging-日志信息:获取到的结果是：{'code': 2000, 'data': {'isLogin': True, 'loginDevice': 'commission', 'loginId': '0a14020acc0346c7a2c034a08c83414f', 'loginType': 'login', 'sessionTimeout': 2592000, 'tag': None, 'tokenActivityTimeout': -1, 'tokenName': 'satoken', 'tokenSessionTimeout': -2, 'tokenTimeout': 2592000, 'tokenValue': 'acaa2649-d704-48a5-99c9-f8d224020be9'}, 'msg': 'SUCCESS'}
+2022-03-13 10:34:57,410-INFO-request_logging.py-wy_logging-日志信息:获取到的结果是：{'code': 2000, 'data': {'isLogin': True, 'loginDevice': 'commission', 'loginId': '64ad4fcbfdcb4bf48e33f38f4e31c4ce', 'loginType': 'login', 'sessionTimeout': 2592000, 'tag': None, 'tokenActivityTimeout': -1, 'tokenName': 'satoken', 'tokenSessionTimeout': -2, 'tokenTimeout': 2592000, 'tokenValue': 'b11a341f-cab3-4257-9ccc-ce9ec9baa6ef'}, 'msg': 'SUCCESS'}
+2022-03-13 10:34:57,779-INFO-request_logging.py-wy_logging-日志信息:获取到的结果是：{'code': 2000, 'data': {'isLogin': True, 'loginDevice': 'commission', 'loginId': '20b7707f4f3e4260a594db93855f1c42', 'loginType': 'login', 'sessionTimeout': 2592000, 'tag': None, 'tokenActivityTimeout': -1, 'tokenName': 'satoken', 'tokenSessionTimeout': -2, 'tokenTimeout': 2592000, 'tokenValue': '8faab7e2-03f0-442c-9758-ec2294482a96'}, 'msg': 'SUCCESS'}
+2022-03-13 10:34:58,102-INFO-request_logging.py-wy_logging-日志信息:获取到的结果是：{'code': 2000, 'data': {'isLogin': True, 'loginDevice': 'commission', 'loginId': '021930aed2b34180a50921370bb3c1a5', 'loginType': 'login', 'sessionTimeout': 2592000, 'tag': None, 'tokenActivityTimeout': -1, 'tokenName': 'satoken', 'tokenSessionTimeout': -2, 'tokenTimeout': 2592000, 'tokenValue': '8882fa39-3c1f-4051-9156-339d811a4004'}, 'msg': 'SUCCESS'}
+2022-03-13 10:34:58,103-INFO-request_logging.py-wy_logging-日志信息:<RequestsCookieJar[<Cookie satoken=1e88219e-5321-43c6-9a6e-ac22123fec89 for pre.yunjinji.cn/>]>
+2022-03-13 10:34:59,017-INFO-request_logging.py-wy_logging-日志信息:获取到的结果是：{'code': 2000, 'data': True, 'msg': 'SUCCESS'}
+2022-03-13 10:34:59,018-INFO-request_logging.py-wy_logging-日志信息:<RequestsCookieJar[<Cookie satoken=775ae0fb-cc04-4166-91ab-77ce4b26d29f for pre.yunjinji.cn/>]>
+2022-03-13 10:34:59,554-INFO-request_logging.py-wy_logging-日志信息:获取到的结果是：{'code': 2000, 'data': {'actualPayCommission': None, 'additionEnroll': 0, 'agencyTrade': 'PROJECT_AGENCY_TRADE', 'agentId': '86d50b0e8aa045068e8755b7eb62a6cb', 'agentStatus': None, 'changeHouseDate': None, 'changeHouseProof': [], 'collectingCompanyId': None, 'commProjectId': 68, 'costs': None, 'createBy': '3f232aa91d334502aea0d9424d01481b', 'createTime': '2022-03-13 10:34:59', 'currentPayableActualCommission': None, 'customerId': 38554, 'customerName': '华发四季313栋业主108', 'customerPhone': '13729112152', 'departmentId': 4807, 'departmentName': '北京日益通速递有限责任公司2222', 'dissent': None, 'divisionId': 40, 'divisionName': '测试部', 'exchangeOrder': False, 'finalAuditApproved': False, 'grossProfit': None, 'groupbuy': 1, 'groupbuyPayer': None, 'groupbuyPlanId': 10, 'groupbuyProof': [{'name': '599dae3c07fb416cbb55c63cb4f368de.jpeg', 'url': 'https://picos.wyzfang.com/pre/java/2022-2/599dae3c07fb416cbb55c63cb4f368de.jpeg'}], 'groupbuyRecieveDate': None, 'groupbuyRecieveId': None, 'groupbuyRecieveProof': [], 'groupbuyStatus': None, 'initialSignDate': None, 'initialSignProof': [], 'loanDate': None, 'loanProof': [], 'netProfits': None, 'netSignDate': None, 'netSignProof': [], 'normalStat': True, 'notAgencyTrade': False, 'originId': 0, 'originalPrice': 1040000, 'pay': None, 'payAdjustCommission': None, 'payAdjustMoney': None, 'payCaseDesc': None, 'payCaseDescribe': '平台/门店结佣方案', 'payCommPlanId': 206, 'payPlanId': None, 'payStatus': None, 'payableCommission': 83000.0, 'payableCommissionProof': [], 'payableMoney': None, 'payedCommission': None, 'paymentMethod': 2, 'paymentMethodDesc': '按揭付款', 'platformDeptName': '惠州云经纪', 'platformId': 999, 'platformPayAdjustCommission': None, 'platformPayCaseDescribe': None, 'platformPayCommPlanId': None, 'platformPayableCommission': None, 'platformPayableCommissionProof': [], 'prepay': 0, 'prepayCommission': None, 'projectAgencyOrder': True, 'projectAgencyTrade': True, 'projectId': 31, 'projectName': '华发四季1', 'projectPlatformId': 999, 'projectPlatformName': '中山云经纪', 'purchaseCode': 'RG2022031333169672', 'purchaseDate': '2022-03-12', 'purchaseOrderType': 'NORMAL', 'purchasePrice': 1050000, 'purchaseProof': [{'name': 'cb86f751782446cd8aeb18fa8cc5c15c.jpeg', 'url': 'https://picos.wyzfang.com/pre/java/2022-2/cb86f751782446cd8aeb18fa8cc5c15c.jpeg'}], 'reAdjustCommision': None, 'realReceiveGroupbuy': 0, 'recCaseDescribe': None, 'recCommPlanId': None, 'recStatus': None, 'recStatusDesc': None, 'receivableCommision': 0, 'receivableCommissionProof': [], 'receivableGroupbuy': 40000, 'receiveGroupbuy': 40000, 'receivedCommission': None, 'recheckApproved': None, 'remark': '调接口生成认购单', 'reportId': 44335, 'reportTime': '2022-03-12 12:41:00', 'returnHouseDate': None, 'returnHouseProof': [], 'returnOrChangeStage': False, 'revenue': None, 'roomArea': '104.00', 'roomNo': '华发四季313栋108', 'saleAgencyTrade': False, 'salePlatformId': 5109, 'salePlatformName': '惠州云经纪', 'salePlatformOrDepartment': '北京日益通速递有限责任公司2222', 'salePlatformOrDepartmentId': -4807, 'salePurchaseOrderId': 0, 'saleRecCommPlanId': None, 'settlePrice': 1060000, 'settlePriceProof': [], 'signPrice': 1060000, 'stage': 3, 'stageDesc': '认购', 'stageFromStatus': 3, 'stageState': None, 'status': 2, 'statusDesc': '认购初审中', 'totalReceivableCommission': 0, 'tradeConfirmDate': None, 'tradeId': 2961, 'unPayedCommission': None, 'unReceivedCommission': None, 'updateBy': '3f232aa91d334502aea0d9424d01481b', 'updateTime': '2022-03-13 10:34:59', 'validRecCommPlanId': None, 'visitTime': '2022-03-12 12:42:00', 'voucherDepartmentPay': None, 'voucherId': None, 'voucherPay': None}, 'msg': 'SUCCESS'}
+2022-03-13 10:34:59,555-INFO-request_logging.py-wy_logging-日志信息:<RequestsCookieJar[<Cookie satoken=775ae0fb-cc04-4166-91ab-77ce4b26d29f for pre.yunjinji.cn/>]>
+2022-03-13 10:34:59,944-INFO-request_logging.py-wy_logging-日志信息:获取到的结果是：{'code': 2000, 'data': True, 'msg': 'SUCCESS'}
+2022-03-13 10:34:59,945-INFO-request_logging.py-wy_logging-日志信息:<RequestsCookieJar[<Cookie satoken=7b7bbe00-af17-406c-a869-2c9d48ad3acf for pre.yunjinji.cn/>]>
+2022-03-13 10:35:00,281-INFO-request_logging.py-wy_logging-日志信息:获取到的结果是：{'code': 2000, 'data': True, 'msg': 'SUCCESS'}
+2022-03-13 10:35:00,283-INFO-request_logging.py-wy_logging-日志信息:<RequestsCookieJar[<Cookie satoken=fc31a608-0931-4934-9628-11932dfeb87d for pre.yunjinji.cn/>]>
+2022-03-13 10:35:00,610-INFO-request_logging.py-wy_logging-日志信息:获取到的结果是：{'code': 2000, 'data': True, 'msg': 'SUCCESS'}
+2022-03-13 10:35:00,611-INFO-request_logging.py-wy_logging-日志信息:<RequestsCookieJar[<Cookie satoken=8882fa39-3c1f-4051-9156-339d811a4004 for pre.yunjinji.cn/>]>
+2022-03-13 10:35:01,218-INFO-request_logging.py-wy_logging-日志信息:获取到的结果是：{'code': 2000, 'data': True, 'msg': 'SUCCESS'}
+2022-03-13 10:35:01,219-INFO-request_logging.py-wy_logging-日志信息:<RequestsCookieJar[<Cookie satoken=acaa2649-d704-48a5-99c9-f8d224020be9 for pre.yunjinji.cn/>]>
+2022-03-13 10:35:02,436-INFO-request_logging.py-wy_logging-日志信息:获取到的结果是：{'code': 2000, 'data': True, 'msg': 'SUCCESS'}
+2022-03-13 10:35:02,436-INFO-request_logging.py-wy_logging-日志信息:<RequestsCookieJar[<Cookie satoken=1e88219e-5321-43c6-9a6e-ac22123fec89 for pre.yunjinji.cn/>]>
+2022-03-13 10:35:02,758-INFO-request_logging.py-wy_logging-日志信息:获取到的结果是：{'code': 2000, 'data': True, 'msg': 'SUCCESS'}
+2022-03-13 10:35:02,759-INFO-request_logging.py-wy_logging-日志信息:<RequestsCookieJar[<Cookie satoken=fc31a608-0931-4934-9628-11932dfeb87d for pre.yunjinji.cn/>]>
+2022-03-13 10:35:03,228-INFO-request_logging.py-wy_logging-日志信息:获取到的结果是：{'code': 2000, 'data': True, 'msg': 'SUCCESS'}
+2022-03-13 10:35:03,229-INFO-request_logging.py-wy_logging-日志信息:<RequestsCookieJar[<Cookie satoken=1e88219e-5321-43c6-9a6e-ac22123fec89 for pre.yunjinji.cn/>]>
+2022-03-13 10:35:03,555-INFO-request_logging.py-wy_logging-日志信息:获取到的结果是：{'code': 2000, 'data': True, 'msg': 'SUCCESS'}
+2022-03-13 10:35:03,556-INFO-request_logging.py-wy_logging-日志信息:<RequestsCookieJar[<Cookie satoken=fc31a608-0931-4934-9628-11932dfeb87d for pre.yunjinji.cn/>]>
+2022-03-13 10:35:03,897-INFO-request_logging.py-wy_logging-日志信息:获取到的结果是：{'code': 2000, 'data': True, 'msg': 'SUCCESS'}
+2022-03-13 10:35:03,899-INFO-request_logging.py-wy_logging-日志信息:<RequestsCookieJar[<Cookie satoken=1e88219e-5321-43c6-9a6e-ac22123fec89 for pre.yunjinji.cn/>]>
+2022-03-13 10:35:04,441-INFO-request_logging.py-wy_logging-日志信息:获取到的结果是：{'code': 2000, 'data': True, 'msg': 'SUCCESS'}
+2022-03-13 10:35:05,154-INFO-request_logging.py-wy_logging-日志信息:获取到的结果是：{'code': 2000, 'data': True, 'msg': 'SUCCESS'}
+2022-03-13 10:35:05,602-INFO-request_logging.py-wy_logging-日志信息:获取到的结果是：{'code': 2000, 'data': True, 'msg': 'SUCCESS'}
+2022-03-13 10:35:06,524-INFO-request_logging.py-wy_logging-日志信息:获取到的结果是：{'code': 2000, 'data': True, 'msg': 'SUCCESS'}
+2022-03-13 10:35:07,073-INFO-request_logging.py-wy_logging-日志信息:获取到的结果是：{'code': 2000, 'data': True, 'msg': 'SUCCESS'}
+2022-03-13 10:35:07,514-INFO-request_logging.py-wy_logging-日志信息:获取到的结果是：{'code': 2000, 'data': True, 'msg': 'SUCCESS'}
+2022-03-13 10:35:07,938-INFO-request_logging.py-wy_logging-日志信息:获取到的结果是：{'code': 2000, 'data': True, 'msg': 'SUCCESS'}
+2022-03-13 10:35:08,876-INFO-request_logging.py-wy_logging-日志信息:获取到的结果是：{'code': 2000, 'data': True, 'msg': 'SUCCESS'}
+2022-03-13 10:35:09,396-INFO-request_logging.py-wy_logging-日志信息:获取到的结果是：{'code': 2000, 'data': True, 'msg': 'SUCCESS'}
+2022-03-13 10:35:09,747-INFO-request_logging.py-wy_logging-日志信息:获取到的结果是：{'code': 2000, 'data': True, 'msg': 'SUCCESS'}
+2022-03-13 10:35:10,339-INFO-request_logging.py-wy_logging-日志信息:获取到的结果是：{'code': 2000, 'data': True, 'msg': 'SUCCESS'}
+2022-03-13 10:35:10,706-INFO-request_logging.py-wy_logging-日志信息:获取到的结果是：{'code': 2000, 'data': True, 'msg': 'SUCCESS'}
+2022-03-13 10:35:11,573-INFO-request_logging.py-wy_logging-日志信息:获取到的结果是：{'code': 2000, 'data': True, 'msg': 'SUCCESS'}
+2022-03-13 10:41:48,527-INFO-request_logging.py-wy_logging-日志信息:获取到的结果是：{'code': 2000, 'data': {'isLogin': True, 'loginDevice': 'commission', 'loginId': '055c509d3c1b4c2ebf2bc70fe8447e67', 'loginType': 'login', 'sessionTimeout': 2592000, 'tag': None, 'tokenActivityTimeout': -1, 'tokenName': 'satoken', 'tokenSessionTimeout': -2, 'tokenTimeout': 2592000, 'tokenValue': 'e6bfc7a8-5fc5-4dab-88a2-a6e4ed7befc1'}, 'msg': 'SUCCESS'}
+2022-03-13 10:41:48,848-INFO-request_logging.py-wy_logging-日志信息:获取到的结果是：{'code': 2000, 'data': {'isLogin': True, 'loginDevice': 'commission', 'loginId': '3f232aa91d334502aea0d9424d01481b', 'loginType': 'login', 'sessionTimeout': 2592000, 'tag': None, 'tokenActivityTimeout': -1, 'tokenName': 'satoken', 'tokenSessionTimeout': -2, 'tokenTimeout': 2592000, 'tokenValue': '5b7a01d9-124f-41ed-ac1d-45decf3326cf'}, 'msg': 'SUCCESS'}
+2022-03-13 10:41:49,176-INFO-request_logging.py-wy_logging-日志信息:获取到的结果是：{'code': 2000, 'data': {'isLogin': True, 'loginDevice': 'commission', 'loginId': 'de75836a213e4eff927234a1c3a5a174', 'loginType': 'login', 'sessionTimeout': 2592000, 'tag': None, 'tokenActivityTimeout': -1, 'tokenName': 'satoken', 'tokenSessionTimeout': -2, 'tokenTimeout': 2592000, 'tokenValue': '866a7c2d-132c-4a45-a37f-2f3a254ab336'}, 'msg': 'SUCCESS'}
+2022-03-13 10:41:49,508-INFO-request_logging.py-wy_logging-日志信息:获取到的结果是：{'code': 2000, 'data': {'isLogin': True, 'loginDevice': 'commission', 'loginId': 'c5c185f1efad466dad4bbfab4e02e745', 'loginType': 'login', 'sessionTimeout': 2592000, 'tag': None, 'tokenActivityTimeout': -1, 'tokenName': 'satoken', 'tokenSessionTimeout': -2, 'tokenTimeout': 2592000, 'tokenValue': '1153d442-9678-4e8b-afe6-25d458340767'}, 'msg': 'SUCCESS'}
+2022-03-13 10:41:49,886-INFO-request_logging.py-wy_logging-日志信息:获取到的结果是：{'code': 2000, 'data': {'isLogin': True, 'loginDevice': 'commission', 'loginId': '07b2f4006d64437ebaf6cbf5849320e2', 'loginType': 'login', 'sessionTimeout': 2592000, 'tag': None, 'tokenActivityTimeout': -1, 'tokenName': 'satoken', 'tokenSessionTimeout': -2, 'tokenTimeout': 2592000, 'tokenValue': 'de0160d5-a930-4a15-bac9-cd9003eb4c5d'}, 'msg': 'SUCCESS'}
+2022-03-13 10:41:50,223-INFO-request_logging.py-wy_logging-日志信息:获取到的结果是：{'code': 2000, 'data': {'isLogin': True, 'loginDevice': 'commission', 'loginId': '0a14020acc0346c7a2c034a08c83414f', 'loginType': 'login', 'sessionTimeout': 2592000, 'tag': None, 'tokenActivityTimeout': -1, 'tokenName': 'satoken', 'tokenSessionTimeout': -2, 'tokenTimeout': 2592000, 'tokenValue': '0ce7b0fb-ac00-4ba2-94ec-1024a3a2304d'}, 'msg': 'SUCCESS'}
+2022-03-13 10:41:50,597-INFO-request_logging.py-wy_logging-日志信息:获取到的结果是：{'code': 2000, 'data': {'isLogin': True, 'loginDevice': 'commission', 'loginId': '64ad4fcbfdcb4bf48e33f38f4e31c4ce', 'loginType': 'login', 'sessionTimeout': 2592000, 'tag': None, 'tokenActivityTimeout': -1, 'tokenName': 'satoken', 'tokenSessionTimeout': -2, 'tokenTimeout': 2592000, 'tokenValue': 'baf40fd3-4234-4b01-82ad-4ddeda46c222'}, 'msg': 'SUCCESS'}
+2022-03-13 10:41:51,217-INFO-request_logging.py-wy_logging-日志信息:获取到的结果是：{'code': 2000, 'data': {'isLogin': True, 'loginDevice': 'commission', 'loginId': '20b7707f4f3e4260a594db93855f1c42', 'loginType': 'login', 'sessionTimeout': 2592000, 'tag': None, 'tokenActivityTimeout': -1, 'tokenName': 'satoken', 'tokenSessionTimeout': -2, 'tokenTimeout': 2592000, 'tokenValue': '1bffb010-b759-4749-ad4d-c31e37f2d35e'}, 'msg': 'SUCCESS'}
+2022-03-13 10:41:51,542-INFO-request_logging.py-wy_logging-日志信息:获取到的结果是：{'code': 2000, 'data': {'isLogin': True, 'loginDevice': 'commission', 'loginId': '021930aed2b34180a50921370bb3c1a5', 'loginType': 'login', 'sessionTimeout': 2592000, 'tag': None, 'tokenActivityTimeout': -1, 'tokenName': 'satoken', 'tokenSessionTimeout': -2, 'tokenTimeout': 2592000, 'tokenValue': '41ac94ba-23d5-4e40-b88c-84254c50c46b'}, 'msg': 'SUCCESS'}
+2022-03-13 10:41:51,543-INFO-request_logging.py-wy_logging-日志信息:<RequestsCookieJar[<Cookie satoken=e6bfc7a8-5fc5-4dab-88a2-a6e4ed7befc1 for pre.yunjinji.cn/>]>
+2022-03-13 10:41:52,450-INFO-request_logging.py-wy_logging-日志信息:获取到的结果是：{'code': 2000, 'data': True, 'msg': 'SUCCESS'}
+2022-03-13 10:41:52,451-INFO-request_logging.py-wy_logging-日志信息:<RequestsCookieJar[<Cookie satoken=5b7a01d9-124f-41ed-ac1d-45decf3326cf for pre.yunjinji.cn/>]>
+2022-03-13 10:41:53,025-INFO-request_logging.py-wy_logging-日志信息:获取到的结果是：{'code': 2000, 'data': {'actualPayCommission': None, 'additionEnroll': 0, 'agencyTrade': 'PROJECT_AGENCY_TRADE', 'agentId': '86d50b0e8aa045068e8755b7eb62a6cb', 'agentStatus': None, 'changeHouseDate': None, 'changeHouseProof': [], 'collectingCompanyId': None, 'commProjectId': 68, 'costs': None, 'createBy': '3f232aa91d334502aea0d9424d01481b', 'createTime': '2022-03-13 10:41:52', 'currentPayableActualCommission': None, 'customerId': 38556, 'customerName': '华发四季313栋业主109', 'customerPhone': '13729112152', 'departmentId': 4807, 'departmentName': '北京日益通速递有限责任公司2222', 'dissent': None, 'divisionId': 40, 'divisionName': '测试部', 'exchangeOrder': False, 'finalAuditApproved': False, 'grossProfit': None, 'groupbuy': 1, 'groupbuyPayer': None, 'groupbuyPlanId': 10, 'groupbuyProof': [{'name': '599dae3c07fb416cbb55c63cb4f368de.jpeg', 'url': 'https://picos.wyzfang.com/pre/java/2022-2/599dae3c07fb416cbb55c63cb4f368de.jpeg'}], 'groupbuyRecieveDate': None, 'groupbuyRecieveId': None, 'groupbuyRecieveProof': [], 'groupbuyStatus': None, 'initialSignDate': None, 'initialSignProof': [], 'loanDate': None, 'loanProof': [], 'netProfits': None, 'netSignDate': None, 'netSignProof': [], 'normalStat': True, 'notAgencyTrade': False, 'originId': 0, 'originalPrice': 1040000, 'pay': None, 'payAdjustCommission': None, 'payAdjustMoney': None, 'payCaseDesc': None, 'payCaseDescribe': '平台/门店结佣方案', 'payCommPlanId': 206, 'payPlanId': None, 'payStatus': None, 'payableCommission': 83000.0, 'payableCommissionProof': [], 'payableMoney': None, 'payedCommission': None, 'paymentMethod': 2, 'paymentMethodDesc': '按揭付款', 'platformDeptName': '惠州云经纪', 'platformId': 999, 'platformPayAdjustCommission': None, 'platformPayCaseDescribe': None, 'platformPayCommPlanId': None, 'platformPayableCommission': None, 'platformPayableCommissionProof': [], 'prepay': 0, 'prepayCommission': None, 'projectAgencyOrder': True, 'projectAgencyTrade': True, 'projectId': 31, 'projectName': '华发四季1', 'projectPlatformId': 999, 'projectPlatformName': '中山云经纪', 'purchaseCode': 'RG2022031333169688', 'purchaseDate': '2022-03-12', 'purchaseOrderType': 'NORMAL', 'purchasePrice': 1050000, 'purchaseProof': [{'name': 'cb86f751782446cd8aeb18fa8cc5c15c.jpeg', 'url': 'https://picos.wyzfang.com/pre/java/2022-2/cb86f751782446cd8aeb18fa8cc5c15c.jpeg'}], 'reAdjustCommision': None, 'realReceiveGroupbuy': 0, 'recCaseDescribe': None, 'recCommPlanId': None, 'recStatus': None, 'recStatusDesc': None, 'receivableCommision': 0, 'receivableCommissionProof': [], 'receivableGroupbuy': 40000, 'receiveGroupbuy': 40000, 'receivedCommission': None, 'recheckApproved': None, 'remark': '调接口生成认购单', 'reportId': 44336, 'reportTime': '2022-03-12 12:41:00', 'returnHouseDate': None, 'returnHouseProof': [], 'returnOrChangeStage': False, 'revenue': None, 'roomArea': '104.00', 'roomNo': '华发四季313栋109', 'saleAgencyTrade': False, 'salePlatformId': 5109, 'salePlatformName': '惠州云经纪', 'salePlatformOrDepartment': '北京日益通速递有限责任公司2222', 'salePlatformOrDepartmentId': -4807, 'salePurchaseOrderId': 0, 'saleRecCommPlanId': None, 'settlePrice': 1060000, 'settlePriceProof': [], 'signPrice': 1060000, 'stage': 3, 'stageDesc': '认购', 'stageFromStatus': 3, 'stageState': None, 'status': 2, 'statusDesc': '认购初审中', 'totalReceivableCommission': 0, 'tradeConfirmDate': None, 'tradeId': 2963, 'unPayedCommission': None, 'unReceivedCommission': None, 'updateBy': '3f232aa91d334502aea0d9424d01481b', 'updateTime': '2022-03-13 10:41:52', 'validRecCommPlanId': None, 'visitTime': '2022-03-12 12:42:00', 'voucherDepartmentPay': None, 'voucherId': None, 'voucherPay': None}, 'msg': 'SUCCESS'}
+2022-03-13 10:41:53,026-INFO-request_logging.py-wy_logging-日志信息:<RequestsCookieJar[<Cookie satoken=5b7a01d9-124f-41ed-ac1d-45decf3326cf for pre.yunjinji.cn/>]>
+2022-03-13 10:41:53,430-INFO-request_logging.py-wy_logging-日志信息:获取到的结果是：{'code': 2000, 'data': True, 'msg': 'SUCCESS'}
+2022-03-13 10:41:53,431-INFO-request_logging.py-wy_logging-日志信息:<RequestsCookieJar[<Cookie satoken=866a7c2d-132c-4a45-a37f-2f3a254ab336 for pre.yunjinji.cn/>]>
+2022-03-13 10:41:53,748-INFO-request_logging.py-wy_logging-日志信息:获取到的结果是：{'code': 2000, 'data': True, 'msg': 'SUCCESS'}
+2022-03-13 10:41:53,749-INFO-request_logging.py-wy_logging-日志信息:<RequestsCookieJar[<Cookie satoken=1153d442-9678-4e8b-afe6-25d458340767 for pre.yunjinji.cn/>]>
+2022-03-13 10:41:54,076-INFO-request_logging.py-wy_logging-日志信息:获取到的结果是：{'code': 2000, 'data': True, 'msg': 'SUCCESS'}
+2022-03-13 10:41:54,077-INFO-request_logging.py-wy_logging-日志信息:<RequestsCookieJar[<Cookie satoken=41ac94ba-23d5-4e40-b88c-84254c50c46b for pre.yunjinji.cn/>]>
+2022-03-13 10:41:54,649-INFO-request_logging.py-wy_logging-日志信息:获取到的结果是：{'code': 2000, 'data': True, 'msg': 'SUCCESS'}
+2022-03-13 10:41:54,650-INFO-request_logging.py-wy_logging-日志信息:<RequestsCookieJar[<Cookie satoken=0ce7b0fb-ac00-4ba2-94ec-1024a3a2304d for pre.yunjinji.cn/>]>
+2022-03-13 10:41:55,807-INFO-request_logging.py-wy_logging-日志信息:获取到的结果是：{'code': 2000, 'data': True, 'msg': 'SUCCESS'}
+2022-03-13 10:41:55,808-INFO-request_logging.py-wy_logging-日志信息:<RequestsCookieJar[<Cookie satoken=e6bfc7a8-5fc5-4dab-88a2-a6e4ed7befc1 for pre.yunjinji.cn/>]>
+2022-03-13 10:41:56,109-INFO-request_logging.py-wy_logging-日志信息:获取到的结果是：{'code': 2000, 'data': True, 'msg': 'SUCCESS'}
+2022-03-13 10:41:56,110-INFO-request_logging.py-wy_logging-日志信息:<RequestsCookieJar[<Cookie satoken=1153d442-9678-4e8b-afe6-25d458340767 for pre.yunjinji.cn/>]>
+2022-03-13 10:41:56,567-INFO-request_logging.py-wy_logging-日志信息:获取到的结果是：{'code': 2000, 'data': True, 'msg': 'SUCCESS'}
+2022-03-13 10:41:56,568-INFO-request_logging.py-wy_logging-日志信息:<RequestsCookieJar[<Cookie satoken=e6bfc7a8-5fc5-4dab-88a2-a6e4ed7befc1 for pre.yunjinji.cn/>]>
+2022-03-13 10:41:56,891-INFO-request_logging.py-wy_logging-日志信息:获取到的结果是：{'code': 2000, 'data': True, 'msg': 'SUCCESS'}
+2022-03-13 10:41:56,892-INFO-request_logging.py-wy_logging-日志信息:<RequestsCookieJar[<Cookie satoken=1153d442-9678-4e8b-afe6-25d458340767 for pre.yunjinji.cn/>]>
+2022-03-13 10:41:57,536-INFO-request_logging.py-wy_logging-日志信息:获取到的结果是：{'code': 2000, 'data': True, 'msg': 'SUCCESS'}
+2022-03-13 10:41:57,537-INFO-request_logging.py-wy_logging-日志信息:<RequestsCookieJar[<Cookie satoken=e6bfc7a8-5fc5-4dab-88a2-a6e4ed7befc1 for pre.yunjinji.cn/>]>
+2022-03-13 10:41:57,876-INFO-request_logging.py-wy_logging-日志信息:获取到的结果是：{'code': 2000, 'data': True, 'msg': 'SUCCESS'}
+2022-03-13 10:41:58,566-INFO-request_logging.py-wy_logging-日志信息:获取到的结果是：{'code': 2000, 'data': True, 'msg': 'SUCCESS'}
+2022-03-13 10:41:58,994-INFO-request_logging.py-wy_logging-日志信息:获取到的结果是：{'code': 2000, 'data': True, 'msg': 'SUCCESS'}
+2022-03-13 10:41:59,930-INFO-request_logging.py-wy_logging-日志信息:获取到的结果是：{'code': 2000, 'data': True, 'msg': 'SUCCESS'}
+2022-03-13 10:42:00,426-INFO-request_logging.py-wy_logging-日志信息:获取到的结果是：{'code': 2000, 'data': True, 'msg': 'SUCCESS'}
+2022-03-13 10:42:00,884-INFO-request_logging.py-wy_logging-日志信息:获取到的结果是：{'code': 2000, 'data': True, 'msg': 'SUCCESS'}
+2022-03-13 10:42:01,288-INFO-request_logging.py-wy_logging-日志信息:获取到的结果是：{'code': 2000, 'data': True, 'msg': 'SUCCESS'}
+2022-03-13 10:42:02,240-INFO-request_logging.py-wy_logging-日志信息:获取到的结果是：{'code': 2000, 'data': True, 'msg': 'SUCCESS'}
+2022-03-13 11:11:41,471-INFO-request_logging.py-wy_logging-日志信息:获取到的结果是：{'code': 2000, 'data': {'isLogin': True, 'loginDevice': 'commission', 'loginId': '055c509d3c1b4c2ebf2bc70fe8447e67', 'loginType': 'login', 'sessionTimeout': 2592000, 'tag': None, 'tokenActivityTimeout': -1, 'tokenName': 'satoken', 'tokenSessionTimeout': -2, 'tokenTimeout': 2592000, 'tokenValue': 'f87ec977-0c8f-43d4-ac90-ef16e5ab8031'}, 'msg': 'SUCCESS'}
+2022-03-13 11:11:41,832-INFO-request_logging.py-wy_logging-日志信息:获取到的结果是：{'code': 2000, 'data': {'isLogin': True, 'loginDevice': 'commission', 'loginId': '3f232aa91d334502aea0d9424d01481b', 'loginType': 'login', 'sessionTimeout': 2592000, 'tag': None, 'tokenActivityTimeout': -1, 'tokenName': 'satoken', 'tokenSessionTimeout': -2, 'tokenTimeout': 2592000, 'tokenValue': 'a2c81aca-2f55-4ab5-9a4c-0eab08e3e697'}, 'msg': 'SUCCESS'}
+2022-03-13 11:11:42,164-INFO-request_logging.py-wy_logging-日志信息:获取到的结果是：{'code': 2000, 'data': {'isLogin': True, 'loginDevice': 'commission', 'loginId': 'e3d2cbe0f2644d2bb54ac1c873d1a5b4', 'loginType': 'login', 'sessionTimeout': 2592000, 'tag': None, 'tokenActivityTimeout': -1, 'tokenName': 'satoken', 'tokenSessionTimeout': -2, 'tokenTimeout': 2592000, 'tokenValue': '0c7301b1-7a79-41e5-a582-190fbf2c37d8'}, 'msg': 'SUCCESS'}
+2022-03-13 11:11:42,503-INFO-request_logging.py-wy_logging-日志信息:获取到的结果是：{'code': 2000, 'data': {'isLogin': True, 'loginDevice': 'commission', 'loginId': 'c5c185f1efad466dad4bbfab4e02e745', 'loginType': 'login', 'sessionTimeout': 2592000, 'tag': None, 'tokenActivityTimeout': -1, 'tokenName': 'satoken', 'tokenSessionTimeout': -2, 'tokenTimeout': 2592000, 'tokenValue': '4e06d83d-5a0b-4db7-a86d-5b79b2d8fe1a'}, 'msg': 'SUCCESS'}
+2022-03-13 11:11:42,871-INFO-request_logging.py-wy_logging-日志信息:获取到的结果是：{'code': 2000, 'data': {'isLogin': True, 'loginDevice': 'commission', 'loginId': '07b2f4006d64437ebaf6cbf5849320e2', 'loginType': 'login', 'sessionTimeout': 2592000, 'tag': None, 'tokenActivityTimeout': -1, 'tokenName': 'satoken', 'tokenSessionTimeout': -2, 'tokenTimeout': 2592000, 'tokenValue': '81726f3f-5497-4105-82f7-d375ac3ba716'}, 'msg': 'SUCCESS'}
+2022-03-13 11:11:43,192-INFO-request_logging.py-wy_logging-日志信息:获取到的结果是：{'code': 2000, 'data': {'isLogin': True, 'loginDevice': 'commission', 'loginId': '0a14020acc0346c7a2c034a08c83414f', 'loginType': 'login', 'sessionTimeout': 2592000, 'tag': None, 'tokenActivityTimeout': -1, 'tokenName': 'satoken', 'tokenSessionTimeout': -2, 'tokenTimeout': 2592000, 'tokenValue': '6c5dd410-68f6-4db9-8282-07df8b6a6756'}, 'msg': 'SUCCESS'}
+2022-03-13 11:11:43,563-INFO-request_logging.py-wy_logging-日志信息:获取到的结果是：{'code': 2000, 'data': {'isLogin': True, 'loginDevice': 'commission', 'loginId': '64ad4fcbfdcb4bf48e33f38f4e31c4ce', 'loginType': 'login', 'sessionTimeout': 2592000, 'tag': None, 'tokenActivityTimeout': -1, 'tokenName': 'satoken', 'tokenSessionTimeout': -2, 'tokenTimeout': 2592000, 'tokenValue': '6c4a47e6-906d-496d-849a-0fccab2fce10'}, 'msg': 'SUCCESS'}
+2022-03-13 11:11:44,148-INFO-request_logging.py-wy_logging-日志信息:获取到的结果是：{'code': 2000, 'data': {'isLogin': True, 'loginDevice': 'commission', 'loginId': '20b7707f4f3e4260a594db93855f1c42', 'loginType': 'login', 'sessionTimeout': 2592000, 'tag': None, 'tokenActivityTimeout': -1, 'tokenName': 'satoken', 'tokenSessionTimeout': -2, 'tokenTimeout': 2592000, 'tokenValue': '075af7c6-f80e-44cb-b268-5a80e083cfc7'}, 'msg': 'SUCCESS'}
+2022-03-13 11:11:44,487-INFO-request_logging.py-wy_logging-日志信息:获取到的结果是：{'code': 2000, 'data': {'isLogin': True, 'loginDevice': 'commission', 'loginId': '021930aed2b34180a50921370bb3c1a5', 'loginType': 'login', 'sessionTimeout': 2592000, 'tag': None, 'tokenActivityTimeout': -1, 'tokenName': 'satoken', 'tokenSessionTimeout': -2, 'tokenTimeout': 2592000, 'tokenValue': 'd387f701-7eeb-4cfd-96d6-7ff0be600299'}, 'msg': 'SUCCESS'}
+2022-03-13 11:11:44,488-INFO-request_logging.py-wy_logging-日志信息:<RequestsCookieJar[<Cookie satoken=f87ec977-0c8f-43d4-ac90-ef16e5ab8031 for pre.yunjinji.cn/>]>
+2022-03-13 11:11:45,397-INFO-request_logging.py-wy_logging-日志信息:获取到的结果是：{'code': 2000, 'data': True, 'msg': 'SUCCESS'}
+2022-03-13 11:11:45,398-INFO-request_logging.py-wy_logging-日志信息:<RequestsCookieJar[<Cookie satoken=a2c81aca-2f55-4ab5-9a4c-0eab08e3e697 for pre.yunjinji.cn/>]>
+2022-03-13 11:11:45,960-INFO-request_logging.py-wy_logging-日志信息:获取到的结果是：{'code': 2000, 'data': {'actualPayCommission': None, 'additionEnroll': 0, 'agencyTrade': 'PROJECT_AGENCY_TRADE', 'agentId': '86d50b0e8aa045068e8755b7eb62a6cb', 'agentStatus': None, 'changeHouseDate': None, 'changeHouseProof': [], 'collectingCompanyId': None, 'commProjectId': 68, 'costs': None, 'createBy': '3f232aa91d334502aea0d9424d01481b', 'createTime': '2022-03-13 11:11:45', 'currentPayableActualCommission': None, 'customerId': 38560, 'customerName': '华发四季313栋业主110', 'customerPhone': '13729112152', 'departmentId': 4807, 'departmentName': '北京日益通速递有限责任公司2222', 'dissent': None, 'divisionId': 40, 'divisionName': '测试部', 'exchangeOrder': False, 'finalAuditApproved': False, 'grossProfit': None, 'groupbuy': 1, 'groupbuyPayer': None, 'groupbuyPlanId': 10, 'groupbuyProof': [{'name': '599dae3c07fb416cbb55c63cb4f368de.jpeg', 'url': 'https://picos.wyzfang.com/pre/java/2022-2/599dae3c07fb416cbb55c63cb4f368de.jpeg'}], 'groupbuyRecieveDate': None, 'groupbuyRecieveId': None, 'groupbuyRecieveProof': [], 'groupbuyStatus': None, 'initialSignDate': None, 'initialSignProof': [], 'loanDate': None, 'loanProof': [], 'netProfits': None, 'netSignDate': None, 'netSignProof': [], 'normalStat': True, 'notAgencyTrade': False, 'originId': 0, 'originalPrice': 1040000, 'pay': None, 'payAdjustCommission': None, 'payAdjustMoney': None, 'payCaseDesc': None, 'payCaseDescribe': '平台/门店结佣方案', 'payCommPlanId': 206, 'payPlanId': None, 'payStatus': None, 'payableCommission': 83000.0, 'payableCommissionProof': [], 'payableMoney': None, 'payedCommission': None, 'paymentMethod': 2, 'paymentMethodDesc': '按揭付款', 'platformDeptName': '惠州云经纪', 'platformId': 999, 'platformPayAdjustCommission': None, 'platformPayCaseDescribe': None, 'platformPayCommPlanId': None, 'platformPayableCommission': None, 'platformPayableCommissionProof': [], 'prepay': 0, 'prepayCommission': None, 'projectAgencyOrder': True, 'projectAgencyTrade': True, 'projectId': 31, 'projectName': '华发四季1', 'projectPlatformId': 999, 'projectPlatformName': '中山云经纪', 'purchaseCode': 'RG2022031333169929', 'purchaseDate': '2022-03-12', 'purchaseOrderType': 'NORMAL', 'purchasePrice': 1050000, 'purchaseProof': [{'name': 'cb86f751782446cd8aeb18fa8cc5c15c.jpeg', 'url': 'https://picos.wyzfang.com/pre/java/2022-2/cb86f751782446cd8aeb18fa8cc5c15c.jpeg'}], 'reAdjustCommision': None, 'realReceiveGroupbuy': 0, 'recCaseDescribe': None, 'recCommPlanId': None, 'recStatus': None, 'recStatusDesc': None, 'receivableCommision': 0, 'receivableCommissionProof': [], 'receivableGroupbuy': 40000, 'receiveGroupbuy': 40000, 'receivedCommission': None, 'recheckApproved': None, 'remark': '调接口生成认购单', 'reportId': 44338, 'reportTime': '2022-03-12 12:41:00', 'returnHouseDate': None, 'returnHouseProof': [], 'returnOrChangeStage': False, 'revenue': None, 'roomArea': '104.00', 'roomNo': '华发四季313栋110', 'saleAgencyTrade': False, 'salePlatformId': 5109, 'salePlatformName': '惠州云经纪', 'salePlatformOrDepartment': '北京日益通速递有限责任公司2222', 'salePlatformOrDepartmentId': -4807, 'salePurchaseOrderId': 0, 'saleRecCommPlanId': None, 'settlePrice': 1060000, 'settlePriceProof': [], 'signPrice': 1060000, 'stage': 3, 'stageDesc': '认购', 'stageFromStatus': 3, 'stageState': None, 'status': 2, 'statusDesc': '认购初审中', 'totalReceivableCommission': 0, 'tradeConfirmDate': None, 'tradeId': 2967, 'unPayedCommission': None, 'unReceivedCommission': None, 'updateBy': '3f232aa91d334502aea0d9424d01481b', 'updateTime': '2022-03-13 11:11:45', 'validRecCommPlanId': None, 'visitTime': '2022-03-12 12:42:00', 'voucherDepartmentPay': None, 'voucherId': None, 'voucherPay': None}, 'msg': 'SUCCESS'}
+2022-03-13 11:11:45,961-INFO-request_logging.py-wy_logging-日志信息:<RequestsCookieJar[<Cookie satoken=a2c81aca-2f55-4ab5-9a4c-0eab08e3e697 for pre.yunjinji.cn/>]>
+2022-03-13 11:11:46,344-INFO-request_logging.py-wy_logging-日志信息:获取到的结果是：{'code': 2000, 'data': True, 'msg': 'SUCCESS'}
+2022-03-13 11:11:46,345-INFO-request_logging.py-wy_logging-日志信息:<RequestsCookieJar[<Cookie satoken=0c7301b1-7a79-41e5-a582-190fbf2c37d8 for pre.yunjinji.cn/>]>
+2022-03-13 11:11:46,682-INFO-request_logging.py-wy_logging-日志信息:获取到的结果是：{'code': 2000, 'data': True, 'msg': 'SUCCESS'}
+2022-03-13 11:11:46,684-INFO-request_logging.py-wy_logging-日志信息:<RequestsCookieJar[<Cookie satoken=4e06d83d-5a0b-4db7-a86d-5b79b2d8fe1a for pre.yunjinji.cn/>]>
+2022-03-13 11:11:47,012-INFO-request_logging.py-wy_logging-日志信息:获取到的结果是：{'code': 2000, 'data': True, 'msg': 'SUCCESS'}
+2022-03-13 11:11:47,014-INFO-request_logging.py-wy_logging-日志信息:<RequestsCookieJar[<Cookie satoken=d387f701-7eeb-4cfd-96d6-7ff0be600299 for pre.yunjinji.cn/>]>
+2022-03-13 11:11:47,875-INFO-request_logging.py-wy_logging-日志信息:获取到的结果是：{'code': 2000, 'data': True, 'msg': 'SUCCESS'}
+2022-03-13 11:11:47,877-INFO-request_logging.py-wy_logging-日志信息:<RequestsCookieJar[<Cookie satoken=6c5dd410-68f6-4db9-8282-07df8b6a6756 for pre.yunjinji.cn/>]>
+2022-03-13 11:11:49,686-INFO-request_logging.py-wy_logging-日志信息:获取到的结果是：{'code': 2000, 'data': True, 'msg': 'SUCCESS'}
+2022-03-13 11:11:49,687-INFO-request_logging.py-wy_logging-日志信息:<RequestsCookieJar[<Cookie satoken=f87ec977-0c8f-43d4-ac90-ef16e5ab8031 for pre.yunjinji.cn/>]>
+2022-03-13 11:11:50,012-INFO-request_logging.py-wy_logging-日志信息:获取到的结果是：{'code': 2000, 'data': True, 'msg': 'SUCCESS'}
+2022-03-13 11:11:50,013-INFO-request_logging.py-wy_logging-日志信息:<RequestsCookieJar[<Cookie satoken=4e06d83d-5a0b-4db7-a86d-5b79b2d8fe1a for pre.yunjinji.cn/>]>
+2022-03-13 11:11:50,459-INFO-request_logging.py-wy_logging-日志信息:获取到的结果是：{'code': 2000, 'data': True, 'msg': 'SUCCESS'}
+2022-03-13 11:11:50,460-INFO-request_logging.py-wy_logging-日志信息:<RequestsCookieJar[<Cookie satoken=f87ec977-0c8f-43d4-ac90-ef16e5ab8031 for pre.yunjinji.cn/>]>
+2022-03-13 11:11:51,064-INFO-request_logging.py-wy_logging-日志信息:获取到的结果是：{'code': 2000, 'data': True, 'msg': 'SUCCESS'}
+2022-03-13 11:11:51,065-INFO-request_logging.py-wy_logging-日志信息:<RequestsCookieJar[<Cookie satoken=4e06d83d-5a0b-4db7-a86d-5b79b2d8fe1a for pre.yunjinji.cn/>]>
+2022-03-13 11:11:51,396-INFO-request_logging.py-wy_logging-日志信息:获取到的结果是：{'code': 2000, 'data': True, 'msg': 'SUCCESS'}
+2022-03-13 11:11:51,397-INFO-request_logging.py-wy_logging-日志信息:<RequestsCookieJar[<Cookie satoken=f87ec977-0c8f-43d4-ac90-ef16e5ab8031 for pre.yunjinji.cn/>]>
+2022-03-13 11:11:51,741-INFO-request_logging.py-wy_logging-日志信息:获取到的结果是：{'code': 2000, 'data': True, 'msg': 'SUCCESS'}
+2022-03-13 11:11:52,454-INFO-request_logging.py-wy_logging-日志信息:获取到的结果是：{'code': 2000, 'data': True, 'msg': 'SUCCESS'}
+2022-03-13 11:11:52,929-INFO-request_logging.py-wy_logging-日志信息:获取到的结果是：{'code': 2000, 'data': True, 'msg': 'SUCCESS'}
+2022-03-13 11:11:53,777-INFO-request_logging.py-wy_logging-日志信息:获取到的结果是：{'code': 2000, 'data': True, 'msg': 'SUCCESS'}
+2022-03-13 11:11:54,297-INFO-request_logging.py-wy_logging-日志信息:获取到的结果是：{'code': 2000, 'data': True, 'msg': 'SUCCESS'}
+2022-03-13 11:11:54,779-INFO-request_logging.py-wy_logging-日志信息:获取到的结果是：{'code': 2000, 'data': True, 'msg': 'SUCCESS'}
+2022-03-13 11:11:55,180-INFO-request_logging.py-wy_logging-日志信息:获取到的结果是：{'code': 2000, 'data': True, 'msg': 'SUCCESS'}
+2022-03-13 11:11:56,093-INFO-request_logging.py-wy_logging-日志信息:获取到的结果是：{'code': 2000, 'data': True, 'msg': 'SUCCESS'}
+2022-03-13 11:11:56,410-INFO-request_logging.py-wy_logging-日志信息:用例执行失败:'SUCCESS' != 'com.beust.jcommander.ParameterException: 门店id不能为空'
+- SUCCESS
++ com.beust.jcommander.ParameterException: 门店id不能为空
+ : 出问题了
+2022-03-13 11:11:56,521-INFO-request_logging.py-wy_logging-日志信息:获取到的结果是：{'code': 5000, 'data': None, 'msg': 'com.beust.jcommander.ParameterException: 门店id不能为空'}
+2022-03-13 11:11:56,690-INFO-request_logging.py-wy_logging-日志信息:用例执行失败:'SUCCESS' != '参数异常'
+- SUCCESS
++ 参数异常
+ : 出问题了
+2022-03-13 11:11:56,815-INFO-request_logging.py-wy_logging-日志信息:获取到的结果是：{'code': 5000, 'data': None, 'msg': '参数异常'}
+2022-03-13 11:11:56,982-INFO-request_logging.py-wy_logging-日志信息:用例执行失败:'SUCCESS' != '参数异常'
+- SUCCESS
++ 参数异常
+ : 出问题了
+2022-03-13 11:11:57,096-INFO-request_logging.py-wy_logging-日志信息:获取到的结果是：{'code': 5000, 'data': None, 'msg': '参数异常'}
+2022-03-13 11:11:57,297-INFO-request_logging.py-wy_logging-日志信息:用例执行失败:'SUCCESS' != '参数异常'
+- SUCCESS
++ 参数异常
+ : 出问题了
+2022-03-13 11:11:57,415-INFO-request_logging.py-wy_logging-日志信息:获取到的结果是：{'code': 5000, 'data': None, 'msg': '参数异常'}
+2022-03-13 11:11:57,599-INFO-request_logging.py-wy_logging-日志信息:用例执行失败:'SUCCESS' != '参数异常'
+- SUCCESS
++ 参数异常
+ : 出问题了
+2022-03-13 11:11:57,712-INFO-request_logging.py-wy_logging-日志信息:获取到的结果是：{'code': 5000, 'data': None, 'msg': '参数异常'}
+2022-03-13 11:17:26,409-INFO-request_logging.py-wy_logging-日志信息:获取到的结果是：{'code': 2000, 'data': {'isLogin': True, 'loginDevice': 'commission', 'loginId': '055c509d3c1b4c2ebf2bc70fe8447e67', 'loginType': 'login', 'sessionTimeout': 2592000, 'tag': None, 'tokenActivityTimeout': -1, 'tokenName': 'satoken', 'tokenSessionTimeout': -2, 'tokenTimeout': 2592000, 'tokenValue': '37eb348e-bfa9-4980-bbad-fc69a3d5c1ed'}, 'msg': 'SUCCESS'}
+2022-03-13 11:17:26,748-INFO-request_logging.py-wy_logging-日志信息:获取到的结果是：{'code': 2000, 'data': {'isLogin': True, 'loginDevice': 'commission', 'loginId': '3f232aa91d334502aea0d9424d01481b', 'loginType': 'login', 'sessionTimeout': 2592000, 'tag': None, 'tokenActivityTimeout': -1, 'tokenName': 'satoken', 'tokenSessionTimeout': -2, 'tokenTimeout': 2592000, 'tokenValue': '4b06f602-2b1b-42d9-8815-734d7f9c4b51'}, 'msg': 'SUCCESS'}
+2022-03-13 11:17:27,084-INFO-request_logging.py-wy_logging-日志信息:获取到的结果是：{'code': 2000, 'data': {'isLogin': True, 'loginDevice': 'commission', 'loginId': 'e3d2cbe0f2644d2bb54ac1c873d1a5b4', 'loginType': 'login', 'sessionTimeout': 2592000, 'tag': None, 'tokenActivityTimeout': -1, 'tokenName': 'satoken', 'tokenSessionTimeout': -2, 'tokenTimeout': 2592000, 'tokenValue': 'e6553b78-330b-4e36-bbd0-615adcd35f04'}, 'msg': 'SUCCESS'}
+2022-03-13 11:17:27,416-INFO-request_logging.py-wy_logging-日志信息:获取到的结果是：{'code': 2000, 'data': {'isLogin': True, 'loginDevice': 'commission', 'loginId': 'c5c185f1efad466dad4bbfab4e02e745', 'loginType': 'login', 'sessionTimeout': 2592000, 'tag': None, 'tokenActivityTimeout': -1, 'tokenName': 'satoken', 'tokenSessionTimeout': -2, 'tokenTimeout': 2592000, 'tokenValue': '734941c4-f306-493e-9282-84b1c4b88b22'}, 'msg': 'SUCCESS'}
+2022-03-13 11:17:27,786-INFO-request_logging.py-wy_logging-日志信息:获取到的结果是：{'code': 2000, 'data': {'isLogin': True, 'loginDevice': 'commission', 'loginId': '07b2f4006d64437ebaf6cbf5849320e2', 'loginType': 'login', 'sessionTimeout': 2592000, 'tag': None, 'tokenActivityTimeout': -1, 'tokenName': 'satoken', 'tokenSessionTimeout': -2, 'tokenTimeout': 2592000, 'tokenValue': 'eae415fe-20ce-44cf-ba3a-7dcabd80b356'}, 'msg': 'SUCCESS'}
+2022-03-13 11:17:28,120-INFO-request_logging.py-wy_logging-日志信息:获取到的结果是：{'code': 2000, 'data': {'isLogin': True, 'loginDevice': 'commission', 'loginId': '0a14020acc0346c7a2c034a08c83414f', 'loginType': 'login', 'sessionTimeout': 2592000, 'tag': None, 'tokenActivityTimeout': -1, 'tokenName': 'satoken', 'tokenSessionTimeout': -2, 'tokenTimeout': 2592000, 'tokenValue': '5d32ca7d-729a-4c23-9a39-c6146c577dbe'}, 'msg': 'SUCCESS'}
+2022-03-13 11:17:28,496-INFO-request_logging.py-wy_logging-日志信息:获取到的结果是：{'code': 2000, 'data': {'isLogin': True, 'loginDevice': 'commission', 'loginId': '64ad4fcbfdcb4bf48e33f38f4e31c4ce', 'loginType': 'login', 'sessionTimeout': 2592000, 'tag': None, 'tokenActivityTimeout': -1, 'tokenName': 'satoken', 'tokenSessionTimeout': -2, 'tokenTimeout': 2592000, 'tokenValue': 'c5c20fc7-1900-4ef3-89c6-6346abf2a820'}, 'msg': 'SUCCESS'}
+2022-03-13 11:17:28,875-INFO-request_logging.py-wy_logging-日志信息:获取到的结果是：{'code': 2000, 'data': {'isLogin': True, 'loginDevice': 'commission', 'loginId': '20b7707f4f3e4260a594db93855f1c42', 'loginType': 'login', 'sessionTimeout': 2592000, 'tag': None, 'tokenActivityTimeout': -1, 'tokenName': 'satoken', 'tokenSessionTimeout': -2, 'tokenTimeout': 2592000, 'tokenValue': 'dcd5b86e-3174-4430-a4c1-af488396a29b'}, 'msg': 'SUCCESS'}
+2022-03-13 11:17:29,209-INFO-request_logging.py-wy_logging-日志信息:获取到的结果是：{'code': 2000, 'data': {'isLogin': True, 'loginDevice': 'commission', 'loginId': '021930aed2b34180a50921370bb3c1a5', 'loginType': 'login', 'sessionTimeout': 2592000, 'tag': None, 'tokenActivityTimeout': -1, 'tokenName': 'satoken', 'tokenSessionTimeout': -2, 'tokenTimeout': 2592000, 'tokenValue': 'd577f6ee-ed78-4a00-b665-62017716e3cd'}, 'msg': 'SUCCESS'}
+2022-03-13 11:17:29,210-INFO-request_logging.py-wy_logging-日志信息:<RequestsCookieJar[<Cookie satoken=37eb348e-bfa9-4980-bbad-fc69a3d5c1ed for pre.yunjinji.cn/>]>
+2022-03-13 11:17:29,854-INFO-request_logging.py-wy_logging-日志信息:获取到的结果是：{'code': 2000, 'data': True, 'msg': 'SUCCESS'}
+2022-03-13 11:17:29,856-INFO-request_logging.py-wy_logging-日志信息:<RequestsCookieJar[<Cookie satoken=4b06f602-2b1b-42d9-8815-734d7f9c4b51 for pre.yunjinji.cn/>]>
+2022-03-13 11:17:30,373-INFO-request_logging.py-wy_logging-日志信息:获取到的结果是：{'code': 2000, 'data': {'actualPayCommission': None, 'additionEnroll': 0, 'agencyTrade': 'PROJECT_AGENCY_TRADE', 'agentId': '86d50b0e8aa045068e8755b7eb62a6cb', 'agentStatus': None, 'changeHouseDate': None, 'changeHouseProof': [], 'collectingCompanyId': None, 'commProjectId': 68, 'costs': None, 'createBy': '3f232aa91d334502aea0d9424d01481b', 'createTime': '2022-03-13 11:17:30', 'currentPayableActualCommission': None, 'customerId': 38566, 'customerName': '华发四季313栋业主111', 'customerPhone': '13729112152', 'departmentId': 4807, 'departmentName': '北京日益通速递有限责任公司2222', 'dissent': None, 'divisionId': 40, 'divisionName': '测试部', 'exchangeOrder': False, 'finalAuditApproved': False, 'grossProfit': None, 'groupbuy': 1, 'groupbuyPayer': None, 'groupbuyPlanId': 10, 'groupbuyProof': [{'name': '599dae3c07fb416cbb55c63cb4f368de.jpeg', 'url': 'https://picos.wyzfang.com/pre/java/2022-2/599dae3c07fb416cbb55c63cb4f368de.jpeg'}], 'groupbuyRecieveDate': None, 'groupbuyRecieveId': None, 'groupbuyRecieveProof': [], 'groupbuyStatus': None, 'initialSignDate': None, 'initialSignProof': [], 'loanDate': None, 'loanProof': [], 'netProfits': None, 'netSignDate': None, 'netSignProof': [], 'normalStat': True, 'notAgencyTrade': False, 'originId': 0, 'originalPrice': 1040000, 'pay': None, 'payAdjustCommission': None, 'payAdjustMoney': None, 'payCaseDesc': None, 'payCaseDescribe': '平台/门店结佣方案', 'payCommPlanId': 206, 'payPlanId': None, 'payStatus': None, 'payableCommission': 83000.0, 'payableCommissionProof': [], 'payableMoney': None, 'payedCommission': None, 'paymentMethod': 2, 'paymentMethodDesc': '按揭付款', 'platformDeptName': '惠州云经纪', 'platformId': 999, 'platformPayAdjustCommission': None, 'platformPayCaseDescribe': None, 'platformPayCommPlanId': None, 'platformPayableCommission': None, 'platformPayableCommissionProof': [], 'prepay': 0, 'prepayCommission': None, 'projectAgencyOrder': True, 'projectAgencyTrade': True, 'projectId': 31, 'projectName': '华发四季1', 'projectPlatformId': 999, 'projectPlatformName': '中山云经纪', 'purchaseCode': 'RG2022031333235464', 'purchaseDate': '2022-03-12', 'purchaseOrderType': 'NORMAL', 'purchasePrice': 1050000, 'purchaseProof': [{'name': 'cb86f751782446cd8aeb18fa8cc5c15c.jpeg', 'url': 'https://picos.wyzfang.com/pre/java/2022-2/cb86f751782446cd8aeb18fa8cc5c15c.jpeg'}], 'reAdjustCommision': None, 'realReceiveGroupbuy': 0, 'recCaseDescribe': None, 'recCommPlanId': None, 'recStatus': None, 'recStatusDesc': None, 'receivableCommision': 0, 'receivableCommissionProof': [], 'receivableGroupbuy': 40000, 'receiveGroupbuy': 40000, 'receivedCommission': None, 'recheckApproved': None, 'remark': '调接口生成认购单', 'reportId': 44341, 'reportTime': '2022-03-12 12:41:00', 'returnHouseDate': None, 'returnHouseProof': [], 'returnOrChangeStage': False, 'revenue': None, 'roomArea': '104.00', 'roomNo': '华发四季313栋111', 'saleAgencyTrade': False, 'salePlatformId': 5109, 'salePlatformName': '惠州云经纪', 'salePlatformOrDepartment': '北京日益通速递有限责任公司2222', 'salePlatformOrDepartmentId': -4807, 'salePurchaseOrderId': 0, 'saleRecCommPlanId': None, 'settlePrice': 1060000, 'settlePriceProof': [], 'signPrice': 1060000, 'stage': 3, 'stageDesc': '认购', 'stageFromStatus': 3, 'stageState': None, 'status': 2, 'statusDesc': '认购初审中', 'totalReceivableCommission': 0, 'tradeConfirmDate': None, 'tradeId': 2972, 'unPayedCommission': None, 'unReceivedCommission': None, 'updateBy': '3f232aa91d334502aea0d9424d01481b', 'updateTime': '2022-03-13 11:17:30', 'validRecCommPlanId': None, 'visitTime': '2022-03-12 12:42:00', 'voucherDepartmentPay': None, 'voucherId': None, 'voucherPay': None}, 'msg': 'SUCCESS'}
+2022-03-13 11:17:30,375-INFO-request_logging.py-wy_logging-日志信息:<RequestsCookieJar[<Cookie satoken=4b06f602-2b1b-42d9-8815-734d7f9c4b51 for pre.yunjinji.cn/>]>
+2022-03-13 11:17:31,074-INFO-request_logging.py-wy_logging-日志信息:获取到的结果是：{'code': 2000, 'data': True, 'msg': 'SUCCESS'}
+2022-03-13 11:17:31,075-INFO-request_logging.py-wy_logging-日志信息:<RequestsCookieJar[<Cookie satoken=e6553b78-330b-4e36-bbd0-615adcd35f04 for pre.yunjinji.cn/>]>
+2022-03-13 11:17:31,406-INFO-request_logging.py-wy_logging-日志信息:获取到的结果是：{'code': 2000, 'data': True, 'msg': 'SUCCESS'}
+2022-03-13 11:17:31,407-INFO-request_logging.py-wy_logging-日志信息:<RequestsCookieJar[<Cookie satoken=734941c4-f306-493e-9282-84b1c4b88b22 for pre.yunjinji.cn/>]>
+2022-03-13 11:17:31,756-INFO-request_logging.py-wy_logging-日志信息:获取到的结果是：{'code': 2000, 'data': True, 'msg': 'SUCCESS'}
+2022-03-13 11:17:31,757-INFO-request_logging.py-wy_logging-日志信息:<RequestsCookieJar[<Cookie satoken=d577f6ee-ed78-4a00-b665-62017716e3cd for pre.yunjinji.cn/>]>
+2022-03-13 11:17:32,042-INFO-request_logging.py-wy_logging-日志信息:获取到的结果是：{'code': 2000, 'data': True, 'msg': 'SUCCESS'}
+2022-03-13 11:17:32,043-INFO-request_logging.py-wy_logging-日志信息:<RequestsCookieJar[<Cookie satoken=5d32ca7d-729a-4c23-9a39-c6146c577dbe for pre.yunjinji.cn/>]>
+2022-03-13 11:17:33,178-INFO-request_logging.py-wy_logging-日志信息:获取到的结果是：{'code': 2000, 'data': True, 'msg': 'SUCCESS'}
+2022-03-13 11:17:33,179-INFO-request_logging.py-wy_logging-日志信息:<RequestsCookieJar[<Cookie satoken=37eb348e-bfa9-4980-bbad-fc69a3d5c1ed for pre.yunjinji.cn/>]>
+2022-03-13 11:17:33,485-INFO-request_logging.py-wy_logging-日志信息:获取到的结果是：{'code': 2000, 'data': True, 'msg': 'SUCCESS'}
+2022-03-13 11:17:33,487-INFO-request_logging.py-wy_logging-日志信息:<RequestsCookieJar[<Cookie satoken=734941c4-f306-493e-9282-84b1c4b88b22 for pre.yunjinji.cn/>]>
+2022-03-13 11:17:34,279-INFO-request_logging.py-wy_logging-日志信息:获取到的结果是：{'code': 2000, 'data': True, 'msg': 'SUCCESS'}
+2022-03-13 11:17:34,280-INFO-request_logging.py-wy_logging-日志信息:<RequestsCookieJar[<Cookie satoken=37eb348e-bfa9-4980-bbad-fc69a3d5c1ed for pre.yunjinji.cn/>]>
+2022-03-13 11:17:34,611-INFO-request_logging.py-wy_logging-日志信息:获取到的结果是：{'code': 2000, 'data': True, 'msg': 'SUCCESS'}
+2022-03-13 11:17:34,612-INFO-request_logging.py-wy_logging-日志信息:<RequestsCookieJar[<Cookie satoken=734941c4-f306-493e-9282-84b1c4b88b22 for pre.yunjinji.cn/>]>
+2022-03-13 11:17:34,956-INFO-request_logging.py-wy_logging-日志信息:获取到的结果是：{'code': 2000, 'data': True, 'msg': 'SUCCESS'}
+2022-03-13 11:17:34,957-INFO-request_logging.py-wy_logging-日志信息:<RequestsCookieJar[<Cookie satoken=37eb348e-bfa9-4980-bbad-fc69a3d5c1ed for pre.yunjinji.cn/>]>
+2022-03-13 11:17:35,308-INFO-request_logging.py-wy_logging-日志信息:获取到的结果是：{'code': 2000, 'data': True, 'msg': 'SUCCESS'}
+2022-03-13 11:17:36,311-INFO-request_logging.py-wy_logging-日志信息:获取到的结果是：{'code': 2000, 'data': True, 'msg': 'SUCCESS'}
+2022-03-13 11:17:36,771-INFO-request_logging.py-wy_logging-日志信息:获取到的结果是：{'code': 2000, 'data': True, 'msg': 'SUCCESS'}
+2022-03-13 11:17:37,393-INFO-request_logging.py-wy_logging-日志信息:获取到的结果是：{'code': 2000, 'data': True, 'msg': 'SUCCESS'}
+2022-03-13 11:17:37,954-INFO-request_logging.py-wy_logging-日志信息:获取到的结果是：{'code': 2000, 'data': True, 'msg': 'SUCCESS'}
+2022-03-13 11:17:38,708-INFO-request_logging.py-wy_logging-日志信息:获取到的结果是：{'code': 2000, 'data': True, 'msg': 'SUCCESS'}
+2022-03-13 11:17:39,155-INFO-request_logging.py-wy_logging-日志信息:获取到的结果是：{'code': 2000, 'data': True, 'msg': 'SUCCESS'}
+2022-03-13 11:17:39,821-INFO-request_logging.py-wy_logging-日志信息:获取到的结果是：{'code': 2000, 'data': True, 'msg': 'SUCCESS'}
+2022-03-13 11:17:40,266-INFO-request_logging.py-wy_logging-日志信息:获取到的结果是：{'code': 2000, 'data': True, 'msg': 'SUCCESS'}
+2022-03-13 11:17:40,462-INFO-request_logging.py-wy_logging-日志信息:用例执行失败:'SUCCESS' != '参数异常'
+- SUCCESS
++ 参数异常
+ : 出问题了
+2022-03-13 11:17:40,581-INFO-request_logging.py-wy_logging-日志信息:获取到的结果是：{'code': 5000, 'data': None, 'msg': '参数异常'}
+2022-03-13 11:17:40,770-INFO-request_logging.py-wy_logging-日志信息:用例执行失败:'SUCCESS' != '参数异常'
+- SUCCESS
++ 参数异常
+ : 出问题了
+2022-03-13 11:17:40,891-INFO-request_logging.py-wy_logging-日志信息:获取到的结果是：{'code': 5000, 'data': None, 'msg': '参数异常'}
+2022-03-13 11:17:41,076-INFO-request_logging.py-wy_logging-日志信息:用例执行失败:'SUCCESS' != '参数异常'
+- SUCCESS
++ 参数异常
+ : 出问题了
+2022-03-13 11:17:41,193-INFO-request_logging.py-wy_logging-日志信息:获取到的结果是：{'code': 5000, 'data': None, 'msg': '参数异常'}
+2022-03-13 11:17:41,362-INFO-request_logging.py-wy_logging-日志信息:用例执行失败:'SUCCESS' != '参数异常'
+- SUCCESS
++ 参数异常
+ : 出问题了
+2022-03-13 11:17:41,477-INFO-request_logging.py-wy_logging-日志信息:获取到的结果是：{'code': 5000, 'data': None, 'msg': '参数异常'}
+2022-03-13 11:21:37,958-INFO-request_logging.py-wy_logging-日志信息:获取到的结果是：{'code': 2000, 'data': {'isLogin': True, 'loginDevice': 'commission', 'loginId': '055c509d3c1b4c2ebf2bc70fe8447e67', 'loginType': 'login', 'sessionTimeout': 2592000, 'tag': None, 'tokenActivityTimeout': -1, 'tokenName': 'satoken', 'tokenSessionTimeout': -2, 'tokenTimeout': 2592000, 'tokenValue': 'cf0b4d44-0ca7-4097-8332-8dd253abef6a'}, 'msg': 'SUCCESS'}
+2022-03-13 11:21:38,319-INFO-request_logging.py-wy_logging-日志信息:获取到的结果是：{'code': 2000, 'data': {'isLogin': True, 'loginDevice': 'commission', 'loginId': '3f232aa91d334502aea0d9424d01481b', 'loginType': 'login', 'sessionTimeout': 2592000, 'tag': None, 'tokenActivityTimeout': -1, 'tokenName': 'satoken', 'tokenSessionTimeout': -2, 'tokenTimeout': 2592000, 'tokenValue': 'eb4fb687-2114-46c9-99a6-2116566305cc'}, 'msg': 'SUCCESS'}
+2022-03-13 11:21:38,688-INFO-request_logging.py-wy_logging-日志信息:获取到的结果是：{'code': 2000, 'data': {'isLogin': True, 'loginDevice': 'commission', 'loginId': 'e3d2cbe0f2644d2bb54ac1c873d1a5b4', 'loginType': 'login', 'sessionTimeout': 2592000, 'tag': None, 'tokenActivityTimeout': -1, 'tokenName': 'satoken', 'tokenSessionTimeout': -2, 'tokenTimeout': 2592000, 'tokenValue': '1ce75d03-0614-4f6f-9f4b-1ac6ada9d21c'}, 'msg': 'SUCCESS'}
+2022-03-13 11:21:39,042-INFO-request_logging.py-wy_logging-日志信息:获取到的结果是：{'code': 2000, 'data': {'isLogin': True, 'loginDevice': 'commission', 'loginId': 'c5c185f1efad466dad4bbfab4e02e745', 'loginType': 'login', 'sessionTimeout': 2592000, 'tag': None, 'tokenActivityTimeout': -1, 'tokenName': 'satoken', 'tokenSessionTimeout': -2, 'tokenTimeout': 2592000, 'tokenValue': '07400f87-2a51-47d1-af25-c705105df15a'}, 'msg': 'SUCCESS'}
+2022-03-13 11:21:39,434-INFO-request_logging.py-wy_logging-日志信息:获取到的结果是：{'code': 2000, 'data': {'isLogin': True, 'loginDevice': 'commission', 'loginId': '07b2f4006d64437ebaf6cbf5849320e2', 'loginType': 'login', 'sessionTimeout': 2592000, 'tag': None, 'tokenActivityTimeout': -1, 'tokenName': 'satoken', 'tokenSessionTimeout': -2, 'tokenTimeout': 2592000, 'tokenValue': 'fde4bcc3-46ce-43ef-8ccf-882a78f473ff'}, 'msg': 'SUCCESS'}
+2022-03-13 11:21:39,771-INFO-request_logging.py-wy_logging-日志信息:获取到的结果是：{'code': 2000, 'data': {'isLogin': True, 'loginDevice': 'commission', 'loginId': '0a14020acc0346c7a2c034a08c83414f', 'loginType': 'login', 'sessionTimeout': 2592000, 'tag': None, 'tokenActivityTimeout': -1, 'tokenName': 'satoken', 'tokenSessionTimeout': -2, 'tokenTimeout': 2592000, 'tokenValue': 'f77ca903-4fcd-4b3f-adee-54da259d4953'}, 'msg': 'SUCCESS'}
+2022-03-13 11:21:40,163-INFO-request_logging.py-wy_logging-日志信息:获取到的结果是：{'code': 2000, 'data': {'isLogin': True, 'loginDevice': 'commission', 'loginId': '64ad4fcbfdcb4bf48e33f38f4e31c4ce', 'loginType': 'login', 'sessionTimeout': 2592000, 'tag': None, 'tokenActivityTimeout': -1, 'tokenName': 'satoken', 'tokenSessionTimeout': -2, 'tokenTimeout': 2592000, 'tokenValue': 'f829ff19-bd49-4d06-a8be-c90879752b05'}, 'msg': 'SUCCESS'}
+2022-03-13 11:21:40,556-INFO-request_logging.py-wy_logging-日志信息:获取到的结果是：{'code': 2000, 'data': {'isLogin': True, 'loginDevice': 'commission', 'loginId': '20b7707f4f3e4260a594db93855f1c42', 'loginType': 'login', 'sessionTimeout': 2592000, 'tag': None, 'tokenActivityTimeout': -1, 'tokenName': 'satoken', 'tokenSessionTimeout': -2, 'tokenTimeout': 2592000, 'tokenValue': 'c4bf0236-3658-41f0-b628-667690dc0d15'}, 'msg': 'SUCCESS'}
+2022-03-13 11:21:40,908-INFO-request_logging.py-wy_logging-日志信息:获取到的结果是：{'code': 2000, 'data': {'isLogin': True, 'loginDevice': 'commission', 'loginId': '021930aed2b34180a50921370bb3c1a5', 'loginType': 'login', 'sessionTimeout': 2592000, 'tag': None, 'tokenActivityTimeout': -1, 'tokenName': 'satoken', 'tokenSessionTimeout': -2, 'tokenTimeout': 2592000, 'tokenValue': 'bfe0e89d-b166-4cff-a4fa-075b3a23ae67'}, 'msg': 'SUCCESS'}
+2022-03-13 11:21:40,909-INFO-request_logging.py-wy_logging-日志信息:<RequestsCookieJar[<Cookie satoken=cf0b4d44-0ca7-4097-8332-8dd253abef6a for pre.yunjinji.cn/>]>
+2022-03-13 11:21:41,550-INFO-request_logging.py-wy_logging-日志信息:获取到的结果是：{'code': 2000, 'data': True, 'msg': 'SUCCESS'}
+2022-03-13 11:21:41,552-INFO-request_logging.py-wy_logging-日志信息:<RequestsCookieJar[<Cookie satoken=eb4fb687-2114-46c9-99a6-2116566305cc for pre.yunjinji.cn/>]>
+2022-03-13 11:21:42,085-INFO-request_logging.py-wy_logging-日志信息:获取到的结果是：{'code': 2000, 'data': {'actualPayCommission': None, 'additionEnroll': 0, 'agencyTrade': 'PROJECT_AGENCY_TRADE', 'agentId': '86d50b0e8aa045068e8755b7eb62a6cb', 'agentStatus': None, 'changeHouseDate': None, 'changeHouseProof': [], 'collectingCompanyId': None, 'commProjectId': 68, 'costs': None, 'createBy': '3f232aa91d334502aea0d9424d01481b', 'createTime': '2022-03-13 11:21:41', 'currentPayableActualCommission': None, 'customerId': 38568, 'customerName': '华发四季313栋业主112', 'customerPhone': '13729112152', 'departmentId': 4807, 'departmentName': '北京日益通速递有限责任公司2222', 'dissent': None, 'divisionId': 40, 'divisionName': '测试部', 'exchangeOrder': False, 'finalAuditApproved': False, 'grossProfit': None, 'groupbuy': 1, 'groupbuyPayer': None, 'groupbuyPlanId': 10, 'groupbuyProof': [{'name': '599dae3c07fb416cbb55c63cb4f368de.jpeg', 'url': 'https://picos.wyzfang.com/pre/java/2022-2/599dae3c07fb416cbb55c63cb4f368de.jpeg'}], 'groupbuyRecieveDate': None, 'groupbuyRecieveId': None, 'groupbuyRecieveProof': [], 'groupbuyStatus': None, 'initialSignDate': None, 'initialSignProof': [], 'loanDate': None, 'loanProof': [], 'netProfits': None, 'netSignDate': None, 'netSignProof': [], 'normalStat': True, 'notAgencyTrade': False, 'originId': 0, 'originalPrice': 1040000, 'pay': None, 'payAdjustCommission': None, 'payAdjustMoney': None, 'payCaseDesc': None, 'payCaseDescribe': '平台/门店结佣方案', 'payCommPlanId': 206, 'payPlanId': None, 'payStatus': None, 'payableCommission': 83000.0, 'payableCommissionProof': [], 'payableMoney': None, 'payedCommission': None, 'paymentMethod': 2, 'paymentMethodDesc': '按揭付款', 'platformDeptName': '惠州云经纪', 'platformId': 999, 'platformPayAdjustCommission': None, 'platformPayCaseDescribe': None, 'platformPayCommPlanId': None, 'platformPayableCommission': None, 'platformPayableCommissionProof': [], 'prepay': 0, 'prepayCommission': None, 'projectAgencyOrder': True, 'projectAgencyTrade': True, 'projectId': 31, 'projectName': '华发四季1', 'projectPlatformId': 999, 'projectPlatformName': '中山云经纪', 'purchaseCode': 'RG2022031333235480', 'purchaseDate': '2022-03-12', 'purchaseOrderType': 'NORMAL', 'purchasePrice': 1050000, 'purchaseProof': [{'name': 'cb86f751782446cd8aeb18fa8cc5c15c.jpeg', 'url': 'https://picos.wyzfang.com/pre/java/2022-2/cb86f751782446cd8aeb18fa8cc5c15c.jpeg'}], 'reAdjustCommision': None, 'realReceiveGroupbuy': 0, 'recCaseDescribe': None, 'recCommPlanId': None, 'recStatus': None, 'recStatusDesc': None, 'receivableCommision': 0, 'receivableCommissionProof': [], 'receivableGroupbuy': 40000, 'receiveGroupbuy': 40000, 'receivedCommission': None, 'recheckApproved': None, 'remark': '调接口生成认购单', 'reportId': 44342, 'reportTime': '2022-03-12 12:41:00', 'returnHouseDate': None, 'returnHouseProof': [], 'returnOrChangeStage': False, 'revenue': None, 'roomArea': '104.00', 'roomNo': '华发四季313栋112', 'saleAgencyTrade': False, 'salePlatformId': 5109, 'salePlatformName': '惠州云经纪', 'salePlatformOrDepartment': '北京日益通速递有限责任公司2222', 'salePlatformOrDepartmentId': -4807, 'salePurchaseOrderId': 0, 'saleRecCommPlanId': None, 'settlePrice': 1060000, 'settlePriceProof': [], 'signPrice': 1060000, 'stage': 3, 'stageDesc': '认购', 'stageFromStatus': 3, 'stageState': None, 'status': 2, 'statusDesc': '认购初审中', 'totalReceivableCommission': 0, 'tradeConfirmDate': None, 'tradeId': 2974, 'unPayedCommission': None, 'unReceivedCommission': None, 'updateBy': '3f232aa91d334502aea0d9424d01481b', 'updateTime': '2022-03-13 11:21:41', 'validRecCommPlanId': None, 'visitTime': '2022-03-12 12:42:00', 'voucherDepartmentPay': None, 'voucherId': None, 'voucherPay': None}, 'msg': 'SUCCESS'}
+2022-03-13 11:21:42,086-INFO-request_logging.py-wy_logging-日志信息:<RequestsCookieJar[<Cookie satoken=eb4fb687-2114-46c9-99a6-2116566305cc for pre.yunjinji.cn/>]>
+2022-03-13 11:21:42,729-INFO-request_logging.py-wy_logging-日志信息:获取到的结果是：{'code': 2000, 'data': True, 'msg': 'SUCCESS'}
+2022-03-13 11:21:42,729-INFO-request_logging.py-wy_logging-日志信息:<RequestsCookieJar[<Cookie satoken=1ce75d03-0614-4f6f-9f4b-1ac6ada9d21c for pre.yunjinji.cn/>]>
+2022-03-13 11:21:43,067-INFO-request_logging.py-wy_logging-日志信息:获取到的结果是：{'code': 2000, 'data': True, 'msg': 'SUCCESS'}
+2022-03-13 11:21:43,068-INFO-request_logging.py-wy_logging-日志信息:<RequestsCookieJar[<Cookie satoken=07400f87-2a51-47d1-af25-c705105df15a for pre.yunjinji.cn/>]>
+2022-03-13 11:21:43,408-INFO-request_logging.py-wy_logging-日志信息:获取到的结果是：{'code': 2000, 'data': True, 'msg': 'SUCCESS'}
+2022-03-13 11:21:43,409-INFO-request_logging.py-wy_logging-日志信息:<RequestsCookieJar[<Cookie satoken=bfe0e89d-b166-4cff-a4fa-075b3a23ae67 for pre.yunjinji.cn/>]>
+2022-03-13 11:21:43,675-INFO-request_logging.py-wy_logging-日志信息:获取到的结果是：{'code': 2000, 'data': True, 'msg': 'SUCCESS'}
+2022-03-13 11:21:43,677-INFO-request_logging.py-wy_logging-日志信息:<RequestsCookieJar[<Cookie satoken=f77ca903-4fcd-4b3f-adee-54da259d4953 for pre.yunjinji.cn/>]>
+2022-03-13 11:21:44,858-INFO-request_logging.py-wy_logging-日志信息:获取到的结果是：{'code': 2000, 'data': True, 'msg': 'SUCCESS'}
+2022-03-13 11:21:44,859-INFO-request_logging.py-wy_logging-日志信息:<RequestsCookieJar[<Cookie satoken=cf0b4d44-0ca7-4097-8332-8dd253abef6a for pre.yunjinji.cn/>]>
+2022-03-13 11:21:45,196-INFO-request_logging.py-wy_logging-日志信息:获取到的结果是：{'code': 2000, 'data': True, 'msg': 'SUCCESS'}
+2022-03-13 11:21:45,197-INFO-request_logging.py-wy_logging-日志信息:<RequestsCookieJar[<Cookie satoken=07400f87-2a51-47d1-af25-c705105df15a for pre.yunjinji.cn/>]>
+2022-03-13 11:21:46,003-INFO-request_logging.py-wy_logging-日志信息:获取到的结果是：{'code': 2000, 'data': True, 'msg': 'SUCCESS'}
+2022-03-13 11:21:46,004-INFO-request_logging.py-wy_logging-日志信息:<RequestsCookieJar[<Cookie satoken=cf0b4d44-0ca7-4097-8332-8dd253abef6a for pre.yunjinji.cn/>]>
+2022-03-13 11:21:46,328-INFO-request_logging.py-wy_logging-日志信息:获取到的结果是：{'code': 2000, 'data': True, 'msg': 'SUCCESS'}
+2022-03-13 11:21:46,329-INFO-request_logging.py-wy_logging-日志信息:<RequestsCookieJar[<Cookie satoken=07400f87-2a51-47d1-af25-c705105df15a for pre.yunjinji.cn/>]>
+2022-03-13 11:21:46,676-INFO-request_logging.py-wy_logging-日志信息:获取到的结果是：{'code': 2000, 'data': True, 'msg': 'SUCCESS'}
+2022-03-13 11:21:46,676-INFO-request_logging.py-wy_logging-日志信息:<RequestsCookieJar[<Cookie satoken=cf0b4d44-0ca7-4097-8332-8dd253abef6a for pre.yunjinji.cn/>]>
+2022-03-13 11:21:47,038-INFO-request_logging.py-wy_logging-日志信息:获取到的结果是：{'code': 2000, 'data': True, 'msg': 'SUCCESS'}
+2022-03-13 11:21:48,080-INFO-request_logging.py-wy_logging-日志信息:获取到的结果是：{'code': 2000, 'data': True, 'msg': 'SUCCESS'}
+2022-03-13 11:21:48,517-INFO-request_logging.py-wy_logging-日志信息:获取到的结果是：{'code': 2000, 'data': True, 'msg': 'SUCCESS'}
+2022-03-13 11:21:49,139-INFO-request_logging.py-wy_logging-日志信息:获取到的结果是：{'code': 2000, 'data': True, 'msg': 'SUCCESS'}
+2022-03-13 11:21:49,673-INFO-request_logging.py-wy_logging-日志信息:获取到的结果是：{'code': 2000, 'data': True, 'msg': 'SUCCESS'}
+2022-03-13 11:21:50,468-INFO-request_logging.py-wy_logging-日志信息:获取到的结果是：{'code': 2000, 'data': True, 'msg': 'SUCCESS'}
+2022-03-13 11:21:50,875-INFO-request_logging.py-wy_logging-日志信息:获取到的结果是：{'code': 2000, 'data': True, 'msg': 'SUCCESS'}
+2022-03-13 11:21:51,539-INFO-request_logging.py-wy_logging-日志信息:获取到的结果是：{'code': 2000, 'data': True, 'msg': 'SUCCESS'}
+2022-03-13 11:21:52,072-INFO-request_logging.py-wy_logging-日志信息:获取到的结果是：{'code': 2000, 'data': True, 'msg': 'SUCCESS'}
+2022-03-13 11:21:52,722-INFO-request_logging.py-wy_logging-日志信息:获取到的结果是：{'code': 2000, 'data': True, 'msg': 'SUCCESS'}
+2022-03-13 11:21:53,381-INFO-request_logging.py-wy_logging-日志信息:获取到的结果是：{'code': 2000, 'data': True, 'msg': 'SUCCESS'}
+2022-03-13 11:21:53,722-INFO-request_logging.py-wy_logging-日志信息:获取到的结果是：{'code': 2000, 'data': True, 'msg': 'SUCCESS'}
+2022-03-13 11:21:54,630-INFO-request_logging.py-wy_logging-日志信息:获取到的结果是：{'code': 2000, 'data': True, 'msg': 'SUCCESS'}

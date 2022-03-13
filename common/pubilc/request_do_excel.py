@@ -146,6 +146,9 @@ class GetTestData:
         elif role_code=="zjb":
             sheet.cell(9, 3).value = value
             sheet.cell(9, 5).value = cookier
+        elif role_code=="xftz":
+            sheet.cell(10, 3).value = value
+            sheet.cell(10, 5).value = cookier
 
 
 

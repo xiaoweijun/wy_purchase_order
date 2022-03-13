@@ -16,8 +16,10 @@ mode = GetConfig.get_config()
 purchase_order_data = GetTestData().get_data(mode)
 user_data = GetTestData().get_login_user()
 my_logger = RequestLogging()
+# 收佣测试用例数据
 rec_data =  GetTestData().get_data("{'rec_ticket':'all'}")
-pay_data = GetTestData().get_data("{'pay_ticket':'all'}")
+# 结佣测试用例数据
+pay_data = GetTestData().get_data("{'platform_pay':'all'}")
 
 
 
@@ -46,7 +48,7 @@ class TestLogin(unittest.TestCase):
         finally:
             my_logger.info_log("获取到的结果是：{0}".format(res.json()))
 
-    # 普通认购单流程
+    # 普通 or 代理认购单流程
     @data(*purchase_order_data)
     def test_2purchase_order(self, test_data):
 
@@ -71,8 +73,8 @@ class TestLogin(unittest.TestCase):
         #生成认购单后，取到认购单id
         elif test_data["url"].find("purchase/first/submit") != -1:
             setattr(GetData, "tradeId", DoSql().do_sql(
-                "SELECT id FROM yy_purchase_order where report_id = '{0}' ORDER BY id desc LIMIT 1;".format(
-                    getattr(GetData, "reportID"))))
+                "SELECT id FROM yy_purchase_order where report_id = '{0}' and platform_id = '{1}' ORDER BY id desc LIMIT 1;".format(
+                    getattr(GetData, "reportID"),getattr(GetData,"salePlatformId"))))
 
 
 
@@ -125,7 +127,7 @@ class TestLogin(unittest.TestCase):
             GetTestData().wirte_data(rec_data["sheet_name"], int(rec_data["case_id"]), str(res.json()), TestResult)
             my_logger.info_log("获取到的结果是：{0}".format(res.json()))
 
-    # 门店结佣单流程
+    # 结佣单流程
     @data(*pay_data)
     def test_4pay_comm_ticket(self,pay_data):
         setattr(GetData, "payable_commission", DoSql().do_sql("SELECT payable_commission from yy_purchase_order where id = {0};".format(str(getattr(GetData, "tradeId")))))
@@ -144,7 +146,7 @@ class TestLogin(unittest.TestCase):
         res = HttpRequest(pay_data["url"], json.loads(pay_data["data"]), pay_data["method"],
                           eval(pay_data["headers"])).http_request(getattr(GetData, pay_data["role_cookie"]))
         TestResult = ""
-        if pay_data["url"].find("commission/ticket/manual/create") != -1:
+        if pay_data["url"].find("/manual/create") != -1:
             setattr(GetData,"pay_ticketId",DoSql().do_sql("SELECT ticket_id from yy_pay_comm_ticket_order where order_id = '{0}'".format(getattr(GetData,"tradeId"))))
         try:
             self.assertEqual(pay_data["assert_info"], res.json()["msg"], msg="出问题了")
@@ -158,6 +160,7 @@ class TestLogin(unittest.TestCase):
             # 写进测试结果，成功写入pass，失败写入failed
             GetTestData().wirte_data(pay_data["sheet_name"], int(pay_data["case_id"]), str(res.json()), TestResult)
             my_logger.info_log("获取到的结果是：{0}".format(res.json()))
+
 
 if __name__ == '__main__':
     unittest.main()

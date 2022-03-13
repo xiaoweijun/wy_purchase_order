@@ -150,6 +150,16 @@ class GetTestData:
             sheet.cell(10, 3).value = value
             sheet.cell(10, 5).value = cookier
 
+        elif role_code=="xfjszy":
+            sheet.cell(11, 3).value = value
+            sheet.cell(11, 5).value = cookier
+
+        elif role_code=="xfjszz":
+            sheet.cell(12, 3).value = value
+            sheet.cell(12, 5).value = cookier
+        elif role_code=="xfcw":
+            sheet.cell(13, 3).value = value
+            sheet.cell(13, 5).value = cookier
 
 
         wb.save(self.table_name)

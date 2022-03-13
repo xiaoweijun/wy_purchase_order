@@ -149,6 +149,9 @@ class TestLogin(unittest.TestCase):
         setattr(GetData, "payable_commission", DoSql().do_sql(
             "SELECT payable_commission from yy_purchase_order where id = {0};".format(
                 str(getattr(GetData, "tradeId")))))
+        setattr(GetData, "receivable_commision", DoSql().do_sql(
+            "SELECT receivable_commision from yy_purchase_order where id = {0};".format(
+                str(getattr(GetData, "tradeId")))))
         if pay_data["data"].find("@tradeId@") != -1:
             pay_data["data"] = pay_data["data"].replace("@tradeId@", str(getattr(GetData, "tradeId")))
 

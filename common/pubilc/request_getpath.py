@@ -11,8 +11,11 @@ config_path = os.path.join(project_path,"conf","httprequest.config")
 # 测试报告地址
 testreport_path = os.path.join(project_path,r"Result/test_report","rest_report.html")
 
-# 测试数据地址
-testdata_path = os.path.join(project_path,"test_data","test1.xlsx")
+# 普通认购单测试数据地址
+testdata_path = os.path.join(project_path,"test_data","purchase.xlsx")
+
+# 代理认购单测试数据地址
+
 
 # 日志地址
 logging_path = os.path.join(project_path,r"Result/test_logging","test_logging.txt")

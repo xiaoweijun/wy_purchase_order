@@ -9,7 +9,9 @@ class GetData:
     reportID = "@reportID@"  #报备单id
     tradeId = "@tradeId@"   #认购单id
     #tradeId = "2993"
+    ip_adress = "https://pre.yunjinji.cn"
     login_url = "https://pre.yunjinji.cn/user-center/auth/staff/login"  #登录的url
+
 
     #从excel中获取账号
     zc_tel= load_workbook(request_getpath.testdata_path)["user"].cell(2,1).value #驻场

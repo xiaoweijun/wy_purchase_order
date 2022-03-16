@@ -73,7 +73,7 @@ class TestLogin(unittest.TestCase):
         my_logger.info_log(str(getattr(GetData, test_data["role_cookie"])))
         res = HttpRequest(test_data["url"], json.loads(test_data["data"]), test_data["method"],
                           eval(test_data["headers"])).http_request(getattr(GetData, test_data["role_cookie"]))
-
+        print("url >>>{0}".format(rec_data["url"]))
         # 生成报备单后，取到报备单id
         if test_data["url"].find("pretrade/report/add") != -1:
             setattr(GetData, "reportID", DoSql().do_sql(
@@ -124,6 +124,7 @@ class TestLogin(unittest.TestCase):
 
         res = HttpRequest(rec_data["url"], json.loads(rec_data["data"]), rec_data["method"],
                           eval(rec_data["headers"])).http_request(getattr(GetData, rec_data["role_cookie"]))
+        print("url >>>{0}".format(rec_data["url"]))
         TestResult = ""
         # 断言
         if rec_data["url"].find("commission/ticket/manual/create") != -1:

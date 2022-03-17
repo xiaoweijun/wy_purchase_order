@@ -13,7 +13,19 @@ class DoRegx:
 
         return s
 
+    @staticmethod
+    def do_newstr_regx(s):
+        while re.search('@(.*?)@',s):
+            key = re.search('@(.*?)@',s).group()
+            value = re.search('@(.*?)@',s).group(1)
+            if str(getattr(GetData,value)) == "null":
+                key = re.search('\"@(.*?)@\"',s).group()
+                s=s.replace(key,str(getattr(GetData,value)))
+            else:
+                s = s.replace(key,str(getattr(GetData,value)))
+
+        return s
 if __name__ == '__main__':
-    str_s1 = '{"cityId": 306,"system":${tradeId} "android","model": "phone","appId": "commission","uid": "","areaCode": "+86","account": "${jszz_tel}","password": "123456"${cw_tel}“}'
-    res = DoRegx().do_regx(str_s1)
+    str_s1 = '{"cityId": 306,"system":${tradeId} "android","model": "phone","appId": "commission","uid": "","areaCode": "+86","account": "@jszz_tel@","password": "123456"@cw_tel@}'
+    res = DoRegx().do_newstr_regx(str_s1)
     print(res)

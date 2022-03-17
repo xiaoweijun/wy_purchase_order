@@ -30,6 +30,6 @@ def run():
                                                   tester="肖炜君")
         runner.run(suite)
     #生成邮件后，发邮件
-    SendEmail().send_email()
+    #SendEmail().send_email()
 if __name__ == '__main__':
     run()

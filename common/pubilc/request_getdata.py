@@ -11,7 +11,38 @@ class GetData:
     #tradeId = "2993"
     ip_adress = "https://pre.yunjinji.cn"
     login_url = "https://pre.yunjinji.cn/user-center/auth/staff/login"  #登录的url
-
+    #驻场提成信息
+    zc_cut = "@zc_cut@"
+    areaManager = "@areaManager@"
+    areaManagerId = "@areaManagerId@"
+    standManager = "@standManager@"
+    standManagerId = "@standManagerId@"
+    standManagerRatio = "@standManagerRatio@"
+    expandRatios = "@expandRatios@"
+    #第一拓展信息
+    ex1_userId = "@ex1_userId@"
+    ex1_userName = "@ex1_userName@"
+    ex1_ratio = "@ex1_ratio@"
+    ex1_superiorId = "@ex1_superiorId@"
+    ex1_superiorName = "@ex1_superiorName@"
+    ex1_superiorSuperiorId = "@ex1_superiorSuperiorId@"
+    ex1_superiorSuperiorName = "@ex1_superiorSuperiorName@"
+    #第二拓展信息
+    ex2_userId = "@ex2_userId@"
+    ex2_userName = "@ex2_userName@"
+    ex2_ratio = "@ex2_ratio@"
+    ex2_superiorId = "@ex2_superiorId@"
+    ex2_superiorName = "@ex2_superiorName@"
+    ex2_superiorSuperiorId = "@ex2_superiorSuperiorId@"
+    ex2_superiorSuperiorName = "@ex2_superiorSuperiorName@"
+    #第三拓展信息
+    ex3_userId = "@ex3_userId@"
+    ex3_userName = "@ex3_userName@"
+    ex3_ratio = "@ex3_ratio@"
+    ex3_superiorId = "@ex3_superiorId@"
+    ex3_superiorName = "@ex3_superiorName@"
+    ex3_superiorSuperiorId = "@ex3_superiorSuperiorId@"
+    ex3_superiorSuperiorName = "@ex3_superiorSuperiorName@"
 
     #从excel中获取账号
     zc_tel= load_workbook(request_getpath.testdata_path)["user"].cell(2,1).value #驻场

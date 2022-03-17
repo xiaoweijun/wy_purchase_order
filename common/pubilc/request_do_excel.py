@@ -60,10 +60,10 @@ class GetTestData:
                 for j in range(2, sheet.max_row+1):
                     res = {}
                     res["case_id"] = sheet.cell(j, 1).value
-                    res["url"] = getattr(GetData,"ip_adress").join(str(sheet.cell(j, 2).value))
-                    print("ipadress >>>{0}".format(getattr(GetData,"ip_adress")))
-                    print("url>>>{0}".format(res["url"]))
-                    print("拿到的url >>>{0}".format(str(sheet.cell(j, 2).value)))
+                    res["url"] = str(getattr(GetData,"ip_adress")+sheet.cell(j, 2).value)
+                    # print("ipadress >>>{0}".format(getattr(GetData,"ip_adress")))
+                    # print("url>>>{0}".format(type(res["url"])))
+                    # print("拿到的url >>>{0}".format(str(sheet.cell(j, 2).value)))
                     #res["data"] = sheet.cell(j, 4).value
 
                     new_data = DoRegx.do_regx(sheet.cell(j, 4).value)
@@ -81,7 +81,7 @@ class GetTestData:
                 for i in mode[key]:
                     res = {}
                     res["case_id"] = sheet.cell(i+1, 1).value
-                    res["url"] = getattr(GetData,"ip_adress").join(str(sheet.cell(i+1, 2).value))
+                    res["url"] = getattr(GetData,"ip_adress")+sheet.cell(i+1, 2).value
                     #res["data"] = sheet.cell(i+1, 4).value
 
                     new_data = DoRegx.do_regx(sheet.cell(i+1, 4).value)

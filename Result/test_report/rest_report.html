@@ -116,19 +116,19 @@ function html_escape(s) {
 <div class='heading'>
 <h1 style="font-family: Microsoft YaHei">wy测试报告（1）</h1>
 <p class='attribute'><strong>测试人员 : </strong> 肖炜君</p>
-<p class='attribute'><strong>开始时间 : </strong> 2022-03-17 17:16:23</p>
-<p class='attribute'><strong>合计耗时 : </strong> 0:00:15.417941</p>
-<p class='attribute'><strong>测试结果 : </strong> 共 22，通过 22，通过率= 100.00%</p>
+<p class='attribute'><strong>开始时间 : </strong> 2022-03-17 22:02:11</p>
+<p class='attribute'><strong>合计耗时 : </strong> 0:00:21.443438</p>
+<p class='attribute'><strong>测试结果 : </strong> 共 38，通过 32，失败 5，错误 1，通过率= 84.21%</p>
 
 <p class='description'>wyjjr第一次测试报告</p>
 </div>
 
 
 <p id='show_detail_line'>
-<a class="btn btn-primary" href='javascript:showCase(0)'>概要{ 100.00% }</a>
-<a class="btn btn-danger" href='javascript:showCase(1)'>失败{ 0 }</a>
-<a class="btn btn-success" href='javascript:showCase(2)'>通过{ 22 }</a>
-<a class="btn btn-info" href='javascript:showCase(3)'>所有{ 22 }</a>
+<a class="btn btn-primary" href='javascript:showCase(0)'>概要{ 84.21% }</a>
+<a class="btn btn-danger" href='javascript:showCase(1)'>失败{ 5 }</a>
+<a class="btn btn-success" href='javascript:showCase(2)'>通过{ 32 }</a>
+<a class="btn btn-info" href='javascript:showCase(3)'>所有{ 38 }</a>
 </p>
 <table id='result_table' class="table table-condensed table-bordered table-hover">
 <colgroup>
@@ -148,13 +148,13 @@ function html_escape(s) {
     <td>详细</td>
 </tr>
 
-<tr class='passClass warning'>
+<tr class='errorClass warning'>
     <td>common.pubilc.request_testcase.TestLogin</td>
-    <td class="text-center">22</td>
-    <td class="text-center">22</td>
-    <td class="text-center">0</td>
-    <td class="text-center">0</td>
-    <td class="text-center"><a href="javascript:showClassDetail('c1',22)" class="detail" id='c1'>详细</a></td>
+    <td class="text-center">38</td>
+    <td class="text-center">32</td>
+    <td class="text-center">5</td>
+    <td class="text-center">1</td>
+    <td class="text-center"><a href="javascript:showClassDetail('c1',38)" class="detail" id='c1'>详细</a></td>
 </tr>
 
 <tr id='pt1_1' class='hiddenRow'>
@@ -169,9 +169,9 @@ function html_escape(s) {
     <pre>
     
 pt1_1: data 》》》 {'cityId': 306, 'system': 'android', 'model': 'phone', 'appId': 'commission', 'uid': '', 'areaCode': '+86', 'account': '13100000005', 'password': '123456'}
-cookie的值是：5849243c-2083-4978-a476-c696031a829c,类型是&lt;class 'str'&gt;
+cookie的值是：bdb03c03-2f9d-4947-9129-fd72637207b2,类型是&lt;class 'str'&gt;
 table_name是：D:\wy_purchase_order\wy_purchase_order\test_data\purchase.xlsx
-2022-03-17 17:16:23,937-INFO-request_logging.py-wy_logging-日志信息:获取到的结果是：{'code': 2000, 'data': {'isLogin': True, 'loginDevice': 'commission', 'loginId': '055c509d3c1b4c2ebf2bc70fe8447e67', 'loginType': 'login', 'sessionTimeout': 2592000, 'tag': None, 'tokenActivityTimeout': -1, 'tokenName': 'satoken', 'tokenSessionTimeout': -2, 'tokenTimeout': 2592000, 'tokenValue': '5849243c-2083-4978-a476-c696031a829c'}, 'msg': 'SUCCESS'}
+2022-03-17 22:02:11,609-INFO-request_logging.py-wy_logging-日志信息:获取到的结果是：{'code': 2000, 'data': {'isLogin': True, 'loginDevice': 'commission', 'loginId': 'b443db61e91c4fc29e53e02d81b88ac4', 'loginType': 'login', 'sessionTimeout': 2592000, 'tag': None, 'tokenActivityTimeout': -1, 'tokenName': 'satoken', 'tokenSessionTimeout': -2, 'tokenTimeout': 2592000, 'tokenValue': 'bdb03c03-2f9d-4947-9129-fd72637207b2'}, 'msg': 'SUCCESS'}
 
 
     </pre>
@@ -191,9 +191,9 @@ table_name是：D:\wy_purchase_order\wy_purchase_order\test_data\purchase.xlsx
     <pre>
     
 pt1_2: data 》》》 {'cityId': 306, 'system': 'android', 'model': 'phone', 'appId': 'commission', 'uid': '', 'areaCode': '+86', 'account': '13100000003', 'password': '123456'}
-cookie的值是：fa6ab1c9-69ea-41a8-8c24-2160a5846878,类型是&lt;class 'str'&gt;
+cookie的值是：6d75fd3d-2b81-4b50-9089-c58df8e75c5b,类型是&lt;class 'str'&gt;
 table_name是：D:\wy_purchase_order\wy_purchase_order\test_data\purchase.xlsx
-2022-03-17 17:16:24,436-INFO-request_logging.py-wy_logging-日志信息:获取到的结果是：{'code': 2000, 'data': {'isLogin': True, 'loginDevice': 'commission', 'loginId': '3f232aa91d334502aea0d9424d01481b', 'loginType': 'login', 'sessionTimeout': 2592000, 'tag': None, 'tokenActivityTimeout': -1, 'tokenName': 'satoken', 'tokenSessionTimeout': -2, 'tokenTimeout': 2592000, 'tokenValue': 'fa6ab1c9-69ea-41a8-8c24-2160a5846878'}, 'msg': 'SUCCESS'}
+2022-03-17 22:02:12,051-INFO-request_logging.py-wy_logging-日志信息:获取到的结果是：{'code': 2000, 'data': {'isLogin': True, 'loginDevice': 'commission', 'loginId': '794d9ba7b6e74c91a6e4ed678df7bb26', 'loginType': 'login', 'sessionTimeout': 2592000, 'tag': None, 'tokenActivityTimeout': -1, 'tokenName': 'satoken', 'tokenSessionTimeout': -2, 'tokenTimeout': 2592000, 'tokenValue': '6d75fd3d-2b81-4b50-9089-c58df8e75c5b'}, 'msg': 'SUCCESS'}
 
 
     </pre>
@@ -213,9 +213,9 @@ table_name是：D:\wy_purchase_order\wy_purchase_order\test_data\purchase.xlsx
     <pre>
     
 pt1_3: data 》》》 {'cityId': 306, 'system': 'android', 'model': 'phone', 'appId': 'commission', 'uid': '', 'areaCode': '+86', 'account': '13100000009', 'password': '123456'}
-cookie的值是：2b27fa15-bd02-4670-9daf-e6eb54350cc8,类型是&lt;class 'str'&gt;
+cookie的值是：e88a5124-7155-4b7d-9d4c-a7feb4155fef,类型是&lt;class 'str'&gt;
 table_name是：D:\wy_purchase_order\wy_purchase_order\test_data\purchase.xlsx
-2022-03-17 17:16:26,012-INFO-request_logging.py-wy_logging-日志信息:获取到的结果是：{'code': 2000, 'data': {'isLogin': True, 'loginDevice': 'commission', 'loginId': 'e3d2cbe0f2644d2bb54ac1c873d1a5b4', 'loginType': 'login', 'sessionTimeout': 2591999, 'tag': None, 'tokenActivityTimeout': -1, 'tokenName': 'satoken', 'tokenSessionTimeout': -2, 'tokenTimeout': 2591999, 'tokenValue': '2b27fa15-bd02-4670-9daf-e6eb54350cc8'}, 'msg': 'SUCCESS'}
+2022-03-17 22:02:12,493-INFO-request_logging.py-wy_logging-日志信息:获取到的结果是：{'code': 2000, 'data': {'isLogin': True, 'loginDevice': 'commission', 'loginId': '414198f624204ed28b1a63eabc5f8f1b', 'loginType': 'login', 'sessionTimeout': 2592000, 'tag': None, 'tokenActivityTimeout': -1, 'tokenName': 'satoken', 'tokenSessionTimeout': -2, 'tokenTimeout': 2592000, 'tokenValue': 'e88a5124-7155-4b7d-9d4c-a7feb4155fef'}, 'msg': 'SUCCESS'}
 
 
     </pre>
@@ -235,9 +235,9 @@ table_name是：D:\wy_purchase_order\wy_purchase_order\test_data\purchase.xlsx
     <pre>
     
 pt1_4: data 》》》 {'cityId': 306, 'system': 'android', 'model': 'phone', 'appId': 'commission', 'uid': '', 'areaCode': '+86', 'account': '13100000008', 'password': '123456'}
-cookie的值是：d3ee2f7d-ea96-4aae-ad7e-d7ad49132f83,类型是&lt;class 'str'&gt;
+cookie的值是：4bfcc09e-086f-424c-a1cb-927110cc1bbe,类型是&lt;class 'str'&gt;
 table_name是：D:\wy_purchase_order\wy_purchase_order\test_data\purchase.xlsx
-2022-03-17 17:16:26,438-INFO-request_logging.py-wy_logging-日志信息:获取到的结果是：{'code': 2000, 'data': {'isLogin': True, 'loginDevice': 'commission', 'loginId': 'c5cbaaae493941bd89167b9ff513e2ca', 'loginType': 'login', 'sessionTimeout': 2592000, 'tag': None, 'tokenActivityTimeout': -1, 'tokenName': 'satoken', 'tokenSessionTimeout': -2, 'tokenTimeout': 2592000, 'tokenValue': 'd3ee2f7d-ea96-4aae-ad7e-d7ad49132f83'}, 'msg': 'SUCCESS'}
+2022-03-17 22:02:12,948-INFO-request_logging.py-wy_logging-日志信息:获取到的结果是：{'code': 2000, 'data': {'isLogin': True, 'loginDevice': 'commission', 'loginId': '3849f3a217034de19b4288d443aec1c3', 'loginType': 'login', 'sessionTimeout': 2592000, 'tag': None, 'tokenActivityTimeout': -1, 'tokenName': 'satoken', 'tokenSessionTimeout': -2, 'tokenTimeout': 2592000, 'tokenValue': '4bfcc09e-086f-424c-a1cb-927110cc1bbe'}, 'msg': 'SUCCESS'}
 
 
     </pre>
@@ -257,9 +257,9 @@ table_name是：D:\wy_purchase_order\wy_purchase_order\test_data\purchase.xlsx
     <pre>
     
 pt1_5: data 》》》 {'cityId': 306, 'system': 'android', 'model': 'phone', 'appId': 'commission', 'uid': '', 'areaCode': '+86', 'account': '13100000006', 'password': '123456'}
-cookie的值是：693ba4ca-a7c7-4fe6-8d39-84c2de0fb589,类型是&lt;class 'str'&gt;
+cookie的值是：57452260-5594-48b2-a31e-844eefec99da,类型是&lt;class 'str'&gt;
 table_name是：D:\wy_purchase_order\wy_purchase_order\test_data\purchase.xlsx
-2022-03-17 17:16:28,879-INFO-request_logging.py-wy_logging-日志信息:获取到的结果是：{'code': 2000, 'data': {'isLogin': True, 'loginDevice': 'commission', 'loginId': '07b2f4006d64437ebaf6cbf5849320e2', 'loginType': 'login', 'sessionTimeout': 2591999, 'tag': None, 'tokenActivityTimeout': -1, 'tokenName': 'satoken', 'tokenSessionTimeout': -2, 'tokenTimeout': 2591999, 'tokenValue': '693ba4ca-a7c7-4fe6-8d39-84c2de0fb589'}, 'msg': 'SUCCESS'}
+2022-03-17 22:02:13,392-INFO-request_logging.py-wy_logging-日志信息:获取到的结果是：{'code': 2000, 'data': {'isLogin': True, 'loginDevice': 'commission', 'loginId': '52bc62c518e44f9095ff25f0f8b0250a', 'loginType': 'login', 'sessionTimeout': 2592000, 'tag': None, 'tokenActivityTimeout': -1, 'tokenName': 'satoken', 'tokenSessionTimeout': -2, 'tokenTimeout': 2592000, 'tokenValue': '57452260-5594-48b2-a31e-844eefec99da'}, 'msg': 'SUCCESS'}
 
 
     </pre>
@@ -279,9 +279,9 @@ table_name是：D:\wy_purchase_order\wy_purchase_order\test_data\purchase.xlsx
     <pre>
     
 pt1_6: data 》》》 {'cityId': 306, 'system': 'android', 'model': 'phone', 'appId': 'commission', 'uid': '', 'areaCode': '+86', 'account': '13100000007', 'password': '123456'}
-cookie的值是：b26c3d23-0b24-4d71-a40a-0e3df7fd9d11,类型是&lt;class 'str'&gt;
+cookie的值是：6e96eb70-771b-4e0b-bebc-5e4fbbc8ebd5,类型是&lt;class 'str'&gt;
 table_name是：D:\wy_purchase_order\wy_purchase_order\test_data\purchase.xlsx
-2022-03-17 17:16:29,621-INFO-request_logging.py-wy_logging-日志信息:获取到的结果是：{'code': 2000, 'data': {'isLogin': True, 'loginDevice': 'commission', 'loginId': '0a14020acc0346c7a2c034a08c83414f', 'loginType': 'login', 'sessionTimeout': 2592000, 'tag': None, 'tokenActivityTimeout': -1, 'tokenName': 'satoken', 'tokenSessionTimeout': -2, 'tokenTimeout': 2592000, 'tokenValue': 'b26c3d23-0b24-4d71-a40a-0e3df7fd9d11'}, 'msg': 'SUCCESS'}
+2022-03-17 22:02:13,841-INFO-request_logging.py-wy_logging-日志信息:获取到的结果是：{'code': 2000, 'data': {'isLogin': True, 'loginDevice': 'commission', 'loginId': '6692b0a974b24735907f666503d4102b', 'loginType': 'login', 'sessionTimeout': 2592000, 'tag': None, 'tokenActivityTimeout': -1, 'tokenName': 'satoken', 'tokenSessionTimeout': -2, 'tokenTimeout': 2592000, 'tokenValue': '6e96eb70-771b-4e0b-bebc-5e4fbbc8ebd5'}, 'msg': 'SUCCESS'}
 
 
     </pre>
@@ -301,9 +301,9 @@ table_name是：D:\wy_purchase_order\wy_purchase_order\test_data\purchase.xlsx
     <pre>
     
 pt1_7: data 》》》 {'cityId': 306, 'system': 'android', 'model': 'phone', 'appId': 'commission', 'uid': '', 'areaCode': '+86', 'account': '13100000001', 'password': '123456'}
-cookie的值是：cee02bdb-26c6-4839-a6bf-b3c23e60b8b3,类型是&lt;class 'str'&gt;
+cookie的值是：af11fe39-3b39-402c-810f-b67d6135ae4f,类型是&lt;class 'str'&gt;
 table_name是：D:\wy_purchase_order\wy_purchase_order\test_data\purchase.xlsx
-2022-03-17 17:16:30,079-INFO-request_logging.py-wy_logging-日志信息:获取到的结果是：{'code': 2000, 'data': {'isLogin': True, 'loginDevice': 'commission', 'loginId': '64ad4fcbfdcb4bf48e33f38f4e31c4ce', 'loginType': 'login', 'sessionTimeout': 2592000, 'tag': None, 'tokenActivityTimeout': -1, 'tokenName': 'satoken', 'tokenSessionTimeout': -2, 'tokenTimeout': 2592000, 'tokenValue': 'cee02bdb-26c6-4839-a6bf-b3c23e60b8b3'}, 'msg': 'SUCCESS'}
+2022-03-17 22:02:14,289-INFO-request_logging.py-wy_logging-日志信息:获取到的结果是：{'code': 2000, 'data': {'isLogin': True, 'loginDevice': 'commission', 'loginId': '169f34f4f67345d3b591c2ba62b5c720', 'loginType': 'login', 'sessionTimeout': 2592000, 'tag': None, 'tokenActivityTimeout': -1, 'tokenName': 'satoken', 'tokenSessionTimeout': -2, 'tokenTimeout': 2592000, 'tokenValue': 'af11fe39-3b39-402c-810f-b67d6135ae4f'}, 'msg': 'SUCCESS'}
 
 
     </pre>
@@ -323,9 +323,9 @@ table_name是：D:\wy_purchase_order\wy_purchase_order\test_data\purchase.xlsx
     <pre>
     
 pt1_8: data 》》》 {'cityId': 306, 'system': 'android', 'model': 'phone', 'appId': 'commission', 'uid': '', 'areaCode': '+86', 'account': '13100000002', 'password': '123456'}
-cookie的值是：e4756a69-4a09-4781-af02-d30f86bd007a,类型是&lt;class 'str'&gt;
+cookie的值是：76d0d94b-25d5-4c7f-a977-02c7e8934e59,类型是&lt;class 'str'&gt;
 table_name是：D:\wy_purchase_order\wy_purchase_order\test_data\purchase.xlsx
-2022-03-17 17:16:31,865-INFO-request_logging.py-wy_logging-日志信息:获取到的结果是：{'code': 2000, 'data': {'isLogin': True, 'loginDevice': 'commission', 'loginId': '20b7707f4f3e4260a594db93855f1c42', 'loginType': 'login', 'sessionTimeout': 2592000, 'tag': None, 'tokenActivityTimeout': -1, 'tokenName': 'satoken', 'tokenSessionTimeout': -2, 'tokenTimeout': 2591999, 'tokenValue': 'e4756a69-4a09-4781-af02-d30f86bd007a'}, 'msg': 'SUCCESS'}
+2022-03-17 22:02:14,719-INFO-request_logging.py-wy_logging-日志信息:获取到的结果是：{'code': 2000, 'data': {'isLogin': True, 'loginDevice': 'commission', 'loginId': '4e80f5cae98a42d6ac4e17036d125b85', 'loginType': 'login', 'sessionTimeout': 2592000, 'tag': None, 'tokenActivityTimeout': -1, 'tokenName': 'satoken', 'tokenSessionTimeout': -2, 'tokenTimeout': 2592000, 'tokenValue': '76d0d94b-25d5-4c7f-a977-02c7e8934e59'}, 'msg': 'SUCCESS'}
 
 
     </pre>
@@ -333,21 +333,27 @@ table_name是：D:\wy_purchase_order\wy_purchase_order\test_data\purchase.xlsx
     </td>
 </tr>
 
-<tr id='pt1_9' class='hiddenRow'>
-    <td class='passCase'><div class='testcase'>test_1userlogin_09</div></td>
+<tr id='ft1_9' class='none'>
+    <td class='errorCase'><div class='testcase'>test_1userlogin_09</div></td>
     <td colspan='5' align='center'>
     <!--默认收起错误信息 -Findyou
-    <button id='btn_pt1_9' type="button"  class="btn btn-danger btn-xs collapsed" data-toggle="collapse" data-target='#div_pt1_9'>通过</button>
-    <div id='div_pt1_9' class="collapse">  -->
+    <button id='btn_ft1_9' type="button"  class="btn btn-danger btn-xs collapsed" data-toggle="collapse" data-target='#div_ft1_9'>错误</button>
+    <div id='div_ft1_9' class="collapse">  -->
     <!-- 默认展开错误信息 -Findyou -->
-    <button id='btn_pt1_9' type="button"  class="btn btn-danger btn-xs" data-toggle="collapse" data-target='#div_pt1_9'>通过</button>
-    <div id='div_pt1_9' class="collapse in" align="left">
+    <button id='btn_ft1_9' type="button"  class="btn btn-danger btn-xs" data-toggle="collapse" data-target='#div_ft1_9'>错误</button>
+    <div id='div_ft1_9' class="collapse in" align="left">
     <pre>
     
-pt1_9: data 》》》 {'cityId': 306, 'system': 'android', 'model': 'phone', 'appId': 'commission', 'uid': '', 'areaCode': '+86', 'account': '13600000006', 'password': '123456'}
-cookie的值是：4d2a2e2c-37e4-4d5e-9956-651e82b2c213,类型是&lt;class 'str'&gt;
+ft1_9: data 》》》 {'cityId': 306, 'system': 'android', 'model': 'phone', 'appId': 'commission', 'uid': '', 'areaCode': '+86', 'account': '13600000006', 'password': '123456'}
+cookie的值是：None,类型是&lt;class 'NoneType'&gt;
 table_name是：D:\wy_purchase_order\wy_purchase_order\test_data\purchase.xlsx
-2022-03-17 17:16:32,554-INFO-request_logging.py-wy_logging-日志信息:获取到的结果是：{'code': 2000, 'data': {'isLogin': True, 'loginDevice': 'commission', 'loginId': '021930aed2b34180a50921370bb3c1a5', 'loginType': 'login', 'sessionTimeout': 2592000, 'tag': None, 'tokenActivityTimeout': -1, 'tokenName': 'satoken', 'tokenSessionTimeout': -2, 'tokenTimeout': 2592000, 'tokenValue': '4d2a2e2c-37e4-4d5e-9956-651e82b2c213'}, 'msg': 'SUCCESS'}
+2022-03-17 22:02:14,816-INFO-request_logging.py-wy_logging-日志信息:获取到的结果是：{'code': 4000, 'data': None, 'msg': '账号或密码错误'}
+Traceback (most recent call last):
+  File "C:\Users\will\AppData\Roaming\Python\Python39\site-packages\ddt.py", line 191, in wrapper
+    return func(self, *args, **kwargs)
+  File "D:\wy_purchase_order\wy_purchase_order\common\pubilc\request_testcase.py", line 45, in test_1userlogin
+    GetTestData().wirte_userid("user", res.json()["data"]["loginId"],res.cookies.get("satoken"), user_data["role_code"])
+TypeError: 'NoneType' object is not subscriptable
 
 
     </pre>
@@ -367,9 +373,9 @@ table_name是：D:\wy_purchase_order\wy_purchase_order\test_data\purchase.xlsx
     <pre>
     
 pt1_10: data 》》》 {'cityId': 306, 'system': 'android', 'model': 'phone', 'appId': 'commission', 'uid': '', 'areaCode': '+86', 'account': '13600000004', 'password': '123456'}
-cookie的值是：ed81206f-9b14-45d5-a0e5-e066f982e335,类型是&lt;class 'str'&gt;
+cookie的值是：aa6073e6-8e05-4629-a3f3-febbf29fb4f1,类型是&lt;class 'str'&gt;
 table_name是：D:\wy_purchase_order\wy_purchase_order\test_data\purchase.xlsx
-2022-03-17 17:16:32,969-INFO-request_logging.py-wy_logging-日志信息:获取到的结果是：{'code': 2000, 'data': {'isLogin': True, 'loginDevice': 'commission', 'loginId': '6f8d29e4d36840ad817917d04bea1f50', 'loginType': 'login', 'sessionTimeout': 2592000, 'tag': None, 'tokenActivityTimeout': -1, 'tokenName': 'satoken', 'tokenSessionTimeout': -2, 'tokenTimeout': 2592000, 'tokenValue': 'ed81206f-9b14-45d5-a0e5-e066f982e335'}, 'msg': 'SUCCESS'}
+2022-03-17 22:02:15,273-INFO-request_logging.py-wy_logging-日志信息:获取到的结果是：{'code': 2000, 'data': {'isLogin': True, 'loginDevice': 'commission', 'loginId': '7914a23910cd45c8a843f463fd88b5fb', 'loginType': 'login', 'sessionTimeout': 2592000, 'tag': None, 'tokenActivityTimeout': -1, 'tokenName': 'satoken', 'tokenSessionTimeout': -2, 'tokenTimeout': 2592000, 'tokenValue': 'aa6073e6-8e05-4629-a3f3-febbf29fb4f1'}, 'msg': 'SUCCESS'}
 
 
     </pre>
@@ -389,9 +395,9 @@ table_name是：D:\wy_purchase_order\wy_purchase_order\test_data\purchase.xlsx
     <pre>
     
 pt1_11: data 》》》 {'cityId': 306, 'system': 'android', 'model': 'phone', 'appId': 'commission', 'uid': '', 'areaCode': '+86', 'account': '13600000003', 'password': '123456'}
-cookie的值是：15974958-7aad-457e-9bc1-bb83e2075957,类型是&lt;class 'str'&gt;
+cookie的值是：ea82a845-c7c9-4e44-a446-4f41b2ad20d4,类型是&lt;class 'str'&gt;
 table_name是：D:\wy_purchase_order\wy_purchase_order\test_data\purchase.xlsx
-2022-03-17 17:16:33,406-INFO-request_logging.py-wy_logging-日志信息:获取到的结果是：{'code': 2000, 'data': {'isLogin': True, 'loginDevice': 'commission', 'loginId': '73a04534f04d42ca9bbed4cd0c2ec105', 'loginType': 'login', 'sessionTimeout': 2592000, 'tag': None, 'tokenActivityTimeout': -1, 'tokenName': 'satoken', 'tokenSessionTimeout': -2, 'tokenTimeout': 2592000, 'tokenValue': '15974958-7aad-457e-9bc1-bb83e2075957'}, 'msg': 'SUCCESS'}
+2022-03-17 22:02:15,722-INFO-request_logging.py-wy_logging-日志信息:获取到的结果是：{'code': 2000, 'data': {'isLogin': True, 'loginDevice': 'commission', 'loginId': '6f8bcbbecfd04f369fe12d4af0a1e8fa', 'loginType': 'login', 'sessionTimeout': 2592000, 'tag': None, 'tokenActivityTimeout': -1, 'tokenName': 'satoken', 'tokenSessionTimeout': -2, 'tokenTimeout': 2592000, 'tokenValue': 'ea82a845-c7c9-4e44-a446-4f41b2ad20d4'}, 'msg': 'SUCCESS'}
 
 
     </pre>
@@ -411,9 +417,9 @@ table_name是：D:\wy_purchase_order\wy_purchase_order\test_data\purchase.xlsx
     <pre>
     
 pt1_12: data 》》》 {'cityId': 306, 'system': 'android', 'model': 'phone', 'appId': 'commission', 'uid': '', 'areaCode': '+86', 'account': '13600000005', 'password': '123456'}
-cookie的值是：739b8ffb-00ae-46dc-81ce-13a164d4e471,类型是&lt;class 'str'&gt;
+cookie的值是：55f59fb6-688f-4114-8ef7-d504d1c4916f,类型是&lt;class 'str'&gt;
 table_name是：D:\wy_purchase_order\wy_purchase_order\test_data\purchase.xlsx
-2022-03-17 17:16:33,845-INFO-request_logging.py-wy_logging-日志信息:获取到的结果是：{'code': 2000, 'data': {'isLogin': True, 'loginDevice': 'commission', 'loginId': '34f32c149f7d4c63be4e772c1f4eb23b', 'loginType': 'login', 'sessionTimeout': 2592000, 'tag': None, 'tokenActivityTimeout': -1, 'tokenName': 'satoken', 'tokenSessionTimeout': -2, 'tokenTimeout': 2592000, 'tokenValue': '739b8ffb-00ae-46dc-81ce-13a164d4e471'}, 'msg': 'SUCCESS'}
+2022-03-17 22:02:16,113-INFO-request_logging.py-wy_logging-日志信息:获取到的结果是：{'code': 2000, 'data': {'isLogin': True, 'loginDevice': 'commission', 'loginId': 'd10b7c18062044018d178822c359967c', 'loginType': 'login', 'sessionTimeout': 2592000, 'tag': None, 'tokenActivityTimeout': -1, 'tokenName': 'satoken', 'tokenSessionTimeout': -2, 'tokenTimeout': 2592000, 'tokenValue': '55f59fb6-688f-4114-8ef7-d504d1c4916f'}, 'msg': 'SUCCESS'}
 
 
     </pre>
@@ -432,15 +438,15 @@ table_name是：D:\wy_purchase_order\wy_purchase_order\test_data\purchase.xlsx
     <div id='div_pt1_13' class="collapse in" align="left">
     <pre>
     
-pt1_13: data 》》》{0} {"cityId":306,"platformId":999,"system":"android","model":"phone","appId":"commission","uid":"055c509d3c1b4c2ebf2bc70fe8447e67","departmentId":999,"salePlatformId":999,"projectId":31,"deptId":4807,"agentId":"86d50b0e8aa045068e8755b7eb62a6cb","customName":"华发四季314栋业主1035","mobileType":"1","customMobile":"169****8888","sex":1,"numPeople":3,"source":1,"reportTime":"2022-03-14 12:41","hasVisit":1,"visitTime":"2022-03-14 12:42","visitProof":[],"planVisitDate":"","remark":"提交报备1"}
-cookie的值是：&lt;RequestsCookieJar[&lt;Cookie satoken=5849243c-2083-4978-a476-c696031a829c for pre.yunjinji.cn/&gt;]&gt;,类型是&lt;class 'requests.cookies.RequestsCookieJar'&gt;
-2022-03-17 17:16:33,846-INFO-request_logging.py-wy_logging-日志信息:&lt;RequestsCookieJar[&lt;Cookie satoken=5849243c-2083-4978-a476-c696031a829c for pre.yunjinji.cn/&gt;]&gt;
-data 》》》 {'cityId': 306, 'platformId': 999, 'system': 'android', 'model': 'phone', 'appId': 'commission', 'uid': '055c509d3c1b4c2ebf2bc70fe8447e67', 'departmentId': 999, 'salePlatformId': 999, 'projectId': 31, 'deptId': 4807, 'agentId': '86d50b0e8aa045068e8755b7eb62a6cb', 'customName': '华发四季314栋业主1035', 'mobileType': '1', 'customMobile': '169****8888', 'sex': 1, 'numPeople': 3, 'source': 1, 'reportTime': '2022-03-14 12:41', 'hasVisit': 1, 'visitTime': '2022-03-14 12:42', 'visitProof': [], 'planVisitDate': '', 'remark': '提交报备1'}
+pt1_13: data 》》》{0} {"cityId":306,"platformId":999,"system":"android","model":"phone","appId":"commission","uid":"b443db61e91c4fc29e53e02d81b88ac4","departmentId":999,"salePlatformId":999,"projectId":163,"deptId":4807,"agentId":"1387002351581421569","customName":"龙光317栋业主1005","mobileType":"1","customMobile":"169****8888","sex":1,"numPeople":3,"source":1,"reportTime":"2022-03-14 12:41","hasVisit":1,"visitTime":"2022-03-14 12:42","visitProof":[],"planVisitDate":"","remark":"提交报备1"}
+cookie的值是：&lt;RequestsCookieJar[&lt;Cookie satoken=bdb03c03-2f9d-4947-9129-fd72637207b2 for release.yunjinji.cn/&gt;]&gt;,类型是&lt;class 'requests.cookies.RequestsCookieJar'&gt;
+2022-03-17 22:02:16,114-INFO-request_logging.py-wy_logging-日志信息:&lt;RequestsCookieJar[&lt;Cookie satoken=bdb03c03-2f9d-4947-9129-fd72637207b2 for release.yunjinji.cn/&gt;]&gt;
+data 》》》 {'cityId': 306, 'platformId': 999, 'system': 'android', 'model': 'phone', 'appId': 'commission', 'uid': 'b443db61e91c4fc29e53e02d81b88ac4', 'departmentId': 999, 'salePlatformId': 999, 'projectId': 163, 'deptId': 4807, 'agentId': '1387002351581421569', 'customName': '龙光317栋业主1005', 'mobileType': '1', 'customMobile': '169****8888', 'sex': 1, 'numPeople': 3, 'source': 1, 'reportTime': '2022-03-14 12:41', 'hasVisit': 1, 'visitTime': '2022-03-14 12:42', 'visitProof': [], 'planVisitDate': '', 'remark': '提交报备1'}
 url &gt;&gt;&gt;&lt;class 'str'&gt;
 table_name是：D:\wy_purchase_order\wy_purchase_order\test_data\purchase.xlsx
 获取到得cookies》》》 None
 table_name是：D:\wy_purchase_order\wy_purchase_order\test_data\purchase.xlsx
-2022-03-17 17:16:34,603-INFO-request_logging.py-wy_logging-日志信息:获取到的结果是：{"code":2000,"data":true,"msg":"SUCCESS"}
+2022-03-17 22:02:16,991-INFO-request_logging.py-wy_logging-日志信息:获取到的结果是：{"code":2000,"data":true,"msg":"SUCCESS"}
 
 
     </pre>
@@ -465,15 +471,15 @@ pt1_14: data 》》》{0} {
     "system":"android",
     "model":"phone",
     "appId":"commission",
-    "uid":"3f232aa91d334502aea0d9424d01481b",
+    "uid":"794d9ba7b6e74c91a6e4ed678df7bb26",
     "departmentId":999,
-    "reportId":"44485",
+    "reportId":"40322",
     "additionEnroll":0,
-    "customName":"华发四季314栋业主1035",
+    "customName":"龙光317栋业主1005",
     "customPhone":"13729112152",
     "voucherId":"",
     "purchaseDate":"2022-03-14",
-    "roomNo":"华发四季314栋1035",
+    "roomNo":"龙光317栋1005",
     "roomArea":"104.00",
     "originalPrice":1040000,
     "purchasePrice":1050000,
@@ -489,7 +495,7 @@ pt1_14: data 》》》{0} {
             "name":"599dae3c07fb416cbb55c63cb4f368de.jpeg"
         }
     ],
-    "payCommPlanId":206,
+    "payCommPlanId":65,
     "purchaseProof":[
         {
             "url":"https://picos.wyzfang.com/pre/java/2022-2/cb86f751782446cd8aeb18fa8cc5c15c.jpeg",
@@ -498,13 +504,13 @@ pt1_14: data 》》》{0} {
     ],
     "remark":"调接口生成认购单"
 }
-cookie的值是：&lt;RequestsCookieJar[&lt;Cookie satoken=fa6ab1c9-69ea-41a8-8c24-2160a5846878 for pre.yunjinji.cn/&gt;]&gt;,类型是&lt;class 'requests.cookies.RequestsCookieJar'&gt;
-2022-03-17 17:16:34,604-INFO-request_logging.py-wy_logging-日志信息:&lt;RequestsCookieJar[&lt;Cookie satoken=fa6ab1c9-69ea-41a8-8c24-2160a5846878 for pre.yunjinji.cn/&gt;]&gt;
-data 》》》 {'cityId': 306, 'platformId': 999, 'system': 'android', 'model': 'phone', 'appId': 'commission', 'uid': '3f232aa91d334502aea0d9424d01481b', 'departmentId': 999, 'reportId': '44485', 'additionEnroll': 0, 'customName': '华发四季314栋业主1035', 'customPhone': '13729112152', 'voucherId': '', 'purchaseDate': '2022-03-14', 'roomNo': '华发四季314栋1035', 'roomArea': '104.00', 'originalPrice': 1040000, 'purchasePrice': 1050000, 'signPrice': 1060000, 'paymentMethod': '2', 'groupbuy': 1, 'groupbuyPlanId': 10, 'ignoreSameRoomNo': False, 'receivableGroupbuy': 40000, 'receiveGroupbuy': 40000, 'groupbuyProof': [{'url': 'https://picos.wyzfang.com/pre/java/2022-2/599dae3c07fb416cbb55c63cb4f368de.jpeg', 'name': '599dae3c07fb416cbb55c63cb4f368de.jpeg'}], 'payCommPlanId': 206, 'purchaseProof': [{'url': 'https://picos.wyzfang.com/pre/java/2022-2/cb86f751782446cd8aeb18fa8cc5c15c.jpeg', 'name': 'cb86f751782446cd8aeb18fa8cc5c15c.jpeg'}], 'remark': '调接口生成认购单'}
+cookie的值是：&lt;RequestsCookieJar[&lt;Cookie satoken=6d75fd3d-2b81-4b50-9089-c58df8e75c5b for release.yunjinji.cn/&gt;]&gt;,类型是&lt;class 'requests.cookies.RequestsCookieJar'&gt;
+2022-03-17 22:02:16,992-INFO-request_logging.py-wy_logging-日志信息:&lt;RequestsCookieJar[&lt;Cookie satoken=6d75fd3d-2b81-4b50-9089-c58df8e75c5b for release.yunjinji.cn/&gt;]&gt;
+data 》》》 {'cityId': 306, 'platformId': 999, 'system': 'android', 'model': 'phone', 'appId': 'commission', 'uid': '794d9ba7b6e74c91a6e4ed678df7bb26', 'departmentId': 999, 'reportId': '40322', 'additionEnroll': 0, 'customName': '龙光317栋业主1005', 'customPhone': '13729112152', 'voucherId': '', 'purchaseDate': '2022-03-14', 'roomNo': '龙光317栋1005', 'roomArea': '104.00', 'originalPrice': 1040000, 'purchasePrice': 1050000, 'signPrice': 1060000, 'paymentMethod': '2', 'groupbuy': 1, 'groupbuyPlanId': 10, 'ignoreSameRoomNo': False, 'receivableGroupbuy': 40000, 'receiveGroupbuy': 40000, 'groupbuyProof': [{'url': 'https://picos.wyzfang.com/pre/java/2022-2/599dae3c07fb416cbb55c63cb4f368de.jpeg', 'name': '599dae3c07fb416cbb55c63cb4f368de.jpeg'}], 'payCommPlanId': 65, 'purchaseProof': [{'url': 'https://picos.wyzfang.com/pre/java/2022-2/cb86f751782446cd8aeb18fa8cc5c15c.jpeg', 'name': 'cb86f751782446cd8aeb18fa8cc5c15c.jpeg'}], 'remark': '调接口生成认购单'}
 url &gt;&gt;&gt;&lt;class 'str'&gt;
 获取到得cookies》》》 None
 table_name是：D:\wy_purchase_order\wy_purchase_order\test_data\purchase.xlsx
-2022-03-17 17:16:35,256-INFO-request_logging.py-wy_logging-日志信息:获取到的结果是：{"code":2000,"data":{"actualPayCommission":null,"additionEnroll":0,"agencyTrade":"NOT_AGENCY_TRADE","agentId":"86d50b0e8aa045068e8755b7eb62a6cb","agentStatus":null,"changeHouseDate":null,"changeHouseProof":[],"collectingCompanyId":null,"commProjectId":68,"costs":null,"createBy":"3f232aa91d334502aea0d9424d01481b","createTime":"2022-03-17 17:16:35","currentPayableActualCommission":null,"customerId":38847,"customerName":"华发四季314栋业主1035","customerPhone":"13729112152","departmentId":4807,"departmentName":"北京日益通速递有限责任公司2222","dissent":null,"divisionId":40,"divisionName":"测试部","exchangeOrder":false,"finalAuditApproved":false,"grossProfit":null,"groupbuy":1,"groupbuyPayer":null,"groupbuyPlanId":10,"groupbuyProof":[{"name":"599dae3c07fb416cbb55c63cb4f368de.jpeg","url":"https://picos.wyzfang.com/pre/java/2022-2/599dae3c07fb416cbb55c63cb4f368de.jpeg"}],"groupbuyRecieveDate":null,"groupbuyRecieveId":null,"groupbuyRecieveProof":[],"groupbuyStatus":null,"initialSignDate":null,"initialSignProof":[],"loanDate":null,"loanProof":[],"netProfits":null,"netSignDate":null,"netSignProof":[],"normalStat":true,"notAgencyTrade":true,"originId":0,"originalPrice":1040000,"pay":null,"payAdjustCommission":null,"payAdjustMoney":null,"payCaseDesc":"平台/门店结佣方案","payCaseDescribe":"平台/门店结佣方案","payCommPlanId":206,"payPlanId":206,"payStatus":null,"payableCommission":83000.00,"payableCommissionProof":[],"payableMoney":83000.00,"payedCommission":null,"paymentMethod":2,"paymentMethodDesc":"按揭付款","platformDeptName":"北京日益通速递有限责任公司2222","platformId":999,"platformPayAdjustCommission":null,"platformPayCaseDescribe":null,"platformPayCommPlanId":null,"platformPayableCommission":null,"platformPayableCommissionProof":[],"prepay":1,"prepayCommission":null,"projectAgencyOrder":false,"projectAgencyTrade":false,"projectId":31,"projectName":"华发四季1","projectPlatformId":999,"projectPlatformName":"中山云经纪","purchaseCode":"RG2022031733169825","purchaseDate":"2022-03-14","purchaseOrderType":"NORMAL","purchasePrice":1050000,"purchaseProof":[{"name":"cb86f751782446cd8aeb18fa8cc5c15c.jpeg","url":"https://picos.wyzfang.com/pre/java/2022-2/cb86f751782446cd8aeb18fa8cc5c15c.jpeg"}],"reAdjustCommision":null,"realReceiveGroupbuy":0,"recCaseDescribe":null,"recCommPlanId":null,"recStatus":null,"recStatusDesc":null,"receivableCommision":0,"receivableCommissionProof":[],"receivableGroupbuy":40000,"receiveGroupbuy":40000,"receivedCommission":null,"recheckApproved":null,"remark":"调接口生成认购单","reportId":44485,"reportTime":"2022-03-14 12:41:00","returnHouseDate":null,"returnHouseProof":[],"returnOrChangeStage":false,"revenue":null,"roomArea":"104.00","roomNo":"华发四季314栋1035","saleAgencyTrade":false,"salePlatformId":999,"salePlatformName":"中山云经纪","salePlatformOrDepartment":"北京日益通速递有限责任公司2222","salePlatformOrDepartmentId":-4807,"salePurchaseOrderId":0,"saleRecCommPlanId":null,"settlePrice":1060000,"settlePriceProof":[],"signPrice":1060000,"stage":3,"stageDesc":"认购","stageFromStatus":3,"stageState":null,"status":2,"statusDesc":"认购初审中","totalReceivableCommission":0,"tradeConfirmDate":null,"tradeId":3186,"unPayedCommission":null,"unReceivedCommission":null,"updateBy":"3f232aa91d334502aea0d9424d01481b","updateTime":"2022-03-17 17:16:35","validRecCommPlanId":null,"visitTime":"2022-03-14 12:42:00","voucherDepartmentPay":null,"voucherId":null,"voucherPay":null},"msg":"SUCCESS"}
+2022-03-17 22:02:18,207-INFO-request_logging.py-wy_logging-日志信息:获取到的结果是：{"code":2000,"data":{"actualPayCommission":null,"additionEnroll":0,"agencyTrade":"NOT_AGENCY_TRADE","agentId":"1387002351581421569","agentStatus":null,"changeHouseDate":null,"changeHouseProof":[],"collectingCompanyId":null,"commProjectId":1,"costs":null,"createBy":"794d9ba7b6e74c91a6e4ed678df7bb26","createTime":"2022-03-17 22:02:18","currentPayableActualCommission":null,"customerId":33136,"customerName":"龙光317栋业主1005","customerPhone":"13729112152","departmentId":4807,"departmentName":"北京日益通速递有限责任公司1","dissent":null,"divisionId":46,"divisionName":"一组","exchangeOrder":false,"finalAuditApproved":false,"grossProfit":null,"groupbuy":1,"groupbuyPayer":null,"groupbuyPlanId":10,"groupbuyProof":[{"name":"599dae3c07fb416cbb55c63cb4f368de.jpeg","url":"https://picos.wyzfang.com/pre/java/2022-2/599dae3c07fb416cbb55c63cb4f368de.jpeg"}],"groupbuyRecieveDate":null,"groupbuyRecieveId":null,"groupbuyRecieveProof":[],"groupbuyStatus":null,"initialSignDate":null,"initialSignProof":[],"loanDate":null,"loanProof":[],"netProfits":null,"netSignDate":null,"netSignProof":[],"normalStat":true,"notAgencyTrade":true,"originId":0,"originalPrice":1040000,"pay":null,"payAdjustCommission":null,"payAdjustMoney":null,"payCaseDesc":"平台结佣方案：平台结佣","payCaseDescribe":"平台结佣方案：平台结佣","payCommPlanId":65,"payPlanId":65,"payStatus":null,"payableCommission":72400.00,"payableCommissionProof":[],"payableMoney":72400.00,"payedCommission":null,"paymentMethod":2,"paymentMethodDesc":"按揭付款","platformDeptName":"北京日益通速递有限责任公司1","platformId":999,"platformPayAdjustCommission":null,"platformPayCaseDescribe":null,"platformPayCommPlanId":null,"platformPayableCommission":null,"platformPayableCommissionProof":[],"prepay":0,"prepayCommission":null,"projectAgencyOrder":false,"projectAgencyTrade":false,"projectId":163,"projectName":"华发广场","projectPlatformId":999,"projectPlatformName":"中山云经纪","purchaseCode":"RG2022031737104136","purchaseDate":"2022-03-14","purchaseOrderType":"NORMAL","purchasePrice":1050000,"purchaseProof":[{"name":"cb86f751782446cd8aeb18fa8cc5c15c.jpeg","url":"https://picos.wyzfang.com/pre/java/2022-2/cb86f751782446cd8aeb18fa8cc5c15c.jpeg"}],"reAdjustCommision":null,"realReceiveGroupbuy":0,"recCaseDescribe":null,"recCommPlanId":null,"recStatus":null,"recStatusDesc":null,"receivableCommision":0,"receivableCommissionProof":[],"receivableGroupbuy":40000,"receiveGroupbuy":40000,"receivedCommission":null,"recheckApproved":null,"remark":"调接口生成认购单","reportId":40322,"reportTime":"2022-03-14 12:41:00","returnHouseDate":null,"returnHouseProof":[],"returnOrChangeStage":false,"revenue":null,"roomArea":"104.00","roomNo":"龙光317栋1005","saleAgencyTrade":false,"salePlatformId":999,"salePlatformName":"中山云经纪","salePlatformOrDepartment":"北京日益通速递有限责任公司1","salePlatformOrDepartmentId":-4807,"salePurchaseOrderId":0,"saleRecCommPlanId":null,"settlePrice":1060000,"settlePriceProof":[],"signPrice":1060000,"stage":3,"stageDesc":"认购","stageFromStatus":3,"stageState":null,"status":2,"statusDesc":"认购初审中","totalReceivableCommission":0,"tradeConfirmDate":null,"tradeId":348,"unPayedCommission":null,"unReceivedCommission":null,"updateBy":"794d9ba7b6e74c91a6e4ed678df7bb26","updateTime":"2022-03-17 22:02:18","validRecCommPlanId":null,"visitTime":"2022-03-14 12:42:00","voucherDepartmentPay":null,"voucherId":null,"voucherPay":null},"msg":"SUCCESS"}
 
 
     </pre>
@@ -523,15 +529,15 @@ table_name是：D:\wy_purchase_order\wy_purchase_order\test_data\purchase.xlsx
     <div id='div_pt1_15' class="collapse in" align="left">
     <pre>
     
-pt1_15: data 》》》{0} {"cityId":306,"platformId":999,"system":"android","model":"phone","appId":"commission","uid":"3f232aa91d334502aea0d9424d01481b","id":3186}
-cookie的值是：&lt;RequestsCookieJar[&lt;Cookie satoken=fa6ab1c9-69ea-41a8-8c24-2160a5846878 for pre.yunjinji.cn/&gt;]&gt;,类型是&lt;class 'requests.cookies.RequestsCookieJar'&gt;
-2022-03-17 17:16:35,258-INFO-request_logging.py-wy_logging-日志信息:&lt;RequestsCookieJar[&lt;Cookie satoken=fa6ab1c9-69ea-41a8-8c24-2160a5846878 for pre.yunjinji.cn/&gt;]&gt;
-data 》》》 {'cityId': 306, 'platformId': 999, 'system': 'android', 'model': 'phone', 'appId': 'commission', 'uid': '3f232aa91d334502aea0d9424d01481b', 'id': 3186}
+pt1_15: data 》》》{0} {"cityId":306,"platformId":999,"system":"android","model":"phone","appId":"commission","uid":"794d9ba7b6e74c91a6e4ed678df7bb26","id":348}
+cookie的值是：&lt;RequestsCookieJar[&lt;Cookie satoken=6d75fd3d-2b81-4b50-9089-c58df8e75c5b for release.yunjinji.cn/&gt;]&gt;,类型是&lt;class 'requests.cookies.RequestsCookieJar'&gt;
+2022-03-17 22:02:18,208-INFO-request_logging.py-wy_logging-日志信息:&lt;RequestsCookieJar[&lt;Cookie satoken=6d75fd3d-2b81-4b50-9089-c58df8e75c5b for release.yunjinji.cn/&gt;]&gt;
+data 》》》 {'cityId': 306, 'platformId': 999, 'system': 'android', 'model': 'phone', 'appId': 'commission', 'uid': '794d9ba7b6e74c91a6e4ed678df7bb26', 'id': 348}
 url &gt;&gt;&gt;&lt;class 'str'&gt;
-获取到的zc_cut &gt;&gt;&gt;[{'cutAmount': 0.0, 'divisionName': '测试部', 'number': 1, 'payedCut': 0.0, 'ratio': 0.5, 'userId': '3f232aa91d334502aea0d9424d01481b', 'userName': '驻场经理real1'}, {'cutAmount': 0.0, 'divisionName': '测试部', 'number': 2, 'payedCut': 0.0, 'ratio': 0.3, 'userId': '055c509d3c1b4c2ebf2bc70fe8447e67', 'userName': '驻场real'}, {'cutAmount': 0.0, 'divisionName': 'APP推送测试', 'number': 3, 'payedCut': 0.0, 'ratio': 0.1, 'userId': '729e2f29f8a74724a6baa03f22991e45', 'userName': '驻场经理1'}]
+获取到的zc_cut &gt;&gt;&gt;[{'cutAmount': 0.0, 'divisionName': '测试部', 'number': 1, 'payedCut': 0.0, 'ratio': 0.3, 'userId': 'b443db61e91c4fc29e53e02d81b88ac4', 'userName': '测试（驻场）'}, {'cutAmount': 0.0, 'divisionName': '测试部', 'number': 2, 'payedCut': 0.0, 'ratio': 0.4, 'userId': 'bf370e16a4ef4ea7933914d4659fe277', 'userName': 'im驻场'}, {'cutAmount': 0.0, 'divisionName': '测试部', 'number': 3, 'payedCut': 0.0, 'ratio': 0.1, 'userId': '7115d39854b64c18b67ccd45e452b79e', 'userName': '测试（驻场2）'}]
 获取到得cookies》》》 None
 table_name是：D:\wy_purchase_order\wy_purchase_order\test_data\purchase.xlsx
-2022-03-17 17:16:35,525-INFO-request_logging.py-wy_logging-日志信息:获取到的结果是：{"code":2000,"data":{"accrualAmount":0.00,"accrualType":1,"currentExpandCut":{"cutCaseType":1,"expandRatios":[{"cutAmount":0.00,"divisionName":"测试部","number":1,"payedCut":0.00,"ratio":0.10,"userId":"07b2f4006d64437ebaf6cbf5849320e2","userName":"拓展real"},{"cutAmount":null,"divisionName":null,"number":2,"payedCut":null,"ratio":null,"userId":null,"userName":null},{"cutAmount":null,"divisionName":null,"number":3,"payedCut":null,"ratio":null,"userId":null,"userName":null}]},"currentExpandManager":{"cutCaseType":1,"expandManagers":[{"number":1,"ratio":0.10,"superiorCutAmount":0.00,"superiorId":"3e03b5451e0c4b4f8618874f269a814a","superiorName":"拓展经理real","superiorPayedCut":0.00,"superiorRoleName":"拓展经理","superiorSuperiorCutAmount":0.00,"superiorSuperiorId":"64ad4fcbfdcb4bf48e33f38f4e31c4ce","superiorSuperiorName":"区域总real","superiorSuperiorPayedCut":0.00,"superiorSuperiorRoleName":"拓展总监"},{"number":2,"ratio":null,"superiorCutAmount":null,"superiorId":null,"superiorName":null,"superiorPayedCut":null,"superiorRoleName":null,"superiorSuperiorCutAmount":null,"superiorSuperiorId":null,"superiorSuperiorName":null,"superiorSuperiorPayedCut":null,"superiorSuperiorRoleName":null},{"number":3,"ratio":null,"superiorCutAmount":null,"superiorId":null,"superiorName":null,"superiorPayedCut":null,"superiorRoleName":null,"superiorSuperiorCutAmount":null,"superiorSuperiorId":null,"superiorSuperiorName":null,"superiorSuperiorPayedCut":null,"superiorSuperiorRoleName":null}]},"currentStandCut":{"cutCaseType":1,"fixedAmount":null,"standRatioDtos":[{"cutAmount":0.00,"divisionName":"测试部","number":1,"payedCut":0.00,"ratio":0.50,"userId":"3f232aa91d334502aea0d9424d01481b","userName":"驻场经理real1"},{"cutAmount":0.00,"divisionName":"测试部","number":2,"payedCut":0.00,"ratio":0.30,"userId":"055c509d3c1b4c2ebf2bc70fe8447e67","userName":"驻场real"},{"cutAmount":0.00,"divisionName":"APP推送测试","number":3,"payedCut":0.00,"ratio":0.10,"userId":"729e2f29f8a74724a6baa03f22991e45","userName":"驻场经理1"}]},"currentStandManager":{"areaManager":"区域总real","areaManagerCutAmount":0.00,"areaManagerId":"64ad4fcbfdcb4bf48e33f38f4e31c4ce","areaManagerPayedCut":0.00,"areaManagerRatio":1.00,"cutCaseType":1,"saleManager":"营销总提成r","saleManagerCutAmount":0.00,"saleManagerId":"ce6cd59da32a40569664cb84ca109cbf","saleManagerPayedCut":0.00,"saleManagerRatio":1.00,"standManager":"驻场经理real1","standManagerCutAmount":0.00,"standManagerId":"3f232aa91d334502aea0d9424d01481b","standManagerPayedCut":0.00,"standManagerRatio":0.50},"lineCutDone":0,"revenue":0.00},"msg":"SUCCESS"}
+2022-03-17 22:02:18,490-INFO-request_logging.py-wy_logging-日志信息:获取到的结果是：{"code":2000,"data":{"accrualAmount":0.00,"accrualType":1,"currentExpandCut":{"cutCaseType":1,"expandRatios":[{"cutAmount":0.00,"divisionName":"测试部","number":1,"payedCut":0.00,"ratio":0.50,"userId":"564288f9ae65416c836cc46a7bb79c9c","userName":"测试（拓展）"},{"cutAmount":0.00,"divisionName":"中山云经纪","number":2,"payedCut":0.00,"ratio":0.10,"userId":"a5a1c18ed11a4c1ea5e5ceed9da5ebe8","userName":"拓展总监（业绩）"},{"cutAmount":null,"divisionName":null,"number":3,"payedCut":null,"ratio":null,"userId":null,"userName":null}]},"currentExpandManager":{"cutCaseType":1,"expandManagers":[{"number":1,"ratio":0.50,"superiorCutAmount":0.00,"superiorId":"05f6c85ef9be43db9b86272361ec9b15","superiorName":"验收清空业绩（拓展经理）(离职)","superiorPayedCut":0.00,"superiorRoleName":"拓展经理","superiorSuperiorCutAmount":0.00,"superiorSuperiorId":"8939e7cbae8f4df5beb8c3daf125a962","superiorSuperiorName":"测试（拓展总监）","superiorSuperiorPayedCut":0.00,"superiorSuperiorRoleName":"拓展总监"},{"number":2,"ratio":null,"superiorCutAmount":null,"superiorId":null,"superiorName":null,"superiorPayedCut":null,"superiorRoleName":null,"superiorSuperiorCutAmount":null,"superiorSuperiorId":null,"superiorSuperiorName":null,"superiorSuperiorPayedCut":null,"superiorSuperiorRoleName":null},{"number":3,"ratio":null,"superiorCutAmount":null,"superiorId":null,"superiorName":null,"superiorPayedCut":null,"superiorRoleName":null,"superiorSuperiorCutAmount":null,"superiorSuperiorId":null,"superiorSuperiorName":null,"superiorSuperiorPayedCut":null,"superiorSuperiorRoleName":null}]},"currentStandCut":{"cutCaseType":1,"fixedAmount":null,"standRatioDtos":[{"cutAmount":0.00,"divisionName":"测试部","number":1,"payedCut":0.00,"ratio":0.30,"userId":"b443db61e91c4fc29e53e02d81b88ac4","userName":"测试（驻场）"},{"cutAmount":0.00,"divisionName":"测试部","number":2,"payedCut":0.00,"ratio":0.40,"userId":"bf370e16a4ef4ea7933914d4659fe277","userName":"im驻场"},{"cutAmount":0.00,"divisionName":"测试部","number":3,"payedCut":0.00,"ratio":0.10,"userId":"7115d39854b64c18b67ccd45e452b79e","userName":"测试（驻场2）"}]},"currentStandManager":{"areaManager":"测试（区域总）","areaManagerCutAmount":0.00,"areaManagerId":"169f34f4f67345d3b591c2ba62b5c720","areaManagerPayedCut":0.00,"areaManagerRatio":1.00,"cutCaseType":1,"saleManager":"萧伟德","saleManagerCutAmount":0.00,"saleManagerId":"0bdb7b2ac84211eb8c6e00163e12a8a4","saleManagerPayedCut":0.00,"saleManagerRatio":1.00,"standManager":"测试（驻场经理）","standManagerCutAmount":0.00,"standManagerId":"794d9ba7b6e74c91a6e4ed678df7bb26","standManagerPayedCut":0.00,"standManagerRatio":1.00},"lineCutDone":0,"revenue":0.00},"msg":"SUCCESS"}
 
 
     </pre>
@@ -556,31 +562,31 @@ pt1_16: data 》》》{0} {
     "system":"android",
     "model":"phone",
     "appId":"commission",
-    "uid":"3f232aa91d334502aea0d9424d01481b",
+    "uid":"794d9ba7b6e74c91a6e4ed678df7bb26",
     "departmentId":999,
-    "tradeId":"3186",
+    "tradeId":"348",
     "remark":"脚本初审通过",
     "adjustStands":{
         "adjustStandslog":{
-            "after":[{"cutAmount": 0.0, "divisionName": "测试部", "number": 1, "payedCut": 0.0, "ratio": 0.5, "userId": "3f232aa91d334502aea0d9424d01481b", "userName": "驻场经理real1"}, {"cutAmount": 0.0, "divisionName": "测试部", "number": 2, "payedCut": 0.0, "ratio": 0.3, "userId": "055c509d3c1b4c2ebf2bc70fe8447e67", "userName": "驻场real"}, {"cutAmount": 0.0, "divisionName": "APP推送测试", "number": 3, "payedCut": 0.0, "ratio": 0.1, "userId": "729e2f29f8a74724a6baa03f22991e45", "userName": "驻场经理1"}],
-            "before":[{"cutAmount": 0.0, "divisionName": "测试部", "number": 1, "payedCut": 0.0, "ratio": 0.5, "userId": "3f232aa91d334502aea0d9424d01481b", "userName": "驻场经理real1"}, {"cutAmount": 0.0, "divisionName": "测试部", "number": 2, "payedCut": 0.0, "ratio": 0.3, "userId": "055c509d3c1b4c2ebf2bc70fe8447e67", "userName": "驻场real"}, {"cutAmount": 0.0, "divisionName": "APP推送测试", "number": 3, "payedCut": 0.0, "ratio": 0.1, "userId": "729e2f29f8a74724a6baa03f22991e45", "userName": "驻场经理1"}]
+            "after":[{"cutAmount": 0.0, "divisionName": "测试部", "number": 1, "payedCut": 0.0, "ratio": 0.3, "userId": "b443db61e91c4fc29e53e02d81b88ac4", "userName": "测试（驻场）"}, {"cutAmount": 0.0, "divisionName": "测试部", "number": 2, "payedCut": 0.0, "ratio": 0.4, "userId": "bf370e16a4ef4ea7933914d4659fe277", "userName": "im驻场"}, {"cutAmount": 0.0, "divisionName": "测试部", "number": 3, "payedCut": 0.0, "ratio": 0.1, "userId": "7115d39854b64c18b67ccd45e452b79e", "userName": "测试（驻场2）"}],
+            "before":[{"cutAmount": 0.0, "divisionName": "测试部", "number": 1, "payedCut": 0.0, "ratio": 0.3, "userId": "b443db61e91c4fc29e53e02d81b88ac4", "userName": "测试（驻场）"}, {"cutAmount": 0.0, "divisionName": "测试部", "number": 2, "payedCut": 0.0, "ratio": 0.4, "userId": "bf370e16a4ef4ea7933914d4659fe277", "userName": "im驻场"}, {"cutAmount": 0.0, "divisionName": "测试部", "number": 3, "payedCut": 0.0, "ratio": 0.1, "userId": "7115d39854b64c18b67ccd45e452b79e", "userName": "测试（驻场2）"}]
         },
         "adjustStandsCmd":{
-            "orderId":"3186",
+            "orderId":"348",
             "proofs":[
 
             ],
-            "standRatioDtos":[{"cutAmount": 0.0, "divisionName": "测试部", "number": 1, "payedCut": 0.0, "ratio": 0.5, "userId": "3f232aa91d334502aea0d9424d01481b", "userName": "驻场经理real1"}, {"cutAmount": 0.0, "divisionName": "测试部", "number": 2, "payedCut": 0.0, "ratio": 0.3, "userId": "055c509d3c1b4c2ebf2bc70fe8447e67", "userName": "驻场real"}, {"cutAmount": 0.0, "divisionName": "APP推送测试", "number": 3, "payedCut": 0.0, "ratio": 0.1, "userId": "729e2f29f8a74724a6baa03f22991e45", "userName": "驻场经理1"}]
+            "standRatioDtos":[{"cutAmount": 0.0, "divisionName": "测试部", "number": 1, "payedCut": 0.0, "ratio": 0.3, "userId": "b443db61e91c4fc29e53e02d81b88ac4", "userName": "测试（驻场）"}, {"cutAmount": 0.0, "divisionName": "测试部", "number": 2, "payedCut": 0.0, "ratio": 0.4, "userId": "bf370e16a4ef4ea7933914d4659fe277", "userName": "im驻场"}, {"cutAmount": 0.0, "divisionName": "测试部", "number": 3, "payedCut": 0.0, "ratio": 0.1, "userId": "7115d39854b64c18b67ccd45e452b79e", "userName": "测试（驻场2）"}]
         }
     }
 }
-cookie的值是：&lt;RequestsCookieJar[&lt;Cookie satoken=fa6ab1c9-69ea-41a8-8c24-2160a5846878 for pre.yunjinji.cn/&gt;]&gt;,类型是&lt;class 'requests.cookies.RequestsCookieJar'&gt;
-2022-03-17 17:16:35,526-INFO-request_logging.py-wy_logging-日志信息:&lt;RequestsCookieJar[&lt;Cookie satoken=fa6ab1c9-69ea-41a8-8c24-2160a5846878 for pre.yunjinji.cn/&gt;]&gt;
-data 》》》 {'cityId': 306, 'platformId': 999, 'system': 'android', 'model': 'phone', 'appId': 'commission', 'uid': '3f232aa91d334502aea0d9424d01481b', 'departmentId': 999, 'tradeId': '3186', 'remark': '脚本初审通过', 'adjustStands': {'adjustStandslog': {'after': [{'cutAmount': 0.0, 'divisionName': '测试部', 'number': 1, 'payedCut': 0.0, 'ratio': 0.5, 'userId': '3f232aa91d334502aea0d9424d01481b', 'userName': '驻场经理real1'}, {'cutAmount': 0.0, 'divisionName': '测试部', 'number': 2, 'payedCut': 0.0, 'ratio': 0.3, 'userId': '055c509d3c1b4c2ebf2bc70fe8447e67', 'userName': '驻场real'}, {'cutAmount': 0.0, 'divisionName': 'APP推送测试', 'number': 3, 'payedCut': 0.0, 'ratio': 0.1, 'userId': '729e2f29f8a74724a6baa03f22991e45', 'userName': '驻场经理1'}], 'before': [{'cutAmount': 0.0, 'divisionName': '测试部', 'number': 1, 'payedCut': 0.0, 'ratio': 0.5, 'userId': '3f232aa91d334502aea0d9424d01481b', 'userName': '驻场经理real1'}, {'cutAmount': 0.0, 'divisionName': '测试部', 'number': 2, 'payedCut': 0.0, 'ratio': 0.3, 'userId': '055c509d3c1b4c2ebf2bc70fe8447e67', 'userName': '驻场real'}, {'cutAmount': 0.0, 'divisionName': 'APP推送测试', 'number': 3, 'payedCut': 0.0, 'ratio': 0.1, 'userId': '729e2f29f8a74724a6baa03f22991e45', 'userName': '驻场经理1'}]}, 'adjustStandsCmd': {'orderId': '3186', 'proofs': [], 'standRatioDtos': [{'cutAmount': 0.0, 'divisionName': '测试部', 'number': 1, 'payedCut': 0.0, 'ratio': 0.5, 'userId': '3f232aa91d334502aea0d9424d01481b', 'userName': '驻场经理real1'}, {'cutAmount': 0.0, 'divisionName': '测试部', 'number': 2, 'payedCut': 0.0, 'ratio': 0.3, 'userId': '055c509d3c1b4c2ebf2bc70fe8447e67', 'userName': '驻场real'}, {'cutAmount': 0.0, 'divisionName': 'APP推送测试', 'number': 3, 'payedCut': 0.0, 'ratio': 0.1, 'userId': '729e2f29f8a74724a6baa03f22991e45', 'userName': '驻场经理1'}]}}}
+cookie的值是：&lt;RequestsCookieJar[&lt;Cookie satoken=6d75fd3d-2b81-4b50-9089-c58df8e75c5b for release.yunjinji.cn/&gt;]&gt;,类型是&lt;class 'requests.cookies.RequestsCookieJar'&gt;
+2022-03-17 22:02:18,492-INFO-request_logging.py-wy_logging-日志信息:&lt;RequestsCookieJar[&lt;Cookie satoken=6d75fd3d-2b81-4b50-9089-c58df8e75c5b for release.yunjinji.cn/&gt;]&gt;
+data 》》》 {'cityId': 306, 'platformId': 999, 'system': 'android', 'model': 'phone', 'appId': 'commission', 'uid': '794d9ba7b6e74c91a6e4ed678df7bb26', 'departmentId': 999, 'tradeId': '348', 'remark': '脚本初审通过', 'adjustStands': {'adjustStandslog': {'after': [{'cutAmount': 0.0, 'divisionName': '测试部', 'number': 1, 'payedCut': 0.0, 'ratio': 0.3, 'userId': 'b443db61e91c4fc29e53e02d81b88ac4', 'userName': '测试（驻场）'}, {'cutAmount': 0.0, 'divisionName': '测试部', 'number': 2, 'payedCut': 0.0, 'ratio': 0.4, 'userId': 'bf370e16a4ef4ea7933914d4659fe277', 'userName': 'im驻场'}, {'cutAmount': 0.0, 'divisionName': '测试部', 'number': 3, 'payedCut': 0.0, 'ratio': 0.1, 'userId': '7115d39854b64c18b67ccd45e452b79e', 'userName': '测试（驻场2）'}], 'before': [{'cutAmount': 0.0, 'divisionName': '测试部', 'number': 1, 'payedCut': 0.0, 'ratio': 0.3, 'userId': 'b443db61e91c4fc29e53e02d81b88ac4', 'userName': '测试（驻场）'}, {'cutAmount': 0.0, 'divisionName': '测试部', 'number': 2, 'payedCut': 0.0, 'ratio': 0.4, 'userId': 'bf370e16a4ef4ea7933914d4659fe277', 'userName': 'im驻场'}, {'cutAmount': 0.0, 'divisionName': '测试部', 'number': 3, 'payedCut': 0.0, 'ratio': 0.1, 'userId': '7115d39854b64c18b67ccd45e452b79e', 'userName': '测试（驻场2）'}]}, 'adjustStandsCmd': {'orderId': '348', 'proofs': [], 'standRatioDtos': [{'cutAmount': 0.0, 'divisionName': '测试部', 'number': 1, 'payedCut': 0.0, 'ratio': 0.3, 'userId': 'b443db61e91c4fc29e53e02d81b88ac4', 'userName': '测试（驻场）'}, {'cutAmount': 0.0, 'divisionName': '测试部', 'number': 2, 'payedCut': 0.0, 'ratio': 0.4, 'userId': 'bf370e16a4ef4ea7933914d4659fe277', 'userName': 'im驻场'}, {'cutAmount': 0.0, 'divisionName': '测试部', 'number': 3, 'payedCut': 0.0, 'ratio': 0.1, 'userId': '7115d39854b64c18b67ccd45e452b79e', 'userName': '测试（驻场2）'}]}}}
 url &gt;&gt;&gt;&lt;class 'str'&gt;
 获取到得cookies》》》 None
 table_name是：D:\wy_purchase_order\wy_purchase_order\test_data\purchase.xlsx
-2022-03-17 17:16:35,999-INFO-request_logging.py-wy_logging-日志信息:获取到的结果是：{"code":2000,"data":true,"msg":"SUCCESS"}
+2022-03-17 22:02:18,986-INFO-request_logging.py-wy_logging-日志信息:获取到的结果是：{"code":2000,"data":true,"msg":"SUCCESS"}
 
 
     </pre>
@@ -605,10 +611,10 @@ pt1_17: data 》》》{0} {
     "system":"android",
     "model":"phone",
     "appId":"commission",
-    "uid":"e3d2cbe0f2644d2bb54ac1c873d1a5b4",
+    "uid":"414198f624204ed28b1a63eabc5f8f1b",
     "departmentId":999,
-    "tradeId":"3186",
-    "groupbuyPayer":"方式低功耗",
+    "tradeId":"348",
+    "groupbuyPayer":"策测门店",
     "groupbuyRecieveId":1,
     "groupbuyRecieveDate":"2022-03-14",
     "groupbuyRecieveProof":[
@@ -619,13 +625,13 @@ pt1_17: data 》》》{0} {
     ],
     "remark":"脚本团购审核通过"
 }
-cookie的值是：&lt;RequestsCookieJar[&lt;Cookie satoken=2b27fa15-bd02-4670-9daf-e6eb54350cc8 for pre.yunjinji.cn/&gt;]&gt;,类型是&lt;class 'requests.cookies.RequestsCookieJar'&gt;
-2022-03-17 17:16:36,000-INFO-request_logging.py-wy_logging-日志信息:&lt;RequestsCookieJar[&lt;Cookie satoken=2b27fa15-bd02-4670-9daf-e6eb54350cc8 for pre.yunjinji.cn/&gt;]&gt;
-data 》》》 {'cityId': 306, 'platformId': 999, 'system': 'android', 'model': 'phone', 'appId': 'commission', 'uid': 'e3d2cbe0f2644d2bb54ac1c873d1a5b4', 'departmentId': 999, 'tradeId': '3186', 'groupbuyPayer': '方式低功耗', 'groupbuyRecieveId': 1, 'groupbuyRecieveDate': '2022-03-14', 'groupbuyRecieveProof': [{'url': 'https://picos.wyzfang.com/pre/java/2022-2/1f9ca9905538470683d3a3f2c42b403f.jpeg', 'name': '1f9ca9905538470683d3a3f2c42b403f.jpeg'}], 'remark': '脚本团购审核通过'}
+cookie的值是：&lt;RequestsCookieJar[&lt;Cookie satoken=e88a5124-7155-4b7d-9d4c-a7feb4155fef for release.yunjinji.cn/&gt;]&gt;,类型是&lt;class 'requests.cookies.RequestsCookieJar'&gt;
+2022-03-17 22:02:18,987-INFO-request_logging.py-wy_logging-日志信息:&lt;RequestsCookieJar[&lt;Cookie satoken=e88a5124-7155-4b7d-9d4c-a7feb4155fef for release.yunjinji.cn/&gt;]&gt;
+data 》》》 {'cityId': 306, 'platformId': 999, 'system': 'android', 'model': 'phone', 'appId': 'commission', 'uid': '414198f624204ed28b1a63eabc5f8f1b', 'departmentId': 999, 'tradeId': '348', 'groupbuyPayer': '策测门店', 'groupbuyRecieveId': 1, 'groupbuyRecieveDate': '2022-03-14', 'groupbuyRecieveProof': [{'url': 'https://picos.wyzfang.com/pre/java/2022-2/1f9ca9905538470683d3a3f2c42b403f.jpeg', 'name': '1f9ca9905538470683d3a3f2c42b403f.jpeg'}], 'remark': '脚本团购审核通过'}
 url &gt;&gt;&gt;&lt;class 'str'&gt;
 获取到得cookies》》》 None
 table_name是：D:\wy_purchase_order\wy_purchase_order\test_data\purchase.xlsx
-2022-03-17 17:16:36,403-INFO-request_logging.py-wy_logging-日志信息:获取到的结果是：{"code":2000,"data":true,"msg":"SUCCESS"}
+2022-03-17 22:02:19,454-INFO-request_logging.py-wy_logging-日志信息:获取到的结果是：{"code":2000,"data":true,"msg":"SUCCESS"}
 
 
     </pre>
@@ -650,22 +656,22 @@ pt1_18: data 》》》{0} {
     "system":"android",
     "model":"phone",
     "appId":"commission",
-    "uid":"c5cbaaae493941bd89167b9ff513e2ca",
+    "uid":"3849f3a217034de19b4288d443aec1c3",
     "departmentId":999,
     "settlePrice":1060000,
     "remark":"",
-    "recCommPlanId":253,
+    "recCommPlanId":54,
     "payCaseDescribe":"平台/门店结佣方案",
-    "payCommPlanId":206,
-    "tradeId":"3186"
+    "payCommPlanId":65,
+    "tradeId":"348"
 }
-cookie的值是：&lt;RequestsCookieJar[&lt;Cookie satoken=d3ee2f7d-ea96-4aae-ad7e-d7ad49132f83 for pre.yunjinji.cn/&gt;]&gt;,类型是&lt;class 'requests.cookies.RequestsCookieJar'&gt;
-2022-03-17 17:16:36,404-INFO-request_logging.py-wy_logging-日志信息:&lt;RequestsCookieJar[&lt;Cookie satoken=d3ee2f7d-ea96-4aae-ad7e-d7ad49132f83 for pre.yunjinji.cn/&gt;]&gt;
-data 》》》 {'cityId': 306, 'platformId': 999, 'system': 'android', 'model': 'phone', 'appId': 'commission', 'uid': 'c5cbaaae493941bd89167b9ff513e2ca', 'departmentId': 999, 'settlePrice': 1060000, 'remark': '', 'recCommPlanId': 253, 'payCaseDescribe': '平台/门店结佣方案', 'payCommPlanId': 206, 'tradeId': '3186'}
+cookie的值是：&lt;RequestsCookieJar[&lt;Cookie satoken=4bfcc09e-086f-424c-a1cb-927110cc1bbe for release.yunjinji.cn/&gt;]&gt;,类型是&lt;class 'requests.cookies.RequestsCookieJar'&gt;
+2022-03-17 22:02:19,455-INFO-request_logging.py-wy_logging-日志信息:&lt;RequestsCookieJar[&lt;Cookie satoken=4bfcc09e-086f-424c-a1cb-927110cc1bbe for release.yunjinji.cn/&gt;]&gt;
+data 》》》 {'cityId': 306, 'platformId': 999, 'system': 'android', 'model': 'phone', 'appId': 'commission', 'uid': '3849f3a217034de19b4288d443aec1c3', 'departmentId': 999, 'settlePrice': 1060000, 'remark': '', 'recCommPlanId': 54, 'payCaseDescribe': '平台/门店结佣方案', 'payCommPlanId': 65, 'tradeId': '348'}
 url &gt;&gt;&gt;&lt;class 'str'&gt;
 获取到得cookies》》》 None
 table_name是：D:\wy_purchase_order\wy_purchase_order\test_data\purchase.xlsx
-2022-03-17 17:16:36,793-INFO-request_logging.py-wy_logging-日志信息:获取到的结果是：{"code":2000,"data":true,"msg":"SUCCESS"}
+2022-03-17 22:02:19,873-INFO-request_logging.py-wy_logging-日志信息:获取到的结果是：{"code":2000,"data":true,"msg":"SUCCESS"}
 
 
     </pre>
@@ -690,19 +696,19 @@ pt1_19: data 》》》{0} {
     "system":"android",
     "model":"phone",
     "appId":"commission",
-    "uid":"07b2f4006d64437ebaf6cbf5849320e2",
+    "uid":"52bc62c518e44f9095ff25f0f8b0250a",
     "departmentId":999,
     "dissent":0,
     "remark":"无异议",
-    "tradeId":"3186"
+    "tradeId":"348"
 }
-cookie的值是：&lt;RequestsCookieJar[&lt;Cookie satoken=693ba4ca-a7c7-4fe6-8d39-84c2de0fb589 for pre.yunjinji.cn/&gt;]&gt;,类型是&lt;class 'requests.cookies.RequestsCookieJar'&gt;
-2022-03-17 17:16:36,794-INFO-request_logging.py-wy_logging-日志信息:&lt;RequestsCookieJar[&lt;Cookie satoken=693ba4ca-a7c7-4fe6-8d39-84c2de0fb589 for pre.yunjinji.cn/&gt;]&gt;
-data 》》》 {'cityId': 306, 'platformId': 999, 'system': 'android', 'model': 'phone', 'appId': 'commission', 'uid': '07b2f4006d64437ebaf6cbf5849320e2', 'departmentId': 999, 'dissent': 0, 'remark': '无异议', 'tradeId': '3186'}
+cookie的值是：&lt;RequestsCookieJar[&lt;Cookie satoken=57452260-5594-48b2-a31e-844eefec99da for release.yunjinji.cn/&gt;]&gt;,类型是&lt;class 'requests.cookies.RequestsCookieJar'&gt;
+2022-03-17 22:02:19,874-INFO-request_logging.py-wy_logging-日志信息:&lt;RequestsCookieJar[&lt;Cookie satoken=57452260-5594-48b2-a31e-844eefec99da for release.yunjinji.cn/&gt;]&gt;
+data 》》》 {'cityId': 306, 'platformId': 999, 'system': 'android', 'model': 'phone', 'appId': 'commission', 'uid': '52bc62c518e44f9095ff25f0f8b0250a', 'departmentId': 999, 'dissent': 0, 'remark': '无异议', 'tradeId': '348'}
 url &gt;&gt;&gt;&lt;class 'str'&gt;
 获取到得cookies》》》 None
 table_name是：D:\wy_purchase_order\wy_purchase_order\test_data\purchase.xlsx
-2022-03-17 17:16:37,153-INFO-request_logging.py-wy_logging-日志信息:获取到的结果是：{"code":2000,"data":true,"msg":"SUCCESS"}
+2022-03-17 22:02:20,278-INFO-request_logging.py-wy_logging-日志信息:获取到的结果是：{"code":2000,"data":true,"msg":"SUCCESS"}
 
 
     </pre>
@@ -721,14 +727,14 @@ table_name是：D:\wy_purchase_order\wy_purchase_order\test_data\purchase.xlsx
     <div id='div_pt1_20' class="collapse in" align="left">
     <pre>
     
-pt1_20: data 》》》{0} {"cityId":306,"platformId":999,"system":"android","model":"phone","appId":"commission","uid":"0a14020acc0346c7a2c034a08c83414f","id":3186}
-cookie的值是：&lt;RequestsCookieJar[&lt;Cookie satoken=b26c3d23-0b24-4d71-a40a-0e3df7fd9d11 for pre.yunjinji.cn/&gt;]&gt;,类型是&lt;class 'requests.cookies.RequestsCookieJar'&gt;
-2022-03-17 17:16:37,154-INFO-request_logging.py-wy_logging-日志信息:&lt;RequestsCookieJar[&lt;Cookie satoken=b26c3d23-0b24-4d71-a40a-0e3df7fd9d11 for pre.yunjinji.cn/&gt;]&gt;
-data 》》》 {'cityId': 306, 'platformId': 999, 'system': 'android', 'model': 'phone', 'appId': 'commission', 'uid': '0a14020acc0346c7a2c034a08c83414f', 'id': 3186}
+pt1_20: data 》》》{0} {"cityId":306,"platformId":999,"system":"android","model":"phone","appId":"commission","uid":"6692b0a974b24735907f666503d4102b","id":348}
+cookie的值是：&lt;RequestsCookieJar[&lt;Cookie satoken=6e96eb70-771b-4e0b-bebc-5e4fbbc8ebd5 for release.yunjinji.cn/&gt;]&gt;,类型是&lt;class 'requests.cookies.RequestsCookieJar'&gt;
+2022-03-17 22:02:20,280-INFO-request_logging.py-wy_logging-日志信息:&lt;RequestsCookieJar[&lt;Cookie satoken=6e96eb70-771b-4e0b-bebc-5e4fbbc8ebd5 for release.yunjinji.cn/&gt;]&gt;
+data 》》》 {'cityId': 306, 'platformId': 999, 'system': 'android', 'model': 'phone', 'appId': 'commission', 'uid': '6692b0a974b24735907f666503d4102b', 'id': 348}
 url &gt;&gt;&gt;&lt;class 'str'&gt;
 获取到得cookies》》》 None
 table_name是：D:\wy_purchase_order\wy_purchase_order\test_data\purchase.xlsx
-2022-03-17 17:16:37,496-INFO-request_logging.py-wy_logging-日志信息:获取到的结果是：{"code":2000,"data":{"accrualAmount":0.00,"accrualType":1,"currentExpandCut":{"cutCaseType":1,"expandRatios":[{"cutAmount":0.00,"divisionName":"测试部","number":1,"payedCut":0.00,"ratio":0.10,"userId":"07b2f4006d64437ebaf6cbf5849320e2","userName":"拓展real"},{"cutAmount":null,"divisionName":null,"number":2,"payedCut":null,"ratio":null,"userId":null,"userName":null},{"cutAmount":null,"divisionName":null,"number":3,"payedCut":null,"ratio":null,"userId":null,"userName":null}]},"currentExpandManager":{"cutCaseType":1,"expandManagers":[{"number":1,"ratio":0.10,"superiorCutAmount":0.00,"superiorId":"3e03b5451e0c4b4f8618874f269a814a","superiorName":"拓展经理real","superiorPayedCut":0.00,"superiorRoleName":"拓展经理","superiorSuperiorCutAmount":0.00,"superiorSuperiorId":"64ad4fcbfdcb4bf48e33f38f4e31c4ce","superiorSuperiorName":"区域总real","superiorSuperiorPayedCut":0.00,"superiorSuperiorRoleName":"拓展总监"},{"number":2,"ratio":null,"superiorCutAmount":null,"superiorId":null,"superiorName":null,"superiorPayedCut":null,"superiorRoleName":null,"superiorSuperiorCutAmount":null,"superiorSuperiorId":null,"superiorSuperiorName":null,"superiorSuperiorPayedCut":null,"superiorSuperiorRoleName":null},{"number":3,"ratio":null,"superiorCutAmount":null,"superiorId":null,"superiorName":null,"superiorPayedCut":null,"superiorRoleName":null,"superiorSuperiorCutAmount":null,"superiorSuperiorId":null,"superiorSuperiorName":null,"superiorSuperiorPayedCut":null,"superiorSuperiorRoleName":null}]},"currentStandCut":{"cutCaseType":1,"fixedAmount":null,"standRatioDtos":[{"cutAmount":0.00,"divisionName":"测试部","number":1,"payedCut":0.00,"ratio":0.50,"userId":"3f232aa91d334502aea0d9424d01481b","userName":"驻场经理real1"},{"cutAmount":0.00,"divisionName":"测试部","number":2,"payedCut":0.00,"ratio":0.30,"userId":"055c509d3c1b4c2ebf2bc70fe8447e67","userName":"驻场real"},{"cutAmount":0.00,"divisionName":"APP推送测试","number":3,"payedCut":0.00,"ratio":0.10,"userId":"729e2f29f8a74724a6baa03f22991e45","userName":"驻场经理1"}]},"currentStandManager":{"areaManager":"区域总real","areaManagerCutAmount":0.00,"areaManagerId":"64ad4fcbfdcb4bf48e33f38f4e31c4ce","areaManagerPayedCut":0.00,"areaManagerRatio":1.00,"cutCaseType":1,"saleManager":"营销总提成r","saleManagerCutAmount":0.00,"saleManagerId":"ce6cd59da32a40569664cb84ca109cbf","saleManagerPayedCut":0.00,"saleManagerRatio":1.00,"standManager":"驻场经理real1","standManagerCutAmount":0.00,"standManagerId":"3f232aa91d334502aea0d9424d01481b","standManagerPayedCut":0.00,"standManagerRatio":0.50},"lineCutDone":0,"revenue":0.00},"msg":"SUCCESS"}
+2022-03-17 22:02:20,854-INFO-request_logging.py-wy_logging-日志信息:获取到的结果是：{"code":2000,"data":{"accrualAmount":0.00,"accrualType":1,"currentExpandCut":{"cutCaseType":1,"expandRatios":[{"cutAmount":0.00,"divisionName":"测试部","number":1,"payedCut":0.00,"ratio":0.50,"userId":"564288f9ae65416c836cc46a7bb79c9c","userName":"测试（拓展）"},{"cutAmount":0.00,"divisionName":"中山云经纪","number":2,"payedCut":0.00,"ratio":0.10,"userId":"a5a1c18ed11a4c1ea5e5ceed9da5ebe8","userName":"拓展总监（业绩）"},{"cutAmount":null,"divisionName":null,"number":3,"payedCut":null,"ratio":null,"userId":null,"userName":null}]},"currentExpandManager":{"cutCaseType":1,"expandManagers":[{"number":1,"ratio":0.50,"superiorCutAmount":0.00,"superiorId":"05f6c85ef9be43db9b86272361ec9b15","superiorName":"验收清空业绩（拓展经理）(离职)","superiorPayedCut":0.00,"superiorRoleName":"拓展经理","superiorSuperiorCutAmount":0.00,"superiorSuperiorId":"8939e7cbae8f4df5beb8c3daf125a962","superiorSuperiorName":"测试（拓展总监）","superiorSuperiorPayedCut":0.00,"superiorSuperiorRoleName":"拓展总监"},{"number":2,"ratio":null,"superiorCutAmount":null,"superiorId":null,"superiorName":null,"superiorPayedCut":null,"superiorRoleName":null,"superiorSuperiorCutAmount":null,"superiorSuperiorId":null,"superiorSuperiorName":null,"superiorSuperiorPayedCut":null,"superiorSuperiorRoleName":null},{"number":3,"ratio":null,"superiorCutAmount":null,"superiorId":null,"superiorName":null,"superiorPayedCut":null,"superiorRoleName":null,"superiorSuperiorCutAmount":null,"superiorSuperiorId":null,"superiorSuperiorName":null,"superiorSuperiorPayedCut":null,"superiorSuperiorRoleName":null}]},"currentStandCut":{"cutCaseType":1,"fixedAmount":null,"standRatioDtos":[{"cutAmount":0.00,"divisionName":"测试部","number":1,"payedCut":0.00,"ratio":0.30,"userId":"b443db61e91c4fc29e53e02d81b88ac4","userName":"测试（驻场）"},{"cutAmount":0.00,"divisionName":"测试部","number":2,"payedCut":0.00,"ratio":0.40,"userId":"bf370e16a4ef4ea7933914d4659fe277","userName":"im驻场"},{"cutAmount":0.00,"divisionName":"测试部","number":3,"payedCut":0.00,"ratio":0.10,"userId":"7115d39854b64c18b67ccd45e452b79e","userName":"测试（驻场2）"}]},"currentStandManager":{"areaManager":"测试（区域总）","areaManagerCutAmount":0.00,"areaManagerId":"169f34f4f67345d3b591c2ba62b5c720","areaManagerPayedCut":0.00,"areaManagerRatio":1.00,"cutCaseType":1,"saleManager":"萧伟德","saleManagerCutAmount":0.00,"saleManagerId":"0bdb7b2ac84211eb8c6e00163e12a8a4","saleManagerPayedCut":0.00,"saleManagerRatio":1.00,"standManager":"测试（驻场经理）","standManagerCutAmount":0.00,"standManagerId":"794d9ba7b6e74c91a6e4ed678df7bb26","standManagerPayedCut":0.00,"standManagerRatio":1.00},"lineCutDone":0,"revenue":0.00},"msg":"SUCCESS"}
 
 
     </pre>
@@ -753,9 +759,9 @@ pt1_21: data 》》》{0} {
     "system":"android",
     "model":"phone",
     "appId":"commission",
-    "uid":"0a14020acc0346c7a2c034a08c83414f",
+    "uid":"6692b0a974b24735907f666503d4102b",
     "departmentId":999,
-    "tradeId":"3186",
+    "tradeId":"348",
     "costCmds":[
 
     ],
@@ -764,13 +770,13 @@ pt1_21: data 》》》{0} {
         "adjustCutStaffLog":{
             "areaMgrAfter":{
                 "ratio":"1",
-                "userId":"64ad4fcbfdcb4bf48e33f38f4e31c4ce",
-                "userName":"区域总real"
+                "userId":"169f34f4f67345d3b591c2ba62b5c720",
+                "userName":"测试（区域总）"
             },
             "areaMgrBefore":{
                 "ratio":"1",
-                "userId":"64ad4fcbfdcb4bf48e33f38f4e31c4ce",
-                "userName":"区域总real"
+                "userId":"169f34f4f67345d3b591c2ba62b5c720",
+                "userName":"测试（区域总）"
             },
             "cutCase":"按计提金额计算",
             "fixedAmount":"",
@@ -780,34 +786,34 @@ pt1_21: data 》》》{0} {
             "expandProofs":[
 
             ],
-            "standAfter":[{"cutAmount": 0.0, "divisionName": "测试部", "number": 1, "payedCut": 0.0, "ratio": 0.5, "userId": "3f232aa91d334502aea0d9424d01481b", "userName": "驻场经理real1"}, {"cutAmount": 0.0, "divisionName": "测试部", "number": 2, "payedCut": 0.0, "ratio": 0.3, "userId": "055c509d3c1b4c2ebf2bc70fe8447e67", "userName": "驻场real"}, {"cutAmount": 0.0, "divisionName": "APP推送测试", "number": 3, "payedCut": 0.0, "ratio": 0.1, "userId": "729e2f29f8a74724a6baa03f22991e45", "userName": "驻场经理1"}],
-            "standBefore":[{"cutAmount": 0.0, "divisionName": "测试部", "number": 1, "payedCut": 0.0, "ratio": 0.5, "userId": "3f232aa91d334502aea0d9424d01481b", "userName": "驻场经理real1"}, {"cutAmount": 0.0, "divisionName": "测试部", "number": 2, "payedCut": 0.0, "ratio": 0.3, "userId": "055c509d3c1b4c2ebf2bc70fe8447e67", "userName": "驻场real"}, {"cutAmount": 0.0, "divisionName": "APP推送测试", "number": 3, "payedCut": 0.0, "ratio": 0.1, "userId": "729e2f29f8a74724a6baa03f22991e45", "userName": "驻场经理1"}],
+            "standAfter":[{"cutAmount": 0.0, "divisionName": "测试部", "number": 1, "payedCut": 0.0, "ratio": 0.3, "userId": "b443db61e91c4fc29e53e02d81b88ac4", "userName": "测试（驻场）"}, {"cutAmount": 0.0, "divisionName": "测试部", "number": 2, "payedCut": 0.0, "ratio": 0.4, "userId": "bf370e16a4ef4ea7933914d4659fe277", "userName": "im驻场"}, {"cutAmount": 0.0, "divisionName": "测试部", "number": 3, "payedCut": 0.0, "ratio": 0.1, "userId": "7115d39854b64c18b67ccd45e452b79e", "userName": "测试（驻场2）"}],
+            "standBefore":[{"cutAmount": 0.0, "divisionName": "测试部", "number": 1, "payedCut": 0.0, "ratio": 0.3, "userId": "b443db61e91c4fc29e53e02d81b88ac4", "userName": "测试（驻场）"}, {"cutAmount": 0.0, "divisionName": "测试部", "number": 2, "payedCut": 0.0, "ratio": 0.4, "userId": "bf370e16a4ef4ea7933914d4659fe277", "userName": "im驻场"}, {"cutAmount": 0.0, "divisionName": "测试部", "number": 3, "payedCut": 0.0, "ratio": 0.1, "userId": "7115d39854b64c18b67ccd45e452b79e", "userName": "测试（驻场2）"}],
             "standMgrAfter":{
-                "ratio":"0.5",
-                "userId":"3f232aa91d334502aea0d9424d01481b",
-                "userName":"驻场经理real1"
+                "ratio":"1.0",
+                "userId":"794d9ba7b6e74c91a6e4ed678df7bb26",
+                "userName":"测试（驻场经理）"
             },
             "standMgrBefore":{
-                "ratio":"0.5",
-                "userId":"3f232aa91d334502aea0d9424d01481b",
-                "userName":"驻场经理real1"
+                "ratio":"1.0",
+                "userId":"794d9ba7b6e74c91a6e4ed678df7bb26",
+                "userName":"测试（驻场经理）"
             },
             "expandAfter":[
                 {
                     "expandDirectorUser":{
-                        "ratio":"0.1",
-                        "userId":"64ad4fcbfdcb4bf48e33f38f4e31c4ce",
-                        "userName":"区域总real"
+                        "ratio":"0.5",
+                        "userId":"8939e7cbae8f4df5beb8c3daf125a962",
+                        "userName":"测试（拓展总监）"
                     },
                     "expandMgrUser":{
-                        "ratio":"0.1",
-                        "userId":"3e03b5451e0c4b4f8618874f269a814a",
-                        "userName":"拓展经理real"
+                        "ratio":"0.5",
+                        "userId":"05f6c85ef9be43db9b86272361ec9b15",
+                        "userName":"验收清空业绩（拓展经理）(离职)"
                     },
                     "expandUser":{
-                        "ratio":"0.1",
-                        "userId":"07b2f4006d64437ebaf6cbf5849320e2",
-                        "userName":"拓展real"
+                        "ratio":"0.5",
+                        "userId":"564288f9ae65416c836cc46a7bb79c9c",
+                        "userName":"测试（拓展）"
                     }
                 },
                  {
@@ -823,8 +829,8 @@ pt1_21: data 》》》{0} {
                     },
                     "expandUser":{
                         "ratio":null,
-                        "userId":null,
-                        "userName":null
+                        "userId":"a5a1c18ed11a4c1ea5e5ceed9da5ebe8",
+                        "userName":"拓展总监（业绩）"
                     }
                 },
                  {
@@ -848,19 +854,19 @@ pt1_21: data 》》》{0} {
             "expandBefore":[
                  {
                     "expandDirectorUser":{
-                        "ratio":"0.1",
-                        "userId":"64ad4fcbfdcb4bf48e33f38f4e31c4ce",
-                        "userName":"区域总real"
+                        "ratio":"0.5",
+                        "userId":"8939e7cbae8f4df5beb8c3daf125a962",
+                        "userName":"测试（拓展总监）"
                     },
                     "expandMgrUser":{
-                        "ratio":"0.1",
-                        "userId":"3e03b5451e0c4b4f8618874f269a814a",
-                        "userName":"拓展经理real"
+                        "ratio":"0.5",
+                        "userId":"05f6c85ef9be43db9b86272361ec9b15",
+                        "userName":"验收清空业绩（拓展经理）(离职)"
                     },
                     "expandUser":{
-                        "ratio":"0.1",
-                        "userId":"07b2f4006d64437ebaf6cbf5849320e2",
-                        "userName":"拓展real"
+                        "ratio":"0.5",
+                        "userId":"564288f9ae65416c836cc46a7bb79c9c",
+                        "userName":"测试（拓展）"
                     }
                 },
                 {
@@ -876,8 +882,8 @@ pt1_21: data 》》》{0} {
                     },
                     "expandUser":{
                         "ratio":null,
-                        "userId":null,
-                        "userName":null
+                        "userId":"a5a1c18ed11a4c1ea5e5ceed9da5ebe8",
+                        "userName":"拓展总监（业绩）"
                     }
                 },
                  {
@@ -900,27 +906,27 @@ pt1_21: data 》》》{0} {
             ]
         },
         "adjustStandsCmd":{
-            "areaManagerId":"64ad4fcbfdcb4bf48e33f38f4e31c4ce",
+            "areaManagerId":"169f34f4f67345d3b591c2ba62b5c720",
             "fixedAmount":"",
-            "orderId":3186,
+            "orderId":348,
             "proofs":[
 
             ],
             "standCutCaseType":1,
-            "standManagerId":"3f232aa91d334502aea0d9424d01481b",
-            "standRatioDtos":[{"cutAmount": 0.0, "divisionName": "测试部", "number": 1, "payedCut": 0.0, "ratio": 0.5, "userId": "3f232aa91d334502aea0d9424d01481b", "userName": "驻场经理real1"}, {"cutAmount": 0.0, "divisionName": "测试部", "number": 2, "payedCut": 0.0, "ratio": 0.3, "userId": "055c509d3c1b4c2ebf2bc70fe8447e67", "userName": "驻场real"}, {"cutAmount": 0.0, "divisionName": "APP推送测试", "number": 3, "payedCut": 0.0, "ratio": 0.1, "userId": "729e2f29f8a74724a6baa03f22991e45", "userName": "驻场经理1"}]
+            "standManagerId":"794d9ba7b6e74c91a6e4ed678df7bb26",
+            "standRatioDtos":[{"cutAmount": 0.0, "divisionName": "测试部", "number": 1, "payedCut": 0.0, "ratio": 0.3, "userId": "b443db61e91c4fc29e53e02d81b88ac4", "userName": "测试（驻场）"}, {"cutAmount": 0.0, "divisionName": "测试部", "number": 2, "payedCut": 0.0, "ratio": 0.4, "userId": "bf370e16a4ef4ea7933914d4659fe277", "userName": "im驻场"}, {"cutAmount": 0.0, "divisionName": "测试部", "number": 3, "payedCut": 0.0, "ratio": 0.1, "userId": "7115d39854b64c18b67ccd45e452b79e", "userName": "测试（驻场2）"}]
         },
         "adjustExpandCmd":{
-            "orderId":3186,
+            "orderId":348,
             "proofs":[
 
             ],
-            "expandRatioDtos":[{"cutAmount": 0.0, "divisionName": "测试部", "number": 1, "payedCut": 0.0, "ratio": 0.1, "userId": "07b2f4006d64437ebaf6cbf5849320e2", "userName": "拓展real"}, {"cutAmount": null, "divisionName": null, "number": 2, "payedCut": null, "ratio": null, "userId": null, "userName": null}, {"cutAmount": null, "divisionName": null, "number": 3, "payedCut": null, "ratio": null, "userId": null, "userName": null}],
+            "expandRatioDtos":[{"cutAmount": 0.0, "divisionName": "测试部", "number": 1, "payedCut": 0.0, "ratio": 0.5, "userId": "564288f9ae65416c836cc46a7bb79c9c", "userName": "测试（拓展）"}, {"cutAmount": 0.0, "divisionName": "中山云经纪", "number": 2, "payedCut": 0.0, "ratio": 0.1, "userId": "a5a1c18ed11a4c1ea5e5ceed9da5ebe8", "userName": "拓展总监（业绩）"}, {"cutAmount": null, "divisionName": null, "number": 3, "payedCut": null, "ratio": null, "userId": null, "userName": null}],
             "expandMgrRatioDtos":[
                 {
                     "number":1,
-                    "superiorId":"3e03b5451e0c4b4f8618874f269a814a",
-                    "superiorSuperiorId":"64ad4fcbfdcb4bf48e33f38f4e31c4ce"
+                    "superiorId":"05f6c85ef9be43db9b86272361ec9b15",
+                    "superiorSuperiorId":"8939e7cbae8f4df5beb8c3daf125a962"
                 },
                 {
                     "number":2,
@@ -936,13 +942,13 @@ pt1_21: data 》》》{0} {
         }
     }
 }
-cookie的值是：&lt;RequestsCookieJar[&lt;Cookie satoken=b26c3d23-0b24-4d71-a40a-0e3df7fd9d11 for pre.yunjinji.cn/&gt;]&gt;,类型是&lt;class 'requests.cookies.RequestsCookieJar'&gt;
-2022-03-17 17:16:37,498-INFO-request_logging.py-wy_logging-日志信息:&lt;RequestsCookieJar[&lt;Cookie satoken=b26c3d23-0b24-4d71-a40a-0e3df7fd9d11 for pre.yunjinji.cn/&gt;]&gt;
-data 》》》 {'cityId': 306, 'platformId': 999, 'system': 'android', 'model': 'phone', 'appId': 'commission', 'uid': '0a14020acc0346c7a2c034a08c83414f', 'departmentId': 999, 'tradeId': '3186', 'costCmds': [], 'remark': '', 'adjustStandExpandCmd': {'adjustCutStaffLog': {'areaMgrAfter': {'ratio': '1', 'userId': '64ad4fcbfdcb4bf48e33f38f4e31c4ce', 'userName': '区域总real'}, 'areaMgrBefore': {'ratio': '1', 'userId': '64ad4fcbfdcb4bf48e33f38f4e31c4ce', 'userName': '区域总real'}, 'cutCase': '按计提金额计算', 'fixedAmount': '', 'standProofs': [], 'expandProofs': [], 'standAfter': [{'cutAmount': 0.0, 'divisionName': '测试部', 'number': 1, 'payedCut': 0.0, 'ratio': 0.5, 'userId': '3f232aa91d334502aea0d9424d01481b', 'userName': '驻场经理real1'}, {'cutAmount': 0.0, 'divisionName': '测试部', 'number': 2, 'payedCut': 0.0, 'ratio': 0.3, 'userId': '055c509d3c1b4c2ebf2bc70fe8447e67', 'userName': '驻场real'}, {'cutAmount': 0.0, 'divisionName': 'APP推送测试', 'number': 3, 'payedCut': 0.0, 'ratio': 0.1, 'userId': '729e2f29f8a74724a6baa03f22991e45', 'userName': '驻场经理1'}], 'standBefore': [{'cutAmount': 0.0, 'divisionName': '测试部', 'number': 1, 'payedCut': 0.0, 'ratio': 0.5, 'userId': '3f232aa91d334502aea0d9424d01481b', 'userName': '驻场经理real1'}, {'cutAmount': 0.0, 'divisionName': '测试部', 'number': 2, 'payedCut': 0.0, 'ratio': 0.3, 'userId': '055c509d3c1b4c2ebf2bc70fe8447e67', 'userName': '驻场real'}, {'cutAmount': 0.0, 'divisionName': 'APP推送测试', 'number': 3, 'payedCut': 0.0, 'ratio': 0.1, 'userId': '729e2f29f8a74724a6baa03f22991e45', 'userName': '驻场经理1'}], 'standMgrAfter': {'ratio': '0.5', 'userId': '3f232aa91d334502aea0d9424d01481b', 'userName': '驻场经理real1'}, 'standMgrBefore': {'ratio': '0.5', 'userId': '3f232aa91d334502aea0d9424d01481b', 'userName': '驻场经理real1'}, 'expandAfter': [{'expandDirectorUser': {'ratio': '0.1', 'userId': '64ad4fcbfdcb4bf48e33f38f4e31c4ce', 'userName': '区域总real'}, 'expandMgrUser': {'ratio': '0.1', 'userId': '3e03b5451e0c4b4f8618874f269a814a', 'userName': '拓展经理real'}, 'expandUser': {'ratio': '0.1', 'userId': '07b2f4006d64437ebaf6cbf5849320e2', 'userName': '拓展real'}}, {'expandDirectorUser': {'ratio': None, 'userId': None, 'userName': None}, 'expandMgrUser': {'ratio': None, 'userId': None, 'userName': None}, 'expandUser': {'ratio': None, 'userId': None, 'userName': None}}, {'expandDirectorUser': {'ratio': None, 'userId': None, 'userName': None}, 'expandMgrUser': {'ratio': None, 'userId': None, 'userName': None}, 'expandUser': {'ratio': None, 'userId': None, 'userName': None}}], 'expandBefore': [{'expandDirectorUser': {'ratio': '0.1', 'userId': '64ad4fcbfdcb4bf48e33f38f4e31c4ce', 'userName': '区域总real'}, 'expandMgrUser': {'ratio': '0.1', 'userId': '3e03b5451e0c4b4f8618874f269a814a', 'userName': '拓展经理real'}, 'expandUser': {'ratio': '0.1', 'userId': '07b2f4006d64437ebaf6cbf5849320e2', 'userName': '拓展real'}}, {'expandDirectorUser': {'ratio': None, 'userId': None, 'userName': None}, 'expandMgrUser': {'ratio': None, 'userId': None, 'userName': None}, 'expandUser': {'ratio': None, 'userId': None, 'userName': None}}, {'expandDirectorUser': {'ratio': None, 'userId': None, 'userName': None}, 'expandMgrUser': {'ratio': None, 'userId': None, 'userName': None}, 'expandUser': {'ratio': None, 'userId': None, 'userName': None}}]}, 'adjustStandsCmd': {'areaManagerId': '64ad4fcbfdcb4bf48e33f38f4e31c4ce', 'fixedAmount': '', 'orderId': 3186, 'proofs': [], 'standCutCaseType': 1, 'standManagerId': '3f232aa91d334502aea0d9424d01481b', 'standRatioDtos': [{'cutAmount': 0.0, 'divisionName': '测试部', 'number': 1, 'payedCut': 0.0, 'ratio': 0.5, 'userId': '3f232aa91d334502aea0d9424d01481b', 'userName': '驻场经理real1'}, {'cutAmount': 0.0, 'divisionName': '测试部', 'number': 2, 'payedCut': 0.0, 'ratio': 0.3, 'userId': '055c509d3c1b4c2ebf2bc70fe8447e67', 'userName': '驻场real'}, {'cutAmount': 0.0, 'divisionName': 'APP推送测试', 'number': 3, 'payedCut': 0.0, 'ratio': 0.1, 'userId': '729e2f29f8a74724a6baa03f22991e45', 'userName': '驻场经理1'}]}, 'adjustExpandCmd': {'orderId': 3186, 'proofs': [], 'expandRatioDtos': [{'cutAmount': 0.0, 'divisionName': '测试部', 'number': 1, 'payedCut': 0.0, 'ratio': 0.1, 'userId': '07b2f4006d64437ebaf6cbf5849320e2', 'userName': '拓展real'}, {'cutAmount': None, 'divisionName': None, 'number': 2, 'payedCut': None, 'ratio': None, 'userId': None, 'userName': None}, {'cutAmount': None, 'divisionName': None, 'number': 3, 'payedCut': None, 'ratio': None, 'userId': None, 'userName': None}], 'expandMgrRatioDtos': [{'number': 1, 'superiorId': '3e03b5451e0c4b4f8618874f269a814a', 'superiorSuperiorId': '64ad4fcbfdcb4bf48e33f38f4e31c4ce'}, {'number': 2, 'superiorId': None, 'superiorSuperiorId': None}, {'number': 3, 'superiorId': None, 'superiorSuperiorId': None}]}}}
+cookie的值是：&lt;RequestsCookieJar[&lt;Cookie satoken=6e96eb70-771b-4e0b-bebc-5e4fbbc8ebd5 for release.yunjinji.cn/&gt;]&gt;,类型是&lt;class 'requests.cookies.RequestsCookieJar'&gt;
+2022-03-17 22:02:20,857-INFO-request_logging.py-wy_logging-日志信息:&lt;RequestsCookieJar[&lt;Cookie satoken=6e96eb70-771b-4e0b-bebc-5e4fbbc8ebd5 for release.yunjinji.cn/&gt;]&gt;
+data 》》》 {'cityId': 306, 'platformId': 999, 'system': 'android', 'model': 'phone', 'appId': 'commission', 'uid': '6692b0a974b24735907f666503d4102b', 'departmentId': 999, 'tradeId': '348', 'costCmds': [], 'remark': '', 'adjustStandExpandCmd': {'adjustCutStaffLog': {'areaMgrAfter': {'ratio': '1', 'userId': '169f34f4f67345d3b591c2ba62b5c720', 'userName': '测试（区域总）'}, 'areaMgrBefore': {'ratio': '1', 'userId': '169f34f4f67345d3b591c2ba62b5c720', 'userName': '测试（区域总）'}, 'cutCase': '按计提金额计算', 'fixedAmount': '', 'standProofs': [], 'expandProofs': [], 'standAfter': [{'cutAmount': 0.0, 'divisionName': '测试部', 'number': 1, 'payedCut': 0.0, 'ratio': 0.3, 'userId': 'b443db61e91c4fc29e53e02d81b88ac4', 'userName': '测试（驻场）'}, {'cutAmount': 0.0, 'divisionName': '测试部', 'number': 2, 'payedCut': 0.0, 'ratio': 0.4, 'userId': 'bf370e16a4ef4ea7933914d4659fe277', 'userName': 'im驻场'}, {'cutAmount': 0.0, 'divisionName': '测试部', 'number': 3, 'payedCut': 0.0, 'ratio': 0.1, 'userId': '7115d39854b64c18b67ccd45e452b79e', 'userName': '测试（驻场2）'}], 'standBefore': [{'cutAmount': 0.0, 'divisionName': '测试部', 'number': 1, 'payedCut': 0.0, 'ratio': 0.3, 'userId': 'b443db61e91c4fc29e53e02d81b88ac4', 'userName': '测试（驻场）'}, {'cutAmount': 0.0, 'divisionName': '测试部', 'number': 2, 'payedCut': 0.0, 'ratio': 0.4, 'userId': 'bf370e16a4ef4ea7933914d4659fe277', 'userName': 'im驻场'}, {'cutAmount': 0.0, 'divisionName': '测试部', 'number': 3, 'payedCut': 0.0, 'ratio': 0.1, 'userId': '7115d39854b64c18b67ccd45e452b79e', 'userName': '测试（驻场2）'}], 'standMgrAfter': {'ratio': '1.0', 'userId': '794d9ba7b6e74c91a6e4ed678df7bb26', 'userName': '测试（驻场经理）'}, 'standMgrBefore': {'ratio': '1.0', 'userId': '794d9ba7b6e74c91a6e4ed678df7bb26', 'userName': '测试（驻场经理）'}, 'expandAfter': [{'expandDirectorUser': {'ratio': '0.5', 'userId': '8939e7cbae8f4df5beb8c3daf125a962', 'userName': '测试（拓展总监）'}, 'expandMgrUser': {'ratio': '0.5', 'userId': '05f6c85ef9be43db9b86272361ec9b15', 'userName': '验收清空业绩（拓展经理）(离职)'}, 'expandUser': {'ratio': '0.5', 'userId': '564288f9ae65416c836cc46a7bb79c9c', 'userName': '测试（拓展）'}}, {'expandDirectorUser': {'ratio': None, 'userId': None, 'userName': None}, 'expandMgrUser': {'ratio': None, 'userId': None, 'userName': None}, 'expandUser': {'ratio': None, 'userId': 'a5a1c18ed11a4c1ea5e5ceed9da5ebe8', 'userName': '拓展总监（业绩）'}}, {'expandDirectorUser': {'ratio': None, 'userId': None, 'userName': None}, 'expandMgrUser': {'ratio': None, 'userId': None, 'userName': None}, 'expandUser': {'ratio': None, 'userId': None, 'userName': None}}], 'expandBefore': [{'expandDirectorUser': {'ratio': '0.5', 'userId': '8939e7cbae8f4df5beb8c3daf125a962', 'userName': '测试（拓展总监）'}, 'expandMgrUser': {'ratio': '0.5', 'userId': '05f6c85ef9be43db9b86272361ec9b15', 'userName': '验收清空业绩（拓展经理）(离职)'}, 'expandUser': {'ratio': '0.5', 'userId': '564288f9ae65416c836cc46a7bb79c9c', 'userName': '测试（拓展）'}}, {'expandDirectorUser': {'ratio': None, 'userId': None, 'userName': None}, 'expandMgrUser': {'ratio': None, 'userId': None, 'userName': None}, 'expandUser': {'ratio': None, 'userId': 'a5a1c18ed11a4c1ea5e5ceed9da5ebe8', 'userName': '拓展总监（业绩）'}}, {'expandDirectorUser': {'ratio': None, 'userId': None, 'userName': None}, 'expandMgrUser': {'ratio': None, 'userId': None, 'userName': None}, 'expandUser': {'ratio': None, 'userId': None, 'userName': None}}]}, 'adjustStandsCmd': {'areaManagerId': '169f34f4f67345d3b591c2ba62b5c720', 'fixedAmount': '', 'orderId': 348, 'proofs': [], 'standCutCaseType': 1, 'standManagerId': '794d9ba7b6e74c91a6e4ed678df7bb26', 'standRatioDtos': [{'cutAmount': 0.0, 'divisionName': '测试部', 'number': 1, 'payedCut': 0.0, 'ratio': 0.3, 'userId': 'b443db61e91c4fc29e53e02d81b88ac4', 'userName': '测试（驻场）'}, {'cutAmount': 0.0, 'divisionName': '测试部', 'number': 2, 'payedCut': 0.0, 'ratio': 0.4, 'userId': 'bf370e16a4ef4ea7933914d4659fe277', 'userName': 'im驻场'}, {'cutAmount': 0.0, 'divisionName': '测试部', 'number': 3, 'payedCut': 0.0, 'ratio': 0.1, 'userId': '7115d39854b64c18b67ccd45e452b79e', 'userName': '测试（驻场2）'}]}, 'adjustExpandCmd': {'orderId': 348, 'proofs': [], 'expandRatioDtos': [{'cutAmount': 0.0, 'divisionName': '测试部', 'number': 1, 'payedCut': 0.0, 'ratio': 0.5, 'userId': '564288f9ae65416c836cc46a7bb79c9c', 'userName': '测试（拓展）'}, {'cutAmount': 0.0, 'divisionName': '中山云经纪', 'number': 2, 'payedCut': 0.0, 'ratio': 0.1, 'userId': 'a5a1c18ed11a4c1ea5e5ceed9da5ebe8', 'userName': '拓展总监（业绩）'}, {'cutAmount': None, 'divisionName': None, 'number': 3, 'payedCut': None, 'ratio': None, 'userId': None, 'userName': None}], 'expandMgrRatioDtos': [{'number': 1, 'superiorId': '05f6c85ef9be43db9b86272361ec9b15', 'superiorSuperiorId': '8939e7cbae8f4df5beb8c3daf125a962'}, {'number': 2, 'superiorId': None, 'superiorSuperiorId': None}, {'number': 3, 'superiorId': None, 'superiorSuperiorId': None}]}}}
 url &gt;&gt;&gt;&lt;class 'str'&gt;
 获取到得cookies》》》 None
 table_name是：D:\wy_purchase_order\wy_purchase_order\test_data\purchase.xlsx
-2022-03-17 17:16:38,423-INFO-request_logging.py-wy_logging-日志信息:获取到的结果是：{"code":2000,"data":true,"msg":"SUCCESS"}
+2022-03-17 22:02:21,829-INFO-request_logging.py-wy_logging-日志信息:获取到的结果是：{"code":2000,"data":true,"msg":"SUCCESS"}
 
 
     </pre>
@@ -967,9 +973,9 @@ pt1_22: data 》》》{0} {
     "system":"android",
     "model":"phone",
     "appId":"commission",
-    "uid":"055c509d3c1b4c2ebf2bc70fe8447e67",
+    "uid":"b443db61e91c4fc29e53e02d81b88ac4",
     "departmentId":999,
-    "tradeId":3186,
+    "tradeId":348,
     "remark":"脚本添加草签",
     "signPrice":"2000000",
     "initialSignDate":"2022-03-14",
@@ -980,13 +986,506 @@ pt1_22: data 》》》{0} {
         }
     ]
 }
-cookie的值是：&lt;RequestsCookieJar[&lt;Cookie satoken=5849243c-2083-4978-a476-c696031a829c for pre.yunjinji.cn/&gt;]&gt;,类型是&lt;class 'requests.cookies.RequestsCookieJar'&gt;
-2022-03-17 17:16:38,424-INFO-request_logging.py-wy_logging-日志信息:&lt;RequestsCookieJar[&lt;Cookie satoken=5849243c-2083-4978-a476-c696031a829c for pre.yunjinji.cn/&gt;]&gt;
-data 》》》 {'cityId': 306, 'platformId': 999, 'system': 'android', 'model': 'phone', 'appId': 'commission', 'uid': '055c509d3c1b4c2ebf2bc70fe8447e67', 'departmentId': 999, 'tradeId': 3186, 'remark': '脚本添加草签', 'signPrice': '2000000', 'initialSignDate': '2022-03-14', 'initialSignProof': [{'url': 'https://picos.wyzfang.com/pre/java/2022-2/e67b750086bc45be872ad12744955f29.jpeg', 'name': 'e67b750086bc45be872ad12744955f29.jpeg'}]}
+cookie的值是：&lt;RequestsCookieJar[&lt;Cookie satoken=bdb03c03-2f9d-4947-9129-fd72637207b2 for release.yunjinji.cn/&gt;]&gt;,类型是&lt;class 'requests.cookies.RequestsCookieJar'&gt;
+2022-03-17 22:02:21,830-INFO-request_logging.py-wy_logging-日志信息:&lt;RequestsCookieJar[&lt;Cookie satoken=bdb03c03-2f9d-4947-9129-fd72637207b2 for release.yunjinji.cn/&gt;]&gt;
+data 》》》 {'cityId': 306, 'platformId': 999, 'system': 'android', 'model': 'phone', 'appId': 'commission', 'uid': 'b443db61e91c4fc29e53e02d81b88ac4', 'departmentId': 999, 'tradeId': 348, 'remark': '脚本添加草签', 'signPrice': '2000000', 'initialSignDate': '2022-03-14', 'initialSignProof': [{'url': 'https://picos.wyzfang.com/pre/java/2022-2/e67b750086bc45be872ad12744955f29.jpeg', 'name': 'e67b750086bc45be872ad12744955f29.jpeg'}]}
 url &gt;&gt;&gt;&lt;class 'str'&gt;
 获取到得cookies》》》 None
 table_name是：D:\wy_purchase_order\wy_purchase_order\test_data\purchase.xlsx
-2022-03-17 17:16:38,814-INFO-request_logging.py-wy_logging-日志信息:获取到的结果是：{"code":2000,"data":true,"msg":"SUCCESS"}
+2022-03-17 22:02:22,733-INFO-request_logging.py-wy_logging-日志信息:获取到的结果是：{"code":2000,"data":true,"msg":"SUCCESS"}
+
+
+    </pre>
+    </div>
+    </td>
+</tr>
+
+<tr id='pt1_23' class='hiddenRow'>
+    <td class='passCase'><div class='testcase'>test_2purchase_order_11</div></td>
+    <td colspan='5' align='center'>
+    <!--默认收起错误信息 -Findyou
+    <button id='btn_pt1_23' type="button"  class="btn btn-danger btn-xs collapsed" data-toggle="collapse" data-target='#div_pt1_23'>通过</button>
+    <div id='div_pt1_23' class="collapse">  -->
+    <!-- 默认展开错误信息 -Findyou -->
+    <button id='btn_pt1_23' type="button"  class="btn btn-danger btn-xs" data-toggle="collapse" data-target='#div_pt1_23'>通过</button>
+    <div id='div_pt1_23' class="collapse in" align="left">
+    <pre>
+    
+pt1_23: data 》》》{0} {
+    "cityId":306,
+    "platformId":999,
+    "system":"android",
+    "model":"phone",
+    "appId":"commission",
+    "uid":"3849f3a217034de19b4288d443aec1c3",
+    "departmentId":999,
+    "tradeId":348,
+    "remark":"脚本草签审核通过",
+    "settlePrice":2000000
+}
+cookie的值是：&lt;RequestsCookieJar[&lt;Cookie satoken=4bfcc09e-086f-424c-a1cb-927110cc1bbe for release.yunjinji.cn/&gt;]&gt;,类型是&lt;class 'requests.cookies.RequestsCookieJar'&gt;
+2022-03-17 22:02:22,734-INFO-request_logging.py-wy_logging-日志信息:&lt;RequestsCookieJar[&lt;Cookie satoken=4bfcc09e-086f-424c-a1cb-927110cc1bbe for release.yunjinji.cn/&gt;]&gt;
+data 》》》 {'cityId': 306, 'platformId': 999, 'system': 'android', 'model': 'phone', 'appId': 'commission', 'uid': '3849f3a217034de19b4288d443aec1c3', 'departmentId': 999, 'tradeId': 348, 'remark': '脚本草签审核通过', 'settlePrice': 2000000}
+url &gt;&gt;&gt;&lt;class 'str'&gt;
+获取到得cookies》》》 None
+table_name是：D:\wy_purchase_order\wy_purchase_order\test_data\purchase.xlsx
+2022-03-17 22:02:23,109-INFO-request_logging.py-wy_logging-日志信息:获取到的结果是：{"code":2000,"data":true,"msg":"SUCCESS"}
+
+
+    </pre>
+    </div>
+    </td>
+</tr>
+
+<tr id='pt1_24' class='hiddenRow'>
+    <td class='passCase'><div class='testcase'>test_2purchase_order_12</div></td>
+    <td colspan='5' align='center'>
+    <!--默认收起错误信息 -Findyou
+    <button id='btn_pt1_24' type="button"  class="btn btn-danger btn-xs collapsed" data-toggle="collapse" data-target='#div_pt1_24'>通过</button>
+    <div id='div_pt1_24' class="collapse">  -->
+    <!-- 默认展开错误信息 -Findyou -->
+    <button id='btn_pt1_24' type="button"  class="btn btn-danger btn-xs" data-toggle="collapse" data-target='#div_pt1_24'>通过</button>
+    <div id='div_pt1_24' class="collapse in" align="left">
+    <pre>
+    
+pt1_24: data 》》》{0} {
+    "cityId":306,
+    "platformId":999,
+    "system":"android",
+    "model":"phone",
+    "appId":"commission",
+    "uid":"b443db61e91c4fc29e53e02d81b88ac4",
+    "departmentId":999,
+    "tradeId":348,
+    "remark":"脚本添加网签",
+    "netSignDate":"2022-03-14",
+    "netSignProof":[
+        {
+            "url":"https://picos.wyzfang.com/pre/java/2022-2/d603a43b77de47a9ae074937cfbfc5f2.jpeg",
+            "name":"d603a43b77de47a9ae074937cfbfc5f2.jpeg"
+        }
+    ]
+}
+cookie的值是：&lt;RequestsCookieJar[&lt;Cookie satoken=bdb03c03-2f9d-4947-9129-fd72637207b2 for release.yunjinji.cn/&gt;]&gt;,类型是&lt;class 'requests.cookies.RequestsCookieJar'&gt;
+2022-03-17 22:02:23,110-INFO-request_logging.py-wy_logging-日志信息:&lt;RequestsCookieJar[&lt;Cookie satoken=bdb03c03-2f9d-4947-9129-fd72637207b2 for release.yunjinji.cn/&gt;]&gt;
+data 》》》 {'cityId': 306, 'platformId': 999, 'system': 'android', 'model': 'phone', 'appId': 'commission', 'uid': 'b443db61e91c4fc29e53e02d81b88ac4', 'departmentId': 999, 'tradeId': 348, 'remark': '脚本添加网签', 'netSignDate': '2022-03-14', 'netSignProof': [{'url': 'https://picos.wyzfang.com/pre/java/2022-2/d603a43b77de47a9ae074937cfbfc5f2.jpeg', 'name': 'd603a43b77de47a9ae074937cfbfc5f2.jpeg'}]}
+url &gt;&gt;&gt;&lt;class 'str'&gt;
+获取到得cookies》》》 None
+table_name是：D:\wy_purchase_order\wy_purchase_order\test_data\purchase.xlsx
+2022-03-17 22:02:23,497-INFO-request_logging.py-wy_logging-日志信息:获取到的结果是：{"code":2000,"data":true,"msg":"SUCCESS"}
+
+
+    </pre>
+    </div>
+    </td>
+</tr>
+
+<tr id='pt1_25' class='hiddenRow'>
+    <td class='passCase'><div class='testcase'>test_2purchase_order_13</div></td>
+    <td colspan='5' align='center'>
+    <!--默认收起错误信息 -Findyou
+    <button id='btn_pt1_25' type="button"  class="btn btn-danger btn-xs collapsed" data-toggle="collapse" data-target='#div_pt1_25'>通过</button>
+    <div id='div_pt1_25' class="collapse">  -->
+    <!-- 默认展开错误信息 -Findyou -->
+    <button id='btn_pt1_25' type="button"  class="btn btn-danger btn-xs" data-toggle="collapse" data-target='#div_pt1_25'>通过</button>
+    <div id='div_pt1_25' class="collapse in" align="left">
+    <pre>
+    
+pt1_25: data 》》》{0} {
+    "cityId":306,
+    "platformId":999,
+    "system":"android",
+    "model":"phone",
+    "appId":"commission",
+    "uid":"3849f3a217034de19b4288d443aec1c3",
+    "departmentId":999,
+    "tradeId":348,
+    "remark":"脚本网签审核通过"
+}
+cookie的值是：&lt;RequestsCookieJar[&lt;Cookie satoken=4bfcc09e-086f-424c-a1cb-927110cc1bbe for release.yunjinji.cn/&gt;]&gt;,类型是&lt;class 'requests.cookies.RequestsCookieJar'&gt;
+2022-03-17 22:02:23,498-INFO-request_logging.py-wy_logging-日志信息:&lt;RequestsCookieJar[&lt;Cookie satoken=4bfcc09e-086f-424c-a1cb-927110cc1bbe for release.yunjinji.cn/&gt;]&gt;
+data 》》》 {'cityId': 306, 'platformId': 999, 'system': 'android', 'model': 'phone', 'appId': 'commission', 'uid': '3849f3a217034de19b4288d443aec1c3', 'departmentId': 999, 'tradeId': 348, 'remark': '脚本网签审核通过'}
+url &gt;&gt;&gt;&lt;class 'str'&gt;
+获取到得cookies》》》 None
+table_name是：D:\wy_purchase_order\wy_purchase_order\test_data\purchase.xlsx
+2022-03-17 22:02:23,936-INFO-request_logging.py-wy_logging-日志信息:获取到的结果是：{"code":2000,"data":true,"msg":"SUCCESS"}
+
+
+    </pre>
+    </div>
+    </td>
+</tr>
+
+<tr id='pt1_26' class='hiddenRow'>
+    <td class='passCase'><div class='testcase'>test_2purchase_order_14</div></td>
+    <td colspan='5' align='center'>
+    <!--默认收起错误信息 -Findyou
+    <button id='btn_pt1_26' type="button"  class="btn btn-danger btn-xs collapsed" data-toggle="collapse" data-target='#div_pt1_26'>通过</button>
+    <div id='div_pt1_26' class="collapse">  -->
+    <!-- 默认展开错误信息 -Findyou -->
+    <button id='btn_pt1_26' type="button"  class="btn btn-danger btn-xs" data-toggle="collapse" data-target='#div_pt1_26'>通过</button>
+    <div id='div_pt1_26' class="collapse in" align="left">
+    <pre>
+    
+pt1_26: data 》》》{0} {
+    "cityId":306,
+    "platformId":999,
+    "system":"android",
+    "model":"phone",
+    "appId":"commission",
+    "uid":"b443db61e91c4fc29e53e02d81b88ac4",
+    "departmentId":999,
+    "tradeId":348,
+    "remark":"脚本添加放款",
+    "loanDate":"2022-03-14",
+    "loanProof":[
+        {
+            "url":"https://picos.wyzfang.com/pre/java/2022-2/8af3efbdc2634f05ac918052ac1ee34b.jpeg",
+            "name":"8af3efbdc2634f05ac918052ac1ee34b.jpeg"
+        }
+    ]
+}
+cookie的值是：&lt;RequestsCookieJar[&lt;Cookie satoken=bdb03c03-2f9d-4947-9129-fd72637207b2 for release.yunjinji.cn/&gt;]&gt;,类型是&lt;class 'requests.cookies.RequestsCookieJar'&gt;
+2022-03-17 22:02:23,937-INFO-request_logging.py-wy_logging-日志信息:&lt;RequestsCookieJar[&lt;Cookie satoken=bdb03c03-2f9d-4947-9129-fd72637207b2 for release.yunjinji.cn/&gt;]&gt;
+data 》》》 {'cityId': 306, 'platformId': 999, 'system': 'android', 'model': 'phone', 'appId': 'commission', 'uid': 'b443db61e91c4fc29e53e02d81b88ac4', 'departmentId': 999, 'tradeId': 348, 'remark': '脚本添加放款', 'loanDate': '2022-03-14', 'loanProof': [{'url': 'https://picos.wyzfang.com/pre/java/2022-2/8af3efbdc2634f05ac918052ac1ee34b.jpeg', 'name': '8af3efbdc2634f05ac918052ac1ee34b.jpeg'}]}
+url &gt;&gt;&gt;&lt;class 'str'&gt;
+获取到得cookies》》》 None
+table_name是：D:\wy_purchase_order\wy_purchase_order\test_data\purchase.xlsx
+2022-03-17 22:02:24,341-INFO-request_logging.py-wy_logging-日志信息:获取到的结果是：{"code":2000,"data":true,"msg":"SUCCESS"}
+
+
+    </pre>
+    </div>
+    </td>
+</tr>
+
+<tr id='pt1_27' class='hiddenRow'>
+    <td class='passCase'><div class='testcase'>test_3rec_comm_ticket_1</div></td>
+    <td colspan='5' align='center'>
+    <!--默认收起错误信息 -Findyou
+    <button id='btn_pt1_27' type="button"  class="btn btn-danger btn-xs collapsed" data-toggle="collapse" data-target='#div_pt1_27'>通过</button>
+    <div id='div_pt1_27' class="collapse">  -->
+    <!-- 默认展开错误信息 -Findyou -->
+    <button id='btn_pt1_27' type="button"  class="btn btn-danger btn-xs" data-toggle="collapse" data-target='#div_pt1_27'>通过</button>
+    <div id='div_pt1_27' class="collapse in" align="left">
+    <pre>
+    
+pt1_27: data 》》》 {'checkClerkId': '3849f3a217034de19b4288d443aec1c3', 'collectingCompanyId': 1, 'projectId': 163, 'settleClerkId': '3849f3a217034de19b4288d443aec1c3', 'totalCommission': '150000.00', 'totalInvoice': '150000.00', 'orders': [{'currentOffsetInvoice': 0, 'currentProvidableInvoice': 0, 'currentProvideInvoice': '150000.00', 'currentRecoverCommission': '150000.00', 'currentRecoverableCommission': '150000.00', 'orderId': 348, 'receivableCommision': 150000.0, 'receivedCommision': 0}], 'system': 'pc', 'model': 'pc', 'appId': 'commission-pc', 'role': 15, 'uid': '3849f3a217034de19b4288d443aec1c3'}
+url &gt;&gt;&gt;https://release.yunjinji.cn/commission/admin/receive/commission/ticket/manual/create
+table_name是：D:\wy_purchase_order\wy_purchase_order\test_data\purchase.xlsx
+2022-03-17 22:02:25,571-INFO-request_logging.py-wy_logging-日志信息:获取到的结果是：{'code': 2000, 'data': True, 'msg': 'SUCCESS'}
+
+
+    </pre>
+    </div>
+    </td>
+</tr>
+
+<tr id='pt1_28' class='hiddenRow'>
+    <td class='passCase'><div class='testcase'>test_3rec_comm_ticket_2</div></td>
+    <td colspan='5' align='center'>
+    <!--默认收起错误信息 -Findyou
+    <button id='btn_pt1_28' type="button"  class="btn btn-danger btn-xs collapsed" data-toggle="collapse" data-target='#div_pt1_28'>通过</button>
+    <div id='div_pt1_28' class="collapse">  -->
+    <!-- 默认展开错误信息 -Findyou -->
+    <button id='btn_pt1_28' type="button"  class="btn btn-danger btn-xs" data-toggle="collapse" data-target='#div_pt1_28'>通过</button>
+    <div id='div_pt1_28' class="collapse in" align="left">
+    <pre>
+    
+pt1_28: data 》》》 {'ticketId': '80', 'invoice': {'type': 1, 'accountId': 4, 'content': '测试', 'proof': [{'name': '12123.jpg', 'url': 'https://picos.wyzfang.com/test/server/2022-03/20220308/ae351374-05cf-998e-a13a-f6b0cd7502cc.jpg'}], 'remark': ''}, 'system': 'pc', 'model': 'pc', 'appId': 'commission-pc', 'role': 15, 'uid': '3849f3a217034de19b4288d443aec1c3'}
+url &gt;&gt;&gt;https://release.yunjinji.cn/commission/admin/receive/commission/ticket/confirm
+table_name是：D:\wy_purchase_order\wy_purchase_order\test_data\purchase.xlsx
+2022-03-17 22:02:26,132-INFO-request_logging.py-wy_logging-日志信息:获取到的结果是：{'code': 2000, 'data': True, 'msg': 'SUCCESS'}
+
+
+    </pre>
+    </div>
+    </td>
+</tr>
+
+<tr id='pt1_29' class='hiddenRow'>
+    <td class='passCase'><div class='testcase'>test_3rec_comm_ticket_3</div></td>
+    <td colspan='5' align='center'>
+    <!--默认收起错误信息 -Findyou
+    <button id='btn_pt1_29' type="button"  class="btn btn-danger btn-xs collapsed" data-toggle="collapse" data-target='#div_pt1_29'>通过</button>
+    <div id='div_pt1_29' class="collapse">  -->
+    <!-- 默认展开错误信息 -Findyou -->
+    <button id='btn_pt1_29' type="button"  class="btn btn-danger btn-xs" data-toggle="collapse" data-target='#div_pt1_29'>通过</button>
+    <div id='div_pt1_29' class="collapse in" align="left">
+    <pre>
+    
+pt1_29: data 》》》 {'adjustOrders': False, 'remark': '测试', 'ticketId': '80', 'totalCommission': '150000.00', 'totalInvoice': '150000.00', 'orders': [{'currentOffsetInvoice': 0, 'currentRecoveredCommission': 0, 'currentProvidableInvoice': 150000.0, 'currentProvideInvoice': 150000.0, 'currentRecoverCommission': 150000.0, 'currentRecoverableCommission': 0, 'orderId': 348, 'receivableCommision': 150000.0, 'receivedCommision': 0}], 'system': 'pc', 'model': 'pc', 'appId': 'commission-pc', 'role': 15, 'uid': '3849f3a217034de19b4288d443aec1c3'}
+url &gt;&gt;&gt;https://release.yunjinji.cn/commission/admin/receive/commission/ticket/adjust
+table_name是：D:\wy_purchase_order\wy_purchase_order\test_data\purchase.xlsx
+2022-03-17 22:02:26,859-INFO-request_logging.py-wy_logging-日志信息:获取到的结果是：{'code': 2000, 'data': True, 'msg': 'SUCCESS'}
+
+
+    </pre>
+    </div>
+    </td>
+</tr>
+
+<tr id='pt1_30' class='hiddenRow'>
+    <td class='passCase'><div class='testcase'>test_3rec_comm_ticket_4</div></td>
+    <td colspan='5' align='center'>
+    <!--默认收起错误信息 -Findyou
+    <button id='btn_pt1_30' type="button"  class="btn btn-danger btn-xs collapsed" data-toggle="collapse" data-target='#div_pt1_30'>通过</button>
+    <div id='div_pt1_30' class="collapse">  -->
+    <!-- 默认展开错误信息 -Findyou -->
+    <button id='btn_pt1_30' type="button"  class="btn btn-danger btn-xs" data-toggle="collapse" data-target='#div_pt1_30'>通过</button>
+    <div id='div_pt1_30' class="collapse in" align="left">
+    <pre>
+    
+pt1_30: data 》》》 {'ticketId': '80', 'adjustTicketCmd': {'adjustOrders': False, 'ticketId': '80', 'totalCommission': '150000.00', 'totalInvoice': '150000.00', 'orders': [{'currentOffsetInvoice': 0, 'currentProvidableInvoice': 0, 'currentProvideInvoice': 150000.0, 'currentRecoverCommission': 150000.0, 'currentRecoverableCommission': 150000.0, 'orderId': 348, 'receivableCommision': 150000.0, 'receivedCommision': 0}]}, 'collectInvoice': {'method': 2, 'remark': ''}, 'system': 'pc', 'model': 'pc', 'appId': 'commission-pc', 'role': 15, 'uid': '3849f3a217034de19b4288d443aec1c3'}
+url &gt;&gt;&gt;https://release.yunjinji.cn/commission/admin/receive/commission/ticket/invoice/apply
+table_name是：D:\wy_purchase_order\wy_purchase_order\test_data\purchase.xlsx
+2022-03-17 22:02:27,496-INFO-request_logging.py-wy_logging-日志信息:获取到的结果是：{'code': 2000, 'data': True, 'msg': 'SUCCESS'}
+
+
+    </pre>
+    </div>
+    </td>
+</tr>
+
+<tr id='pt1_31' class='hiddenRow'>
+    <td class='passCase'><div class='testcase'>test_3rec_comm_ticket_5</div></td>
+    <td colspan='5' align='center'>
+    <!--默认收起错误信息 -Findyou
+    <button id='btn_pt1_31' type="button"  class="btn btn-danger btn-xs collapsed" data-toggle="collapse" data-target='#div_pt1_31'>通过</button>
+    <div id='div_pt1_31' class="collapse">  -->
+    <!-- 默认展开错误信息 -Findyou -->
+    <button id='btn_pt1_31' type="button"  class="btn btn-danger btn-xs" data-toggle="collapse" data-target='#div_pt1_31'>通过</button>
+    <div id='div_pt1_31' class="collapse in" align="left">
+    <pre>
+    
+pt1_31: data 》》》 {'ticketId': '80', 'postCode': '', 'invoiceDate': '2022-03-14', 'proof': [{'name': '12123.jpg', 'url': 'https://picos.wyzfang.com/test/server/2022-03/20220308/2d4a20b9-5d46-4f37-739f-4882ca1c93d8.jpg'}], 'remark': '', 'system': 'pc', 'model': 'pc', 'appId': 'commission-pc', 'role': 16, 'uid': '414198f624204ed28b1a63eabc5f8f1b'}
+url &gt;&gt;&gt;https://release.yunjinji.cn/commission/admin/receive/commission/ticket/invoice/send
+table_name是：D:\wy_purchase_order\wy_purchase_order\test_data\purchase.xlsx
+2022-03-17 22:02:28,425-INFO-request_logging.py-wy_logging-日志信息:获取到的结果是：{'code': 2000, 'data': True, 'msg': 'SUCCESS'}
+
+
+    </pre>
+    </div>
+    </td>
+</tr>
+
+<tr id='pt1_32' class='hiddenRow'>
+    <td class='passCase'><div class='testcase'>test_3rec_comm_ticket_6</div></td>
+    <td colspan='5' align='center'>
+    <!--默认收起错误信息 -Findyou
+    <button id='btn_pt1_32' type="button"  class="btn btn-danger btn-xs collapsed" data-toggle="collapse" data-target='#div_pt1_32'>通过</button>
+    <div id='div_pt1_32' class="collapse">  -->
+    <!-- 默认展开错误信息 -Findyou -->
+    <button id='btn_pt1_32' type="button"  class="btn btn-danger btn-xs" data-toggle="collapse" data-target='#div_pt1_32'>通过</button>
+    <div id='div_pt1_32' class="collapse in" align="left">
+    <pre>
+    
+pt1_32: data 》》》 {'ticketId': '80', 'proof': [{'name': '12123.jpg', 'url': 'https://picos.wyzfang.com/test/server/2022-03/20220308/e83799fe-3112-ac63-7a22-250c779346a2.jpg'}], 'remark': '', 'system': 'pc', 'model': 'pc', 'appId': 'commission-pc', 'role': 15, 'uid': '3849f3a217034de19b4288d443aec1c3'}
+url &gt;&gt;&gt;https://release.yunjinji.cn/commission/admin/receive/commission/ticket/invoice/received
+table_name是：D:\wy_purchase_order\wy_purchase_order\test_data\purchase.xlsx
+2022-03-17 22:02:28,981-INFO-request_logging.py-wy_logging-日志信息:获取到的结果是：{'code': 2000, 'data': True, 'msg': 'SUCCESS'}
+
+
+    </pre>
+    </div>
+    </td>
+</tr>
+
+<tr id='pt1_33' class='hiddenRow'>
+    <td class='passCase'><div class='testcase'>test_3rec_comm_ticket_7</div></td>
+    <td colspan='5' align='center'>
+    <!--默认收起错误信息 -Findyou
+    <button id='btn_pt1_33' type="button"  class="btn btn-danger btn-xs collapsed" data-toggle="collapse" data-target='#div_pt1_33'>通过</button>
+    <div id='div_pt1_33' class="collapse">  -->
+    <!-- 默认展开错误信息 -Findyou -->
+    <button id='btn_pt1_33' type="button"  class="btn btn-danger btn-xs" data-toggle="collapse" data-target='#div_pt1_33'>通过</button>
+    <div id='div_pt1_33' class="collapse in" align="left">
+    <pre>
+    
+pt1_33: data 》》》 {'ticketId': '80', 'remark': '240000测试', 'amount': '150000.00', 'receivedDate': '2022-03-08', 'proof': [{'name': '12123.jpg', 'url': 'https://picos.wyzfang.com/test/server/2022-03/20220308/acd8967a-1c95-cb0c-6956-c5004a90ac4e.jpg'}], 'system': 'pc', 'model': 'pc', 'appId': 'commission-pc', 'role': 16, 'uid': '414198f624204ed28b1a63eabc5f8f1b'}
+url &gt;&gt;&gt;https://release.yunjinji.cn/commission/admin/receive/commission/ticket/commissions/recieved
+table_name是：D:\wy_purchase_order\wy_purchase_order\test_data\purchase.xlsx
+2022-03-17 22:02:29,709-INFO-request_logging.py-wy_logging-日志信息:获取到的结果是：{'code': 2000, 'data': True, 'msg': 'SUCCESS'}
+
+
+    </pre>
+    </div>
+    </td>
+</tr>
+
+<tr id='ft1_34' class='none'>
+    <td class='failCase'><div class='testcase'>test_4pay_comm_ticket_1</div></td>
+    <td colspan='5' align='center'>
+    <!--默认收起错误信息 -Findyou
+    <button id='btn_ft1_34' type="button"  class="btn btn-danger btn-xs collapsed" data-toggle="collapse" data-target='#div_ft1_34'>失败</button>
+    <div id='div_ft1_34' class="collapse">  -->
+    <!-- 默认展开错误信息 -Findyou -->
+    <button id='btn_ft1_34' type="button"  class="btn btn-danger btn-xs" data-toggle="collapse" data-target='#div_ft1_34'>失败</button>
+    <div id='div_ft1_34' class="collapse in" align="left">
+    <pre>
+    
+ft1_34: data 》》》 {'deptId': 4807, 'settleClerkId': '3849f3a217034de19b4288d443aec1c3', 'projectId': 163, 'totalCommission': '110000.00', 'totalInvoice': '110000.00', 'devAccountId': 482, 'salePlatformAccountId': '', 'invoiceTaxRate': 0.06, 'invoiceTitleId': 6, 'invoiceTyp': '2', 'orders': [{'currentCanPayableCommission': '110000.00', 'currentPayableActualCommission': '110000.00', 'currentProvideInvoice': '110000.00', 'currentShouldPayableCommission': '110000.00', 'invoiceTaxFee': '0', 'orderId': 348, 'payableCommission': '110000.00', 'payedCommission': '0', 'receivableCommision': '150000.00', 'receivedCommision': '150000.00', 'unpayedCommission': '110000.00', 'unreceivedCommision': '0'}], 'payOrderRemark': '', 'remark': '创建提交结佣单测试', 'system': 'pc', 'model': 'pc', 'appId': 'commission-pc', 'role': 15, 'uid': '3849f3a217034de19b4288d443aec1c3'}
+2022-03-17 22:02:30,192-INFO-request_logging.py-wy_logging-日志信息:用例执行失败:'SUCCESS' != '房号龙光317栋1005本次可结金额应为:0.00'
+- SUCCESS
++ 房号龙光317栋1005本次可结金额应为:0.00
+ : 出问题了
+table_name是：D:\wy_purchase_order\wy_purchase_order\test_data\purchase.xlsx
+2022-03-17 22:02:30,402-INFO-request_logging.py-wy_logging-日志信息:获取到的结果是：{'code': 5000, 'data': None, 'msg': '房号龙光317栋1005本次可结金额应为:0.00'}
+Traceback (most recent call last):
+  File "C:\Users\will\AppData\Roaming\Python\Python39\site-packages\ddt.py", line 191, in wrapper
+    return func(self, *args, **kwargs)
+  File "D:\wy_purchase_order\wy_purchase_order\common\pubilc\request_testcase.py", line 227, in test_4pay_comm_ticket
+    raise e
+  File "D:\wy_purchase_order\wy_purchase_order\common\pubilc\request_testcase.py", line 220, in test_4pay_comm_ticket
+    self.assertEqual(pay_data["assert_info"], res.json()["msg"], msg="出问题了")
+AssertionError: 'SUCCESS' != '房号龙光317栋1005本次可结金额应为:0.00'
+- SUCCESS
++ 房号龙光317栋1005本次可结金额应为:0.00
+ : 出问题了
+
+
+    </pre>
+    </div>
+    </td>
+</tr>
+
+<tr id='ft1_35' class='none'>
+    <td class='failCase'><div class='testcase'>test_4pay_comm_ticket_2</div></td>
+    <td colspan='5' align='center'>
+    <!--默认收起错误信息 -Findyou
+    <button id='btn_ft1_35' type="button"  class="btn btn-danger btn-xs collapsed" data-toggle="collapse" data-target='#div_ft1_35'>失败</button>
+    <div id='div_ft1_35' class="collapse">  -->
+    <!-- 默认展开错误信息 -Findyou -->
+    <button id='btn_ft1_35' type="button"  class="btn btn-danger btn-xs" data-toggle="collapse" data-target='#div_ft1_35'>失败</button>
+    <div id='div_ft1_35' class="collapse in" align="left">
+    <pre>
+    
+ft1_35: data 》》》 {'ticketId': 'None', 'system': 'pc', 'model': 'pc', 'appId': 'commission-pc', 'role': 14, 'uid': '6692b0a974b24735907f666503d4102b'}
+2022-03-17 22:02:30,669-INFO-request_logging.py-wy_logging-日志信息:用例执行失败:'SUCCESS' != '参数异常'
+- SUCCESS
++ 参数异常
+ : 出问题了
+table_name是：D:\wy_purchase_order\wy_purchase_order\test_data\purchase.xlsx
+2022-03-17 22:02:30,891-INFO-request_logging.py-wy_logging-日志信息:获取到的结果是：{'code': 5000, 'data': None, 'msg': '参数异常'}
+Traceback (most recent call last):
+  File "C:\Users\will\AppData\Roaming\Python\Python39\site-packages\ddt.py", line 191, in wrapper
+    return func(self, *args, **kwargs)
+  File "D:\wy_purchase_order\wy_purchase_order\common\pubilc\request_testcase.py", line 227, in test_4pay_comm_ticket
+    raise e
+  File "D:\wy_purchase_order\wy_purchase_order\common\pubilc\request_testcase.py", line 220, in test_4pay_comm_ticket
+    self.assertEqual(pay_data["assert_info"], res.json()["msg"], msg="出问题了")
+AssertionError: 'SUCCESS' != '参数异常'
+- SUCCESS
++ 参数异常
+ : 出问题了
+
+
+    </pre>
+    </div>
+    </td>
+</tr>
+
+<tr id='ft1_36' class='none'>
+    <td class='failCase'><div class='testcase'>test_4pay_comm_ticket_3</div></td>
+    <td colspan='5' align='center'>
+    <!--默认收起错误信息 -Findyou
+    <button id='btn_ft1_36' type="button"  class="btn btn-danger btn-xs collapsed" data-toggle="collapse" data-target='#div_ft1_36'>失败</button>
+    <div id='div_ft1_36' class="collapse">  -->
+    <!-- 默认展开错误信息 -Findyou -->
+    <button id='btn_ft1_36' type="button"  class="btn btn-danger btn-xs" data-toggle="collapse" data-target='#div_ft1_36'>失败</button>
+    <div id='div_ft1_36' class="collapse in" align="left">
+    <pre>
+    
+ft1_36: data 》》》 {'adjustOrders': False, 'ticketId': 'None', 'remark': '对佣中提交', 'deptId': 4807, 'projectId': 163, 'totalCommission': '110000.00', 'totalInvoice': '110000.00', 'devAccountId': 482, 'salePlatformAccountId': 0, 'invoiceTaxRate': 0.06, 'invoiceTitleId': 6, 'invoiceType': 2, 'orders': [{'currentCanPayableCommission': '110000.00', 'currentPayableActualCommission': '110000.00', 'currentProvideInvoice': '110000.00', 'currentShouldPayableCommission': '110000.00', 'invoiceTaxFee': '0.00', 'orderId': '348', 'payableCommission': '110000.00', 'payedCommission': '0', 'receivableCommision': '150000.00', 'receivedCommision': '150000.00', 'unpayedCommission': '110000.00', 'unreceivedCommision': '0'}], 'system': 'pc', 'model': 'pc', 'appId': 'commission-pc', 'role': 15, 'uid': '3849f3a217034de19b4288d443aec1c3'}
+2022-03-17 22:02:31,329-INFO-request_logging.py-wy_logging-日志信息:用例执行失败:'SUCCESS' != '参数异常'
+- SUCCESS
++ 参数异常
+ : 出问题了
+table_name是：D:\wy_purchase_order\wy_purchase_order\test_data\purchase.xlsx
+2022-03-17 22:02:31,494-INFO-request_logging.py-wy_logging-日志信息:获取到的结果是：{'code': 5000, 'data': None, 'msg': '参数异常'}
+Traceback (most recent call last):
+  File "C:\Users\will\AppData\Roaming\Python\Python39\site-packages\ddt.py", line 191, in wrapper
+    return func(self, *args, **kwargs)
+  File "D:\wy_purchase_order\wy_purchase_order\common\pubilc\request_testcase.py", line 227, in test_4pay_comm_ticket
+    raise e
+  File "D:\wy_purchase_order\wy_purchase_order\common\pubilc\request_testcase.py", line 220, in test_4pay_comm_ticket
+    self.assertEqual(pay_data["assert_info"], res.json()["msg"], msg="出问题了")
+AssertionError: 'SUCCESS' != '参数异常'
+- SUCCESS
++ 参数异常
+ : 出问题了
+
+
+    </pre>
+    </div>
+    </td>
+</tr>
+
+<tr id='ft1_37' class='none'>
+    <td class='failCase'><div class='testcase'>test_4pay_comm_ticket_4</div></td>
+    <td colspan='5' align='center'>
+    <!--默认收起错误信息 -Findyou
+    <button id='btn_ft1_37' type="button"  class="btn btn-danger btn-xs collapsed" data-toggle="collapse" data-target='#div_ft1_37'>失败</button>
+    <div id='div_ft1_37' class="collapse">  -->
+    <!-- 默认展开错误信息 -Findyou -->
+    <button id='btn_ft1_37' type="button"  class="btn btn-danger btn-xs" data-toggle="collapse" data-target='#div_ft1_37'>失败</button>
+    <div id='div_ft1_37' class="collapse in" align="left">
+    <pre>
+    
+ft1_37: data 》》》 {'ticketId': 'None', 'collectInvoiceProof': [{'name': '12123.jpg', 'url': 'https://picos.wyzfang.com/test/server/2022-03/20220312/a302d8d4-ca7e-45ed-2b69-c39bef7e70d9.jpg'}], 'remark': '测试', 'collectInvoiceDate': '2022-03-14', 'openInvoiceDate': '2022-03-14', 'system': 'pc', 'model': 'pc', 'appId': 'commission-pc', 'role': 16, 'uid': '414198f624204ed28b1a63eabc5f8f1b'}
+2022-03-17 22:02:31,791-INFO-request_logging.py-wy_logging-日志信息:用例执行失败:'SUCCESS' != '参数异常'
+- SUCCESS
++ 参数异常
+ : 出问题了
+table_name是：D:\wy_purchase_order\wy_purchase_order\test_data\purchase.xlsx
+2022-03-17 22:02:31,980-INFO-request_logging.py-wy_logging-日志信息:获取到的结果是：{'code': 5000, 'data': None, 'msg': '参数异常'}
+Traceback (most recent call last):
+  File "C:\Users\will\AppData\Roaming\Python\Python39\site-packages\ddt.py", line 191, in wrapper
+    return func(self, *args, **kwargs)
+  File "D:\wy_purchase_order\wy_purchase_order\common\pubilc\request_testcase.py", line 227, in test_4pay_comm_ticket
+    raise e
+  File "D:\wy_purchase_order\wy_purchase_order\common\pubilc\request_testcase.py", line 220, in test_4pay_comm_ticket
+    self.assertEqual(pay_data["assert_info"], res.json()["msg"], msg="出问题了")
+AssertionError: 'SUCCESS' != '参数异常'
+- SUCCESS
++ 参数异常
+ : 出问题了
+
+
+    </pre>
+    </div>
+    </td>
+</tr>
+
+<tr id='ft1_38' class='none'>
+    <td class='failCase'><div class='testcase'>test_4pay_comm_ticket_5</div></td>
+    <td colspan='5' align='center'>
+    <!--默认收起错误信息 -Findyou
+    <button id='btn_ft1_38' type="button"  class="btn btn-danger btn-xs collapsed" data-toggle="collapse" data-target='#div_ft1_38'>失败</button>
+    <div id='div_ft1_38' class="collapse">  -->
+    <!-- 默认展开错误信息 -Findyou -->
+    <button id='btn_ft1_38' type="button"  class="btn btn-danger btn-xs" data-toggle="collapse" data-target='#div_ft1_38'>失败</button>
+    <div id='div_ft1_38' class="collapse in" align="left">
+    <pre>
+    
+ft1_38: data 》》》 {'ticketId': 'None', 'remark': '测试收款中', 'payProof': [{'name': '12123.jpg', 'url': 'https://picos.wyzfang.com/test/server/2022-03/20220312/524660ab-1c01-2891-43ba-1a8a5003df7e.jpg'}], 'payDate': '2022-03-14', 'system': 'pc', 'model': 'pc', 'appId': 'commission-pc', 'role': 16, 'uid': '414198f624204ed28b1a63eabc5f8f1b'}
+2022-03-17 22:02:32,319-INFO-request_logging.py-wy_logging-日志信息:用例执行失败:'SUCCESS' != '参数异常'
+- SUCCESS
++ 参数异常
+ : 出问题了
+table_name是：D:\wy_purchase_order\wy_purchase_order\test_data\purchase.xlsx
+2022-03-17 22:02:32,494-INFO-request_logging.py-wy_logging-日志信息:获取到的结果是：{'code': 5000, 'data': None, 'msg': '参数异常'}
+Traceback (most recent call last):
+  File "C:\Users\will\AppData\Roaming\Python\Python39\site-packages\ddt.py", line 191, in wrapper
+    return func(self, *args, **kwargs)
+  File "D:\wy_purchase_order\wy_purchase_order\common\pubilc\request_testcase.py", line 227, in test_4pay_comm_ticket
+    raise e
+  File "D:\wy_purchase_order\wy_purchase_order\common\pubilc\request_testcase.py", line 220, in test_4pay_comm_ticket
+    self.assertEqual(pay_data["assert_info"], res.json()["msg"], msg="出问题了")
+AssertionError: 'SUCCESS' != '参数异常'
+- SUCCESS
++ 参数异常
+ : 出问题了
 
 
     </pre>
@@ -996,11 +1495,11 @@ table_name是：D:\wy_purchase_order\wy_purchase_order\test_data\purchase.xlsx
 
 <tr id='total_row' class="text-center active">
     <td>总计</td>
-    <td>22</td>
-    <td>22</td>
-    <td>0</td>
-    <td>0</td>
-    <td>通过率：100.00%</td>
+    <td>38</td>
+    <td>32</td>
+    <td>5</td>
+    <td>1</td>
+    <td>通过率：84.21%</td>
 </tr>
 </table>
 

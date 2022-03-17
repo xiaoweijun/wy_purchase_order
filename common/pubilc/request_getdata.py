@@ -11,6 +11,8 @@ class GetData:
     #tradeId = "2993"
     ip_adress = "https://pre.yunjinji.cn"
     login_url = "https://pre.yunjinji.cn/user-center/auth/staff/login"  #登录的url
+    # ip_adress = "https://release.yunjinji.cn"  #
+    # login_url = "https://release.yunjinji.cn/user-center/auth/staff/login"  # 登录的url
     #驻场提成信息
     zc_cut = "@zc_cut@"
     areaManager = "@areaManager@"
@@ -93,9 +95,10 @@ class GetData:
     roomNo = load_workbook(request_getpath.testdata_path)["report_data"].cell(1, 3).value + str(roomNo_num)   #房号
     customName = load_workbook(request_getpath.testdata_path)["report_data"].cell(2, 3).value + str(roomNo_num)  # 客户姓名
     agent_salePlatformId = load_workbook(request_getpath.testdata_path)["report_data"].cell(8, 3).value #代理成交平台id
+    deptId = load_workbook(request_getpath.testdata_path)["report_data"].cell(9, 3).value # 门店id
+    agent_user_phone = load_workbook(request_getpath.testdata_path)["report_data"].cell(10, 3).value # 无忧经纪人手机号
 
-
-
+    agent_user_id = DoSql().do_sql("SELECT userId from yy_user where account = '{0}' and isDel = 0 and status =1 and departmentId = {1}".format(agent_user_phone,deptId))
 
 
     #从数据库获取reporid
@@ -108,10 +111,14 @@ class GetData:
 
     #收佣方案id
     rec_id = DoSql().do_sql("SELECT b.id from  yy_comm_project as a LEFT JOIN yy_rec_comm_plan as b on a.cycle_id = b.cycle_id where a.project_id = '{0}' and a.del = 0 and  '{1}' BETWEEN valid_start_time and valid_end_time ORDER BY b.id DESC LIMIT 1;".format(projectId,purchaseDate))
-
+    # 销方平台公司账户
+    salePlatformAccountId = DoSql().do_sql("SELECT id from yy_comm_self_account where platform_id = {0} limit 1".format(agent_salePlatformId))
     # 平台公司id collectingCompanyId
     collectingCompanyId = DoSql().do_sql("SELECT company_id from yy_comm_project_cycle where project_id = (SELECT id FROM yy_comm_project where project_id = {0}) LIMIT 1;".format(projectId))
-
+    # 开发商账户
+    dev_account = DoSql().do_sql("SELECT id from yy_comm_dev_account where project_id = {0} limit 1".format(projectId))
+    # 门店账户
+    dept_account = DoSql().do_sql("SELECT baid from yy_department_ba where departmentId = {0} and isDel = 0 and state = 1 limit 1".format(str(deptId)))
     # rec_ticketId 收佣单id
     rec_ticketId = "@rec_ticketId@"
     # pay_ticket 结佣单id

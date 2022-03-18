@@ -1,7 +1,7 @@
 # -*- coding: utf-8 -*-
 # @Author : xiaowj
 # @Time : 2022/2/26 19:50
-import unittest,json
+import unittest,json,pytest
 from common.pubilc.request_test import HttpRequest
 from common.pubilc.request_do_excel import GetTestData
 from common.pubilc.request_getconfig import GetConfig
@@ -42,7 +42,8 @@ class TestLogin(unittest.TestCase):
         try:
             if "role_code" in user_data.keys():
                 print("cookie的值是：{0},类型是{1}".format(res.cookies.get("satoken"),type(res.cookies.get("satoken"))))
-                GetTestData().wirte_userid("user", res.json()["data"]["loginId"],res.cookies.get("satoken"), user_data["role_code"])
+                #GetTestData().wirte_userid("user", res.json()["data"]["loginId"],res.cookies.get("satoken"), user_data["role_code"])
+                setattr(GetData,user_data["role_code"]+"_userid",res.json()["data"]["loginId"])
                 setattr(GetData,user_data["role_cookie"],res.cookies)
 
             else:
@@ -144,7 +145,7 @@ class TestLogin(unittest.TestCase):
             GetTestData().wirte_data(test_data["sheet_name"], int(test_data["case_id"]), str(res.json()), TestResult)
             my_logger.info_log("获取到的结果是：{0}".format(res.text))
 
-    # 普通收佣单流程
+    # 收佣单流程
     @data(*rec_data)
     def test_3rec_comm_ticket(self, rec_data):
         # receivable_commision
@@ -235,3 +236,5 @@ class TestLogin(unittest.TestCase):
 
 if __name__ == '__main__':
     unittest.main()
+    #pytest.main()
+

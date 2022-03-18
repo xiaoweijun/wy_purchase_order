@@ -118,7 +118,7 @@ class GetTestData:
         sheet.cell(1, 4).value = value
         wb.save(self.table_name)
 
-    # 保存获取到的userid 和 cookier
+    # 保存获取到的userid 和 cookier   暂时用不上，直接用反射替代写入、取值
     def wirte_userid(self,sheet_name,value,cookier,role_code):
         # 1、打开excel
         wb = load_workbook(self.table_name)

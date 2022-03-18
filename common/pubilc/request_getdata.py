@@ -11,7 +11,7 @@ class GetData:
     #tradeId = "2993"
     ip_adress = "https://pre.yunjinji.cn"
     login_url = "https://pre.yunjinji.cn/user-center/auth/staff/login"  #登录的url
-    # ip_adress = "https://release.yunjinji.cn"  #
+    # ip_adress = "https://release.yunjinji.cn"  # release环境
     # login_url = "https://release.yunjinji.cn/user-center/auth/staff/login"  # 登录的url
     #驻场提成信息
     zc_cut = "@zc_cut@"
@@ -58,18 +58,18 @@ class GetData:
     xftz_tel = load_workbook(request_getpath.testdata_path)["user"].cell(10, 1).value #销方拓展
 
     # 从excel获取userid
-    zc_userid = load_workbook(request_getpath.testdata_path)["user"].cell(2,3).value
-    zcjl_userid = load_workbook(request_getpath.testdata_path)["user"].cell(3, 3).value
-    cw_userid = load_workbook(request_getpath.testdata_path)["user"].cell(4, 3).value
-    jszy_userid = load_workbook(request_getpath.testdata_path)["user"].cell(5, 3).value
-    tz_userid = load_workbook(request_getpath.testdata_path)["user"].cell(6, 3).value
-    jszz_userid = load_workbook(request_getpath.testdata_path)["user"].cell(7, 3).value
-    qyz_userid = load_workbook(request_getpath.testdata_path)["user"].cell(8, 3).value
-    zjb_userid = load_workbook(request_getpath.testdata_path)["user"].cell(9, 3).value
-    xftz_userid = load_workbook(request_getpath.testdata_path)["user"].cell(10, 3).value
-    xfjszy_userid = load_workbook(request_getpath.testdata_path)["user"].cell(11, 3).value
-    xfjszz_userid = load_workbook(request_getpath.testdata_path)["user"].cell(12, 3).value
-    xfcw_userid = load_workbook(request_getpath.testdata_path)["user"].cell(13, 3).value
+    zc_userid = "@zc_userid@"
+    zcjl_userid = "@zcjl_userid@"
+    cw_userid = "@cw_userid@"
+    jszy_userid = "@jszy_userid@"
+    tz_userid = "@tz_userid@"
+    jszz_userid = "@jszz_userid@"
+    qyz_userid = "@qyz_userid@"
+    zjb_userid = "@zjb_userid@"
+    xftz_userid = "@xftz_userid@"
+    xfjszy_userid = "@xfjszy_userid@"
+    xfjszz_userid = "@xfjszz_userid@"
+    xfcw_userid = "@xfcw_userid@"
 
 
     # 用户cookie
@@ -100,9 +100,6 @@ class GetData:
 
     agent_user_id = DoSql().do_sql("SELECT userId from yy_user where account = '{0}' and isDel = 0 and status =1 and departmentId = {1}".format(agent_user_phone,deptId))
 
-
-    #从数据库获取reporid
-    #reportID = DoSql().do_sql("SELECT reportId FROM yy_report as a LEFT JOIN yy_customer as b on a.customerId = b.customerId where b.`name` = '{0}'  ORDER BY a.reportTime DESC LIMIT 1 ;".format(str(customName)))
 
     # 结佣方案id
     pay_id = DoSql().do_sql("SELECT b.id from  yy_comm_project as a LEFT JOIN yy_pay_comm_plan as b on a.cycle_id = b.cycle_id where a.project_id = '{0}' and a.del = 0 and  '{1}' BETWEEN valid_start_time and valid_end_time ORDER BY b.id DESC LIMIT 1 ;".format(projectId,purchaseDate))

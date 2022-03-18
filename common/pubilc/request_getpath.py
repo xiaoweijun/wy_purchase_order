@@ -14,7 +14,7 @@ testreport_path = os.path.join(project_path,r"Result/test_report","rest_report.h
 # 普通认购单测试数据地址
 testdata_path = os.path.join(project_path,"test_data","purchase.xlsx")
 
-# 代理认购单测试数据地址
+
 
 
 # 日志地址

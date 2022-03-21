@@ -9,15 +9,13 @@ from common.pubilc.request_getdata import GetData
 from common.pubilc.request_logging import RequestLogging
 from common.pubilc.request_do_sql import DoSql
 from common.pubilc.request_do_regx import DoRegx
+from common.pubilc import request_getpath
 from ddt import ddt,data
-
+# 日志实例
 my_logger = RequestLogging()
 
-
-
-
 # 登录测试用例数据
-user_data = GetTestData().get_login_user()
+user_data = GetTestData(request_getpath.report_and_user_path).get_login_user()
 # 认购单测试用例数据
 purchase_mode = GetConfig.get_purchase_mode_config()
 purchase_order_data = GetTestData().get_data(purchase_mode)
@@ -77,7 +75,7 @@ class TestLogin(unittest.TestCase):
                 "SELECT reportId FROM yy_report as a LEFT JOIN yy_customer as b on a.customerId = b.customerId where b.`name` = '{0}'  ORDER BY a.reportTime DESC LIMIT 1 ;".format(
                     getattr(GetData, "customName"))))
             room_num = int(getattr(GetData, "roomNo_num"))
-            GetTestData().updata_roomno("report_data", room_num + 1)
+            GetTestData(request_getpath.report_and_user_path).updata_roomno("report_data", room_num + 1)
         # 生成认购单后，取到认购单id
         elif test_data["url"].find("purchase/first/submit") != -1:
             setattr(GetData, "tradeId", DoSql().do_sql(
@@ -96,7 +94,6 @@ class TestLogin(unittest.TestCase):
             setattr(GetData,"standManager",res.json()["data"]["currentStandManager"]["standManager"])
             setattr(GetData,"standManagerId",res.json()["data"]["currentStandManager"]["standManagerId"])
             setattr(GetData,"standManagerRatio",res.json()["data"]["currentStandManager"]["standManagerRatio"])
-            setattr(GetData,"expandRatios",str(expandRatios_json).replace("None", "null").replace("\'", "\""))
             for i in range(3):
                 del expandRatios_json[i]["cutAmount"]
                 del expandRatios_json[i]["payedCut"]
@@ -125,8 +122,7 @@ class TestLogin(unittest.TestCase):
                     setattr(GetData, "ex3_superiorName", str(expandManagers[i]["superiorName"]).replace("None", "null"))
                     setattr(GetData, "ex3_superiorSuperiorId",str(expandManagers[i]["superiorSuperiorId"]).replace("None", "null"))
                     setattr(GetData, "ex3_superiorSuperiorName",str(expandManagers[i]["superiorSuperiorName"]).replace("None", "null"))
-
-
+                    setattr(GetData, "expandRatios", str(expandRatios_json).replace("None", "null").replace("\'", "\""))
         print("获取到得cookies》》》", res.cookies.get("satoken"))
         # 写进测试结果，成功写入pass，失败写入failed
         TestResult = ""
@@ -153,15 +149,6 @@ class TestLogin(unittest.TestCase):
             "SELECT receivable_commision from yy_purchase_order where id = {0};".format(
                 str(getattr(GetData, "tradeId")))))
         rec_data["data"] = DoRegx.do_newstr_regx(rec_data["data"])
-        # if rec_data["data"].find("@tradeId@") != -1:
-        #     rec_data["data"] = rec_data["data"].replace("@tradeId@", str(getattr(GetData, "tradeId")))
-        #
-        # if rec_data["data"].find("@rec_ticketId@") != -1:
-        #     rec_data["data"] = rec_data["data"].replace("@rec_ticketId@", str(getattr(GetData, "rec_ticketId")))
-        #
-        # if rec_data["data"].find("@receivable_commision@") != -1:
-        #     rec_data["data"] = rec_data["data"].replace("@receivable_commision@",
-        #                                                 str(getattr(GetData, "receivable_commision")))
 
         res = HttpRequest(rec_data["url"], json.loads(rec_data["data"]), rec_data["method"],
                           eval(rec_data["headers"])).http_request(getattr(GetData, rec_data["role_cookie"]))
@@ -197,17 +184,7 @@ class TestLogin(unittest.TestCase):
         pay_data["data"] = DoRegx.do_newstr_regx(pay_data["data"])
         # if pay_data["data"].find("@tradeId@") != -1:
         #     pay_data["data"] = pay_data["data"].replace("@tradeId@", str(getattr(GetData, "tradeId")))
-        #
-        # if pay_data["data"].find("@pay_ticketId@") != -1:
-        #     pay_data["data"] = pay_data["data"].replace("@pay_ticketId@", str(getattr(GetData, "pay_ticketId")))
-        #
-        # if pay_data["data"].find("@payable_commission@") != -1:
-        #     pay_data["data"] = pay_data["data"].replace("@payable_commission@",
-        #                                                 str(getattr(GetData, "payable_commission")))
-        #
-        # if pay_data["data"].find("@receivable_commision@") != -1:
-        #     pay_data["data"] = pay_data["data"].replace("@receivable_commision@",
-        #                                                 str(getattr(GetData, "receivable_commision")))
+
 
         res = HttpRequest(pay_data["url"], json.loads(pay_data["data"]), pay_data["method"],
                           eval(pay_data["headers"])).http_request(getattr(GetData, pay_data["role_cookie"]))

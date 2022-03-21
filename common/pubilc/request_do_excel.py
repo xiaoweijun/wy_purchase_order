@@ -11,17 +11,18 @@ from common.pubilc.request_do_regx import DoRegx
 
 
 class GetTestData:
-    def __init__(self):
-        self.table_name = request_getpath.testdata_path
+    def __init__(self,table_name=request_getpath.testdata_path):
+        self.table_name = table_name
         print("table_name是：{0}".format(self.table_name))
     # 拿到需要登录的用户
     def get_login_user(self):
         test_data = []
-        wb_data = load_workbook(self.table_name)
+        wb_data = load_workbook(request_getpath.testdata_path)
+        user_data = load_workbook(self.table_name)
         # 2、定位表单
         sheet_data = wb_data["login"]  # 传表单名 sheet
 
-        sheet_user = wb_data["user"]
+        sheet_user = user_data["user"]
 
         for j in range(2, sheet_user.max_row+1):
             data = sheet_data.cell(2, 3).value

@@ -47,15 +47,15 @@ class GetData:
     ex3_superiorSuperiorName = "@ex3_superiorSuperiorName@"
 
     #从excel中获取账号
-    zc_tel= load_workbook(request_getpath.testdata_path)["user"].cell(2,1).value #驻场
-    zcjl_tel= load_workbook(request_getpath.testdata_path)["user"].cell(3,1).value #驻场经理
-    cw_tel = load_workbook(request_getpath.testdata_path)["user"].cell(4, 1).value #财务
-    jszy_tel = load_workbook(request_getpath.testdata_path)["user"].cell(5, 1).value #结算专员
-    tz_tel = load_workbook(request_getpath.testdata_path)["user"].cell(6, 1).value #拓展
-    jszz_tel = load_workbook(request_getpath.testdata_path)["user"].cell(7, 1).value #结算组长
-    qyz_tel = load_workbook(request_getpath.testdata_path)["user"].cell(8, 1).value #区域总
-    zjb_tel = load_workbook(request_getpath.testdata_path)["user"].cell(9, 1).value #总经办
-    xftz_tel = load_workbook(request_getpath.testdata_path)["user"].cell(10, 1).value #销方拓展
+    zc_tel= load_workbook(request_getpath.report_and_user_path)["user"].cell(2,1).value #驻场
+    zcjl_tel= load_workbook(request_getpath.report_and_user_path)["user"].cell(3,1).value #驻场经理
+    cw_tel = load_workbook(request_getpath.report_and_user_path)["user"].cell(4, 1).value #财务
+    jszy_tel = load_workbook(request_getpath.report_and_user_path)["user"].cell(5, 1).value #结算专员
+    tz_tel = load_workbook(request_getpath.report_and_user_path)["user"].cell(6, 1).value #拓展
+    jszz_tel = load_workbook(request_getpath.report_and_user_path)["user"].cell(7, 1).value #结算组长
+    qyz_tel = load_workbook(request_getpath.report_and_user_path)["user"].cell(8, 1).value #区域总
+    zjb_tel = load_workbook(request_getpath.report_and_user_path)["user"].cell(9, 1).value #总经办
+    xftz_tel = load_workbook(request_getpath.report_and_user_path)["user"].cell(10, 1).value #销方拓展
 
     # 从excel获取userid
     zc_userid = "@zc_userid@"
@@ -86,17 +86,17 @@ class GetData:
     xfjszz_cookie = None
     xfcw_cookie = None
 
-    salePlatformId = load_workbook(request_getpath.testdata_path)["report_data"].cell(3, 3).value #平台id
-    projectId= load_workbook(request_getpath.testdata_path)["report_data"].cell(4, 3).value #楼盘id
-    reportTime = load_workbook(request_getpath.testdata_path)["report_data"].cell(5, 3).value #报备时间
-    visitTime = load_workbook(request_getpath.testdata_path)["report_data"].cell(6, 3).value  #到访时间
-    purchaseDate = load_workbook(request_getpath.testdata_path)["report_data"].cell(7, 3).value  #认购时间
-    roomNo_num = load_workbook(request_getpath.testdata_path)["report_data"].cell(1, 4).value
-    roomNo = load_workbook(request_getpath.testdata_path)["report_data"].cell(1, 3).value + str(roomNo_num)   #房号
-    customName = load_workbook(request_getpath.testdata_path)["report_data"].cell(2, 3).value + str(roomNo_num)  # 客户姓名
-    agent_salePlatformId = load_workbook(request_getpath.testdata_path)["report_data"].cell(8, 3).value #代理成交平台id
-    deptId = load_workbook(request_getpath.testdata_path)["report_data"].cell(9, 3).value # 门店id
-    agent_user_phone = load_workbook(request_getpath.testdata_path)["report_data"].cell(10, 3).value # 无忧经纪人手机号
+    salePlatformId = load_workbook(request_getpath.report_and_user_path)["report_data"].cell(3, 3).value #平台id
+    projectId= load_workbook(request_getpath.report_and_user_path)["report_data"].cell(4, 3).value #楼盘id
+    reportTime = load_workbook(request_getpath.report_and_user_path)["report_data"].cell(5, 3).value #报备时间
+    visitTime = load_workbook(request_getpath.report_and_user_path)["report_data"].cell(6, 3).value  #到访时间
+    purchaseDate = load_workbook(request_getpath.report_and_user_path)["report_data"].cell(7, 3).value  #认购时间
+    roomNo_num = load_workbook(request_getpath.report_and_user_path)["report_data"].cell(1, 4).value
+    roomNo = load_workbook(request_getpath.report_and_user_path)["report_data"].cell(1, 3).value + str(roomNo_num)   #房号
+    customName = load_workbook(request_getpath.report_and_user_path)["report_data"].cell(2, 3).value + str(roomNo_num)  # 客户姓名
+    agent_salePlatformId = load_workbook(request_getpath.report_and_user_path)["report_data"].cell(8, 3).value #代理成交平台id
+    deptId = load_workbook(request_getpath.report_and_user_path)["report_data"].cell(9, 3).value # 门店id
+    agent_user_phone = load_workbook(request_getpath.report_and_user_path)["report_data"].cell(10, 3).value # 无忧经纪人手机号
 
     agent_user_id = DoSql().do_sql("SELECT userId from yy_user where account = '{0}' and isDel = 0 and status =1 and departmentId = {1}".format(agent_user_phone,deptId))
 

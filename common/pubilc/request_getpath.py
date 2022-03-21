@@ -14,6 +14,9 @@ testreport_path = os.path.join(project_path,r"Result/test_report","rest_report.h
 # 普通认购单测试数据地址
 testdata_path = os.path.join(project_path,"test_data","purchase.xlsx")
 
+# 报备、认购、用户数据地址
+report_and_user_path = os.path.join(project_path,"test_data","report_user.xlsx")
+
 
 
 

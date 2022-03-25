@@ -26,7 +26,8 @@ rec_data =  GetTestData().get_data(rec_mode)
 pay_mode = GetConfig.get_pay_mode_config()
 pay_data = GetTestData().get_data(pay_mode)
 
-
+checkout_mode=GetConfig.get_checkout_mode_config()
+checkout_data = GetTestData().get_data(checkout_mode)
 
 # 1、用户登录 2、认购单 3、收佣单 4、结佣单
 @ddt
@@ -209,6 +210,28 @@ class TestLogin(unittest.TestCase):
             GetTestData().wirte_data(pay_data["sheet_name"], int(pay_data["case_id"]), str(res.json()), TestResult)
             my_logger.info_log("获取到的结果是：{0}".format(res.json()))
 
+    # 退房流程
+    @data(*checkout_data)
+    def test_5check_out(self,checkout_data):
+        checkout_data["data"] = DoRegx.do_newstr_regx(checkout_data["data"])
+        res = HttpRequest(checkout_data["url"], json.loads(checkout_data["data"]), checkout_data["method"],
+                          eval(checkout_data["headers"])).http_request(getattr(GetData, checkout_data["role_cookie"]))
+        TestResult = ""
+
+        try:
+            self.assertEqual(checkout_data["assert_info"], res.json()["msg"], msg="出问题了")
+            TestResult = "Pass"
+
+        except AssertionError as e:
+            my_logger.info_log("用例执行失败:{0}".format(e))
+            # print("用例执行失败:{0}".format(e))
+            TestResult = "Failed"
+            raise e
+
+        finally:
+            # 写进测试结果，成功写入pass，失败写入failed
+            GetTestData().wirte_data(checkout_data["sheet_name"], int(checkout_data["case_id"]), str(res.json()), TestResult)
+            my_logger.info_log("获取到的结果是：{0}".format(res.json()))
 
 
 if __name__ == '__main__':

@@ -63,6 +63,11 @@ class TestLogin(unittest.TestCase):
 
         test_data["data"] = DoRegx.do_newstr_regx(test_data["data"])
 
+        if test_data["url"].find("trade/first/approve") != -1:
+            test_data["data"] = DoRegx.do_repleacNone_regx(test_data["data"])
+
+        elif test_data["url"].find("trade/finalCheck/approve") != -1:
+            test_data["data"] = DoRegx.do_repleacNone_regx(test_data["data"])
         print("data 》》》{0}", test_data["data"])
         print("cookie的值是：{0},类型是{1}".format(getattr(GetData, test_data["role_cookie"]),
                                             type(getattr(GetData, test_data["role_cookie"]))))

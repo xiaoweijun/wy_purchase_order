@@ -25,7 +25,13 @@ class DoRegx:
                 s = s.replace(key,str(getattr(GetData,value)))
 
         return s
+
+    @staticmethod
+    def do_repleacNone_regx(s):
+        while re.search('None', s):
+            s = s.replace('None','null')
+        return s
 if __name__ == '__main__':
-    str_s1 = '{"cityId": 306,"system":${tradeId} "android","model": "phone","appId": "commission","uid": "","areaCode": "+86","account": "@jszz_tel@","password": "123456"@cw_tel@}'
-    res = DoRegx().do_newstr_regx(str_s1)
+    str_s1 = '[{"cutAmount": 0.0, "divisionName": "测试部", "number": 1, "payedCut": 0.0, "ratio": 1.0, "userId": "055c509d3c1b4c2ebf2bc70fe8447e67", "userName": "驻场real"}, {"cutAmount": None, "divisionName": None, "number": 2, "payedCut": None, "ratio": None, "userId": None, "userName": None}, {"cutAmount": None, "divisionName": None, "number": 3, "payedCut": None, "ratio": None, "userId": None, "userName": None}]'
+    res = DoRegx().do_repleacNone_regx(str_s1)
     print(res)

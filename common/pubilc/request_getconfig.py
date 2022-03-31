@@ -6,7 +6,7 @@ from common.pubilc import request_getpath
 
 class GetConfig:
     @staticmethod
-    def get_purchase_mode_config():
+    def get_purchase_mode_config(): #认购单
         #root_dir = os.path.dirname(os.path.abspath('.')) # 获取当前文件所在目录的上一级目录，即项目所在目录
         cf = configparser.ConfigParser()
         cf.read(request_getpath.config_path, encoding="utf-8")
@@ -16,23 +16,20 @@ class GetConfig:
 
     @staticmethod
     def get_pay_mode_config():   #结佣单
-        # root_dir = os.path.dirname(os.path.abspath('.')) # 获取当前文件所在目录的上一级目录，即项目所在目录
         cf = configparser.ConfigParser()
         cf.read(request_getpath.config_path, encoding="utf-8")
 
         return cf.get("PAYTICKET", "pay_mode")
 
     @staticmethod
-    def get_rec_mode_config():  # 结佣单
-        # root_dir = os.path.dirname(os.path.abspath('.')) # 获取当前文件所在目录的上一级目录，即项目所在目录
+    def get_rec_mode_config():  # 收佣单
         cf = configparser.ConfigParser()
         cf.read(request_getpath.config_path, encoding="utf-8")
 
         return cf.get("RECTICKET", "rec_mode")
 
     @staticmethod
-    def get_checkout_mode_config():  # 结佣单
-        # root_dir = os.path.dirname(os.path.abspath('.')) # 获取当前文件所在目录的上一级目录，即项目所在目录
+    def get_checkout_mode_config():  # 退房
         cf = configparser.ConfigParser()
         cf.read(request_getpath.config_path, encoding="utf-8")
 

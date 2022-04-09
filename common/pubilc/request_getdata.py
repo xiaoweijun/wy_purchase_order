@@ -13,7 +13,23 @@ class GetData:
     ip_adress = "https://pre.yunjinji.cn"
     login_url = "https://pre.yunjinji.cn/user-center/auth/staff/login"  #登录的url
     # ip_adress = "https://release.yunjinji.cn"  # release环境
-    # login_url = "https://release.yunjinji.cn/user-center/auth/staff/login"  # 登录的url
+    # login_url = "https://release.yunjinji.cn/user-center/auth/staff/login"
+
+    #驻场线提成方式
+    standCutCaseType ="@standCutCaseType@"
+    fixedAmount="@fixedAmount@"
+    standManagerCutCaseType= "@standManagerCutCaseType@"
+    standManagerFixedAmount= "@standManagerFixedAmount@"
+    areaManagerCutCaseType = "@areaManagerCutCaseType@"
+    areaManagerFixedAmount = "@areaManagerFixedAmount@"
+    #拓展线提成方式
+    expandCutCaseType = "@expandCutCaseType@"
+    expandFixedAmount = "@expandFixedAmount@"
+    expandMgrCutCaseType = "@expandMgrCutCaseType@"
+    expandMgrFixedAmount = "@expandMgrFixedAmount@"
+    expandDirectorCutCaseType = "@expandDirectorCutCaseType@"
+    expandDirectorFixedAmount = "@expandDirectorFixedAmount@"
+
     #驻场提成信息
     zc_cut = "@zc_cut@"
     areaManager = "@areaManager@"
@@ -99,7 +115,7 @@ class GetData:
     deptId = load_workbook(request_getpath.report_and_user_path)["report_data"].cell(9, 3).value # 门店id
     agent_user_phone = load_workbook(request_getpath.report_and_user_path)["report_data"].cell(10, 3).value # 无忧经纪人手机号
     paymentMethod = load_workbook(request_getpath.report_and_user_path)["report_data"].cell(11, 3).value # 付款方式
-    purchase_code = load_workbook(request_getpath.report_and_user_path)["report_data"].cell(12, 3).value # 认购单号
+    #purchase_code = load_workbook(request_getpath.report_and_user_path)["report_data"].cell(12, 3).value # 认购单号
 
 
     agent_user_id = DoSql().do_sql("SELECT userId from yy_user where account = '{0}' and isDel = 0 and status =1 and departmentId = {1}".format(agent_user_phone,deptId))

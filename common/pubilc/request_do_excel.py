@@ -6,7 +6,6 @@ from openpyxl import load_workbook
 from common.pubilc.request_getconfig import GetConfig
 from common.pubilc import request_getpath
 from common.pubilc.request_getdata import GetData
-from common.pubilc import request_logging
 from common.pubilc.request_do_regx import DoRegx
 
 
@@ -38,8 +37,6 @@ class GetTestData:
             test_data.append(res)
 
         return test_data
-
-
 
 
 

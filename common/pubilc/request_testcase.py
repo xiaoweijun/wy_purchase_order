@@ -11,6 +11,7 @@ from common.pubilc.request_do_sql import DoSql
 from common.pubilc.request_do_regx import DoRegx
 from common.pubilc import request_getpath
 from ddt import ddt,data
+from common.pubilc.request_base_process import RequestProcess
 # 日志实例
 my_logger = RequestLogging()
 
@@ -29,7 +30,7 @@ pay_data = GetTestData().get_data(pay_mode)
 checkout_mode=GetConfig.get_checkout_mode_config()
 checkout_data = GetTestData().get_data(checkout_mode)
 
-# 1、用户登录 2、认购单 3、收佣单 4、结佣单
+# 1、用户登录 2、认购单 3、收佣单 4、结佣单 5、退房
 @ddt
 class TestLogin(unittest.TestCase):
     # 用户登录获取到userid 和 cookie
@@ -93,6 +94,10 @@ class TestLogin(unittest.TestCase):
             print("获取到的zc_cut >>>{0}".format(res.json()["data"]["currentStandCut"]["standRatioDtos"]))
 
         elif test_data["url"].find("order/cut/detail/get") != -1 and test_data["case_id"] == 8 :
+            # my_logger.info_log(res.json()["data"]["roleCutWayDtos"])
+            my_logger.info_log("roleCutWayDtos >>>".format(type(res.json()["data"]["roleCutWayDtos"])))
+            RequestProcess().roleCutWayDtos_process(res.json()["data"]["roleCutWayDtos"])
+            my_logger.info_log("打印下roleCutWayDtos中的内容>>>{0}".format(getattr(GetData,"expandMgrFixedAmount")))
             expandManagers = res.json()["data"]["currentExpandManager"]["expandManagers"]
             expandRatios_json = res.json()["data"]["currentExpandCut"]["expandRatios"]
             setattr(GetData,"areaManager",res.json()["data"]["currentStandManager"]["areaManager"])
@@ -130,6 +135,7 @@ class TestLogin(unittest.TestCase):
                     setattr(GetData, "ex3_superiorSuperiorName",str(expandManagers[i]["superiorSuperiorName"]).replace("None", "null"))
                     setattr(GetData, "expandRatios", str(expandRatios_json).replace("None", "null").replace("\'", "\""))
         print("获取到得cookies》》》", res.cookies.get("satoken"))
+
         # 写进测试结果，成功写入pass，失败写入failed
         TestResult = ""
         # 断言
